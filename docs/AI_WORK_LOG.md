@@ -39,7 +39,3 @@ How AI was used, and the times it gave a bad answer that was caught. Events are 
 - No LLM "is this price fair" verdict: 74 of 124 city+neighborhood groups have fewer than 5 deals.
 - The reply step never sees the customer's message (prompt-injection defense by construction, tested with a canary string).
 - Outlier rule tuned on the data (k = 2.5): k = 3 missed `D100193`, k ≤ 2 flagged 10 to 14 deals.
-
-## Still to do
-- Run unscripted Hebrew slang complaints through the real model (the five scripted ones now pass).
-- Re-check the deployed URL with the real key.
