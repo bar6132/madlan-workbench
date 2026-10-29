@@ -6,9 +6,9 @@ import type { ProcessedDeal } from '@/lib/types';
 
 const MAX = 800;
 
-export function ComplaintForm({ busy, onSubmit }: { busy: boolean; onSubmit: (b: Record<string, unknown>) => void }) {
+export function ComplaintForm({ busy, onSubmit, initialDealId = '' }: { busy: boolean; onSubmit: (b: Record<string, unknown>) => void; initialDealId?: string }) {
   const [message, setMessage] = useState('');
-  const [dealId, setDealId] = useState('');
+  const [dealId, setDealId] = useState(initialDealId);
   const submit = (m: string) => onSubmit({ message: m, ...(dealId.trim() ? { deal_id: dealId.trim() } : {}) });
   return (
     <Card title="הודעת הלקוח">
@@ -83,11 +83,11 @@ export function CandidatePicker({ candidates, busy, onPick }: { candidates: Proc
       <ul className="divide-y divide-slate-100">
         {candidates.map((d) => (
           <li key={d.deal_id} className="flex flex-wrap items-center gap-3 py-2 text-sm">
-            <bdi className="font-medium text-indigo-800">{d.deal_id}</bdi>
+            <bdi className="font-medium text-indigo-900">{d.deal_id}</bdi>
             <span>{d.city}{d.neighborhood ? `, ${d.neighborhood}` : ''}{d.street ? `, ${d.street}` : ''}</span>
             <span className="text-slate-600">{d.rooms ?? '?'} חדרים · {d.size_sqm ?? '?'} מ&quot;ר · {d.deal_date ?? 'ללא תאריך'}</span>
             <span className="text-slate-600">₪{d.price_nis?.toLocaleString('en-US') ?? '—'}</span>
-            <button type="button" disabled={busy} onClick={() => onPick(d.deal_id)} className="ms-auto rounded-md border border-indigo-300 px-3 py-1 text-indigo-800 hover:bg-indigo-50 disabled:opacity-50">בחירה</button>
+            <button type="button" disabled={busy} onClick={() => onPick(d.deal_id)} className="ms-auto rounded-md border border-indigo-300 px-3 py-1 text-indigo-900 hover:bg-indigo-50 disabled:opacity-50">בחירה</button>
           </li>
         ))}
       </ul>

@@ -49,7 +49,8 @@
      "price_nis_raw": "38500000",
      "price_nis": 38500000,
      "csv_price_per_sqm": 145283,
-     "deal_date_raw": "2025-04-08"
+     "deal_date_raw": "2025-04-08",
+     "size_sqm": 265
     }
    ],
    "primary_row_index": 0,
@@ -89,7 +90,8 @@
      "price_nis_raw": "2,643,000",
      "price_nis": 2643000,
      "csv_price_per_sqm": 31843,
-     "deal_date_raw": "04/06/2022"
+     "deal_date_raw": "04/06/2022",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -129,7 +131,8 @@
      "price_nis_raw": "6738000",
      "price_nis": 6738000,
      "csv_price_per_sqm": 60161,
-     "deal_date_raw": "2023-08-21"
+     "deal_date_raw": "2023-08-21",
+     "size_sqm": 112
     }
    ],
    "primary_row_index": 0,
@@ -173,7 +176,8 @@
      "price_nis_raw": "5051000",
      "price_nis": 5051000,
      "csv_price_per_sqm": 58733,
-     "deal_date_raw": "2025-07-21"
+     "deal_date_raw": "2025-07-21",
+     "size_sqm": 86
     }
    ],
    "primary_row_index": 0,
@@ -217,7 +221,8 @@
      "price_nis_raw": "4507000",
      "price_nis": 4507000,
      "csv_price_per_sqm": 45525,
-     "deal_date_raw": "2026-07-01"
+     "deal_date_raw": "2026-07-01",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -257,7 +262,8 @@
      "price_nis_raw": "8371000",
      "price_nis": 8371000,
      "csv_price_per_sqm": 68615,
-     "deal_date_raw": "2026-05-01"
+     "deal_date_raw": "2026-05-01",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -297,7 +303,8 @@
      "price_nis_raw": "4232000",
      "price_nis": 4232000,
      "csv_price_per_sqm": 40305,
-     "deal_date_raw": "2025-07-22"
+     "deal_date_raw": "2025-07-22",
+     "size_sqm": 105
     }
    ],
    "primary_row_index": 0,
@@ -341,7 +348,8 @@
      "price_nis_raw": "6740000",
      "price_nis": 6740000,
      "csv_price_per_sqm": 46483,
-     "deal_date_raw": "2024-04-26"
+     "deal_date_raw": "2024-04-26",
+     "size_sqm": 145
     }
    ],
    "primary_row_index": 0,
@@ -381,7 +389,8 @@
      "price_nis_raw": "2920000",
      "price_nis": 2920000,
      "csv_price_per_sqm": 16313,
-     "deal_date_raw": "18/11/2021"
+     "deal_date_raw": "18/11/2021",
+     "size_sqm": 179
     }
    ],
    "primary_row_index": 0,
@@ -421,7 +430,8 @@
      "price_nis_raw": "1523000",
      "price_nis": 1523000,
      "csv_price_per_sqm": 37146,
-     "deal_date_raw": "2022-01-19"
+     "deal_date_raw": "2022-01-19",
+     "size_sqm": 41
     }
    ],
    "primary_row_index": 0,
@@ -461,7 +471,8 @@
      "price_nis_raw": "3781000",
      "price_nis": 3781000,
      "csv_price_per_sqm": 32316,
-     "deal_date_raw": "2025-06-08"
+     "deal_date_raw": "2025-06-08",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -505,7 +516,8 @@
      "price_nis_raw": "7015000",
      "price_nis": 7015000,
      "csv_price_per_sqm": 59957,
-     "deal_date_raw": "2025-05-22"
+     "deal_date_raw": "2025-05-22",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -553,7 +565,8 @@
      "price_nis_raw": "5078000",
      "price_nis": 5078000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "Sep 2025"
+     "deal_date_raw": "Sep 2025",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -593,7 +606,8 @@
      "price_nis_raw": "2,366,000",
      "price_nis": 2366000,
      "csv_price_per_sqm": 28506,
-     "deal_date_raw": "2026-07-06"
+     "deal_date_raw": "2026-07-06",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -633,7 +647,8 @@
      "price_nis_raw": "2,282,000",
      "price_nis": 2282000,
      "csv_price_per_sqm": 31260,
-     "deal_date_raw": "2025-07-22"
+     "deal_date_raw": "2025-07-22",
+     "size_sqm": 73
     }
    ],
    "primary_row_index": 0,
@@ -673,7 +688,8 @@
      "price_nis_raw": "5400000",
      "price_nis": 5400000,
      "csv_price_per_sqm": 34395,
-     "deal_date_raw": "2023-02-22"
+     "deal_date_raw": "2023-02-22",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -717,7 +733,8 @@
      "price_nis_raw": "1919000",
      "price_nis": 1919000,
      "csv_price_per_sqm": 15110,
-     "deal_date_raw": "15/06/2025"
+     "deal_date_raw": "15/06/2025",
+     "size_sqm": 127
     },
     {
      "row_index": 473,
@@ -725,7 +742,8 @@
      "price_nis_raw": "1851548",
      "price_nis": 1851548,
      "csv_price_per_sqm": 15110,
-     "deal_date_raw": "15/06/2025"
+     "deal_date_raw": "15/06/2025",
+     "size_sqm": 127
     }
    ],
    "primary_row_index": 0,
@@ -765,7 +783,8 @@
      "price_nis_raw": "2177000",
      "price_nis": 2177000,
      "csv_price_per_sqm": 21990,
-     "deal_date_raw": "2026-05-07"
+     "deal_date_raw": "2026-05-07",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -809,7 +828,8 @@
      "price_nis_raw": "6533000",
      "price_nis": 6533000,
      "csv_price_per_sqm": 35505,
-     "deal_date_raw": "2025-08-15"
+     "deal_date_raw": "2025-08-15",
+     "size_sqm": 184
     }
    ],
    "primary_row_index": 0,
@@ -849,7 +869,8 @@
      "price_nis_raw": "3769000",
      "price_nis": 3769000,
      "csv_price_per_sqm": 30893,
-     "deal_date_raw": "2024-04-27"
+     "deal_date_raw": "2024-04-27",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -889,7 +910,8 @@
      "price_nis_raw": "8839000",
      "price_nis": 8839000,
      "csv_price_per_sqm": 65963,
-     "deal_date_raw": "2026-05-18"
+     "deal_date_raw": "2026-05-18",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -929,7 +951,8 @@
      "price_nis_raw": "6994000",
      "price_nis": 6994000,
      "csv_price_per_sqm": 55508,
-     "deal_date_raw": "2022-02-25"
+     "deal_date_raw": "2022-02-25",
+     "size_sqm": 126
     }
    ],
    "primary_row_index": 0,
@@ -969,7 +992,8 @@
      "price_nis_raw": "1882000",
      "price_nis": 1882000,
      "csv_price_per_sqm": 24442,
-     "deal_date_raw": "03/02/2026"
+     "deal_date_raw": "03/02/2026",
+     "size_sqm": 77
     }
    ],
    "primary_row_index": 0,
@@ -1009,7 +1033,8 @@
      "price_nis_raw": "7,364,000",
      "price_nis": 7364000,
      "csv_price_per_sqm": 61367,
-     "deal_date_raw": "2026-03-20"
+     "deal_date_raw": "2026-03-20",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -1055,7 +1080,8 @@
      "price_nis_raw": "2,666,000",
      "price_nis": 2666000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2021-04-03"
+     "deal_date_raw": "2021-04-03",
+     "size_sqm": null
     },
     {
      "row_index": 518,
@@ -1063,7 +1089,8 @@
      "price_nis_raw": "2,666,000",
      "price_nis": 2666000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2021-04-03"
+     "deal_date_raw": "2021-04-03",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -1107,7 +1134,8 @@
      "price_nis_raw": "4249000",
      "price_nis": 4249000,
      "csv_price_per_sqm": 31474,
-     "deal_date_raw": "Apr 2022"
+     "deal_date_raw": "Apr 2022",
+     "size_sqm": 135
     }
    ],
    "primary_row_index": 0,
@@ -1151,7 +1179,8 @@
      "price_nis_raw": "3826000",
      "price_nis": 3826000,
      "csv_price_per_sqm": 38260,
-     "deal_date_raw": "2025-08-04"
+     "deal_date_raw": "2025-08-04",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -1191,7 +1220,8 @@
      "price_nis_raw": "3379000",
      "price_nis": 3379000,
      "csv_price_per_sqm": 27926,
-     "deal_date_raw": "10/08/2023"
+     "deal_date_raw": "10/08/2023",
+     "size_sqm": 121
     }
    ],
    "primary_row_index": 0,
@@ -1231,7 +1261,8 @@
      "price_nis_raw": "4525000",
      "price_nis": 4525000,
      "csv_price_per_sqm": 48138,
-     "deal_date_raw": "2026-07-26"
+     "deal_date_raw": "2026-07-26",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -1275,7 +1306,8 @@
      "price_nis_raw": "1835000",
      "price_nis": 1835000,
      "csv_price_per_sqm": 10794,
-     "deal_date_raw": "2025-01-03"
+     "deal_date_raw": "2025-01-03",
+     "size_sqm": 170
     }
    ],
    "primary_row_index": 0,
@@ -1315,7 +1347,8 @@
      "price_nis_raw": "9,948,000",
      "price_nis": 9948000,
      "csv_price_per_sqm": 59928,
-     "deal_date_raw": "2025-05-22"
+     "deal_date_raw": "2025-05-22",
+     "size_sqm": 166
     }
    ],
    "primary_row_index": 0,
@@ -1359,7 +1392,8 @@
      "price_nis_raw": "5,141,000",
      "price_nis": 5141000,
      "csv_price_per_sqm": 58420,
-     "deal_date_raw": "2026-05-26"
+     "deal_date_raw": "2026-05-26",
+     "size_sqm": 88
     },
     {
      "row_index": 265,
@@ -1367,7 +1401,8 @@
      "price_nis_raw": "5343137",
      "price_nis": 5343137,
      "csv_price_per_sqm": 58420,
-     "deal_date_raw": "2026-05-26"
+     "deal_date_raw": "2026-05-26",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -1411,7 +1446,8 @@
      "price_nis_raw": "4430000",
      "price_nis": 4430000,
      "csv_price_per_sqm": 48152,
-     "deal_date_raw": "2026-03-25"
+     "deal_date_raw": "2026-03-25",
+     "size_sqm": 92
     }
    ],
    "primary_row_index": 0,
@@ -1451,7 +1487,8 @@
      "price_nis_raw": "9576000",
      "price_nis": 9576000,
      "csv_price_per_sqm": 60226,
-     "deal_date_raw": "2025-12-26"
+     "deal_date_raw": "2025-12-26",
+     "size_sqm": 159
     }
    ],
    "primary_row_index": 0,
@@ -1495,7 +1532,8 @@
      "price_nis_raw": "22532000",
      "price_nis": 22532000,
      "csv_price_per_sqm": 107809,
-     "deal_date_raw": "2026-07-18"
+     "deal_date_raw": "2026-07-18",
+     "size_sqm": 209
     }
    ],
    "primary_row_index": 0,
@@ -1535,7 +1573,8 @@
      "price_nis_raw": "3486000",
      "price_nis": 3486000,
      "csv_price_per_sqm": 39169,
-     "deal_date_raw": "2023-03-08"
+     "deal_date_raw": "2023-03-08",
+     "size_sqm": 89
     }
    ],
    "primary_row_index": 0,
@@ -1575,7 +1614,8 @@
      "price_nis_raw": "4364000",
      "price_nis": 4364000,
      "csv_price_per_sqm": 27974,
-     "deal_date_raw": "2026-03-21"
+     "deal_date_raw": "2026-03-21",
+     "size_sqm": 156
     }
    ],
    "primary_row_index": 0,
@@ -1615,7 +1655,8 @@
      "price_nis_raw": "4215000",
      "price_nis": 4215000,
      "csv_price_per_sqm": 35720,
-     "deal_date_raw": "22.11.2025"
+     "deal_date_raw": "22.11.2025",
+     "size_sqm": 118
     }
    ],
    "primary_row_index": 0,
@@ -1655,7 +1696,8 @@
      "price_nis_raw": "7,831,000",
      "price_nis": 7831000,
      "csv_price_per_sqm": 31577,
-     "deal_date_raw": "2022-04-28"
+     "deal_date_raw": "2022-04-28",
+     "size_sqm": 248
     }
    ],
    "primary_row_index": 0,
@@ -1695,7 +1737,8 @@
      "price_nis_raw": "3275000",
      "price_nis": 3275000,
      "csv_price_per_sqm": 25000,
-     "deal_date_raw": "05.02.2025"
+     "deal_date_raw": "05.02.2025",
+     "size_sqm": 131
     }
    ],
    "primary_row_index": 0,
@@ -1735,7 +1778,8 @@
      "price_nis_raw": "8364000",
      "price_nis": 8364000,
      "csv_price_per_sqm": 93978,
-     "deal_date_raw": "08/08/2022"
+     "deal_date_raw": "08/08/2022",
+     "size_sqm": 89
     }
    ],
    "primary_row_index": 0,
@@ -1775,7 +1819,8 @@
      "price_nis_raw": "4595000",
      "price_nis": 4595000,
      "csv_price_per_sqm": 40307,
-     "deal_date_raw": "2022-04-11"
+     "deal_date_raw": "2022-04-11",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -1815,7 +1860,8 @@
      "price_nis_raw": "3050000",
      "price_nis": 3050000,
      "csv_price_per_sqm": 36310,
-     "deal_date_raw": "2025-09-19"
+     "deal_date_raw": "2025-09-19",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -1861,7 +1907,8 @@
      "price_nis_raw": "4024000",
      "price_nis": 4024000,
      "csv_price_per_sqm": 27033,
-     "deal_date_raw": "2023-10-17"
+     "deal_date_raw": "2023-10-17",
+     "size_sqm": 126
     }
    ],
    "primary_row_index": 0,
@@ -1901,7 +1948,8 @@
      "price_nis_raw": "4816000",
      "price_nis": 4816000,
      "csv_price_per_sqm": 45434,
-     "deal_date_raw": "12/12/2021"
+     "deal_date_raw": "12/12/2021",
+     "size_sqm": 106
     }
    ],
    "primary_row_index": 0,
@@ -1941,7 +1989,8 @@
      "price_nis_raw": "9,083,000",
      "price_nis": 9083000,
      "csv_price_per_sqm": 53429,
-     "deal_date_raw": "2024-07-28"
+     "deal_date_raw": "2024-07-28",
+     "size_sqm": 170
     }
    ],
    "primary_row_index": 0,
@@ -1981,7 +2030,8 @@
      "price_nis_raw": "6527000",
      "price_nis": 6527000,
      "csv_price_per_sqm": 57254,
-     "deal_date_raw": "2024-06-06"
+     "deal_date_raw": "2024-06-06",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -2021,7 +2071,8 @@
      "price_nis_raw": "10307000",
      "price_nis": 10307000,
      "csv_price_per_sqm": 52056,
-     "deal_date_raw": "2025-01-08"
+     "deal_date_raw": "2025-01-08",
+     "size_sqm": 198
     }
    ],
    "primary_row_index": 0,
@@ -2065,7 +2116,8 @@
      "price_nis_raw": "5,076,000",
      "price_nis": 5076000,
      "csv_price_per_sqm": 49282,
-     "deal_date_raw": "2024-12-21"
+     "deal_date_raw": "2024-12-21",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -2109,7 +2161,8 @@
      "price_nis_raw": "3048000",
      "price_nis": 3048000,
      "csv_price_per_sqm": 47625,
-     "deal_date_raw": "2026-03-12"
+     "deal_date_raw": "2026-03-12",
+     "size_sqm": 64
     }
    ],
    "primary_row_index": 0,
@@ -2149,7 +2202,8 @@
      "price_nis_raw": "2649000",
      "price_nis": 2649000,
      "csv_price_per_sqm": 27884,
-     "deal_date_raw": "03/09/2021"
+     "deal_date_raw": "03/09/2021",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -2189,7 +2243,8 @@
      "price_nis_raw": "12064000",
      "price_nis": 12064000,
      "csv_price_per_sqm": 59137,
-     "deal_date_raw": "2025-01-08"
+     "deal_date_raw": "2025-01-08",
+     "size_sqm": 204
     }
    ],
    "primary_row_index": 0,
@@ -2229,7 +2284,8 @@
      "price_nis_raw": "4305000",
      "price_nis": 4305000,
      "csv_price_per_sqm": 41394,
-     "deal_date_raw": "10/02/2025"
+     "deal_date_raw": "10/02/2025",
+     "size_sqm": 104
     }
    ],
    "primary_row_index": 0,
@@ -2273,7 +2329,8 @@
      "price_nis_raw": "5694000",
      "price_nis": 5694000,
      "csv_price_per_sqm": 64705,
-     "deal_date_raw": "May 2026"
+     "deal_date_raw": "May 2026",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -2313,7 +2370,8 @@
      "price_nis_raw": "3583000",
      "price_nis": 3583000,
      "csv_price_per_sqm": 32872,
-     "deal_date_raw": "2024-07-06"
+     "deal_date_raw": "2024-07-06",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -2359,7 +2417,8 @@
      "price_nis_raw": "2908000",
      "price_nis": 2908000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2022-02-12"
+     "deal_date_raw": "2022-02-12",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -2399,7 +2458,8 @@
      "price_nis_raw": "3962000",
      "price_nis": 3962000,
      "csv_price_per_sqm": 40845,
-     "deal_date_raw": "2022-02-02"
+     "deal_date_raw": "2022-02-02",
+     "size_sqm": 97
     }
    ],
    "primary_row_index": 0,
@@ -2439,7 +2499,8 @@
      "price_nis_raw": "4366000",
      "price_nis": 4366000,
      "csv_price_per_sqm": 47457,
-     "deal_date_raw": "2024-09-18"
+     "deal_date_raw": "2024-09-18",
+     "size_sqm": 92
     }
    ],
    "primary_row_index": 0,
@@ -2479,7 +2540,8 @@
      "price_nis_raw": "3399000",
      "price_nis": 3399000,
      "csv_price_per_sqm": 41451,
-     "deal_date_raw": "23/02/2025"
+     "deal_date_raw": "23/02/2025",
+     "size_sqm": 82
     }
    ],
    "primary_row_index": 0,
@@ -2519,7 +2581,8 @@
      "price_nis_raw": "2394000",
      "price_nis": 2394000,
      "csv_price_per_sqm": 36273,
-     "deal_date_raw": "12/08/2024"
+     "deal_date_raw": "12/08/2024",
+     "size_sqm": 66
     }
    ],
    "primary_row_index": 0,
@@ -2559,7 +2622,8 @@
      "price_nis_raw": "1822000",
      "price_nis": 1822000,
      "csv_price_per_sqm": 11317,
-     "deal_date_raw": "2025-01-03"
+     "deal_date_raw": "2025-01-03",
+     "size_sqm": 161
     }
    ],
    "primary_row_index": 0,
@@ -2605,7 +2669,8 @@
      "price_nis_raw": "2215000",
      "price_nis": 2215000,
      "csv_price_per_sqm": 19602,
-     "deal_date_raw": "Apr 2025"
+     "deal_date_raw": "Apr 2025",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -2649,7 +2714,8 @@
      "price_nis_raw": "5742000",
      "price_nis": 5742000,
      "csv_price_per_sqm": 27874,
-     "deal_date_raw": "Sep 2021"
+     "deal_date_raw": "Sep 2021",
+     "size_sqm": 206
     }
    ],
    "primary_row_index": 0,
@@ -2695,7 +2761,8 @@
      "price_nis_raw": "6241000",
      "price_nis": 6241000,
      "csv_price_per_sqm": 39500,
-     "deal_date_raw": "03.10.2025"
+     "deal_date_raw": "03.10.2025",
+     "size_sqm": 158
     }
    ],
    "primary_row_index": 0,
@@ -2739,7 +2806,8 @@
      "price_nis_raw": "3,476,000",
      "price_nis": 3476000,
      "csv_price_per_sqm": 40894,
-     "deal_date_raw": "2023-11-18"
+     "deal_date_raw": "2023-11-18",
+     "size_sqm": 85
     }
    ],
    "primary_row_index": 0,
@@ -2783,7 +2851,8 @@
      "price_nis_raw": "1309000",
      "price_nis": 1309000,
      "csv_price_per_sqm": 14875,
-     "deal_date_raw": "2025-08-21"
+     "deal_date_raw": "2025-08-21",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -2827,7 +2896,8 @@
      "price_nis_raw": "1,781,000",
      "price_nis": 1781000,
      "csv_price_per_sqm": 26985,
-     "deal_date_raw": "Apr 2023"
+     "deal_date_raw": "Apr 2023",
+     "size_sqm": 66
     }
    ],
    "primary_row_index": 0,
@@ -2867,7 +2937,8 @@
      "price_nis_raw": "2674000",
      "price_nis": 2674000,
      "csv_price_per_sqm": 37662,
-     "deal_date_raw": "2021-08-20"
+     "deal_date_raw": "2021-08-20",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -2907,7 +2978,8 @@
      "price_nis_raw": "7988000",
      "price_nis": 7988000,
      "csv_price_per_sqm": 55860,
-     "deal_date_raw": "2023-06-18"
+     "deal_date_raw": "2023-06-18",
+     "size_sqm": 143
     }
    ],
    "primary_row_index": 0,
@@ -2947,7 +3019,8 @@
      "price_nis_raw": "7140000",
      "price_nis": 7140000,
      "csv_price_per_sqm": 44074,
-     "deal_date_raw": "2025-06-11"
+     "deal_date_raw": "2025-06-11",
+     "size_sqm": 162
     }
    ],
    "primary_row_index": 0,
@@ -2987,7 +3060,8 @@
      "price_nis_raw": "2913000",
      "price_nis": 2913000,
      "csv_price_per_sqm": 27743,
-     "deal_date_raw": "2024-07-23"
+     "deal_date_raw": "2024-07-23",
+     "size_sqm": 105
     }
    ],
    "primary_row_index": 0,
@@ -3027,7 +3101,8 @@
      "price_nis_raw": "11256000",
      "price_nis": 11256000,
      "csv_price_per_sqm": 65442,
-     "deal_date_raw": "08.05.2023"
+     "deal_date_raw": "08.05.2023",
+     "size_sqm": 172
     }
    ],
    "primary_row_index": 0,
@@ -3071,7 +3146,8 @@
      "price_nis_raw": "4579000",
      "price_nis": 4579000,
      "csv_price_per_sqm": 49237,
-     "deal_date_raw": "2022-09-09"
+     "deal_date_raw": "2022-09-09",
+     "size_sqm": 93
     }
    ],
    "primary_row_index": 0,
@@ -3111,7 +3187,8 @@
      "price_nis_raw": "3783000",
      "price_nis": 3783000,
      "csv_price_per_sqm": 38602,
-     "deal_date_raw": "2023-01-25"
+     "deal_date_raw": "2023-01-25",
+     "size_sqm": 98
     }
    ],
    "primary_row_index": 0,
@@ -3157,7 +3234,8 @@
      "price_nis_raw": "2691000",
      "price_nis": 2691000,
      "csv_price_per_sqm": 37351,
-     "deal_date_raw": "2026-02-28"
+     "deal_date_raw": "2026-02-28",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -3201,7 +3279,8 @@
      "price_nis_raw": "6689000",
      "price_nis": 6689000,
      "csv_price_per_sqm": 61367,
-     "deal_date_raw": "2023-04-01"
+     "deal_date_raw": "2023-04-01",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -3241,7 +3320,8 @@
      "price_nis_raw": "10250000",
      "price_nis": 10250000,
      "csv_price_per_sqm": 81349,
-     "deal_date_raw": "2022-12-20"
+     "deal_date_raw": "2022-12-20",
+     "size_sqm": 126
     }
    ],
    "primary_row_index": 0,
@@ -3285,7 +3365,8 @@
      "price_nis_raw": "4180000",
      "price_nis": 4180000,
      "csv_price_per_sqm": 36139,
-     "deal_date_raw": "26/04/2026"
+     "deal_date_raw": "26/04/2026",
+     "size_sqm": 90
     }
    ],
    "primary_row_index": 0,
@@ -3329,7 +3410,8 @@
      "price_nis_raw": "4366000",
      "price_nis": 4366000,
      "csv_price_per_sqm": 40426,
-     "deal_date_raw": "13/07/2024"
+     "deal_date_raw": "13/07/2024",
+     "size_sqm": 108
     }
    ],
    "primary_row_index": 0,
@@ -3373,7 +3455,8 @@
      "price_nis_raw": "1394000",
      "price_nis": 1394000,
      "csv_price_per_sqm": 24456,
-     "deal_date_raw": "2022-04-24"
+     "deal_date_raw": "2022-04-24",
+     "size_sqm": 57
     }
    ],
    "primary_row_index": 0,
@@ -3413,7 +3496,8 @@
      "price_nis_raw": "4045000",
      "price_nis": 4045000,
      "csv_price_per_sqm": 30878,
-     "deal_date_raw": "2024-10-20"
+     "deal_date_raw": "2024-10-20",
+     "size_sqm": 131
     }
    ],
    "primary_row_index": 0,
@@ -3453,7 +3537,8 @@
      "price_nis_raw": "6573000",
      "price_nis": 6573000,
      "csv_price_per_sqm": 45331,
-     "deal_date_raw": "2024-04-10"
+     "deal_date_raw": "2024-04-10",
+     "size_sqm": 145
     }
    ],
    "primary_row_index": 0,
@@ -3493,7 +3578,8 @@
      "price_nis_raw": "6108000",
      "price_nis": 6108000,
      "csv_price_per_sqm": 46985,
-     "deal_date_raw": "2025-09-07"
+     "deal_date_raw": "2025-09-07",
+     "size_sqm": 130
     }
    ],
    "primary_row_index": 0,
@@ -3533,7 +3619,8 @@
      "price_nis_raw": "2966000",
      "price_nis": 2966000,
      "csv_price_per_sqm": 29960,
-     "deal_date_raw": "2023-07-02"
+     "deal_date_raw": "2023-07-02",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -3577,7 +3664,8 @@
      "price_nis_raw": "3913000",
      "price_nis": 3913000,
      "csv_price_per_sqm": 26903,
-     "deal_date_raw": "16.09.2022"
+     "deal_date_raw": "16.09.2022",
+     "size_sqm": 132
     }
    ],
    "primary_row_index": 0,
@@ -3623,7 +3711,8 @@
      "price_nis_raw": "5441000",
      "price_nis": 5441000,
      "csv_price_per_sqm": 52317,
-     "deal_date_raw": "Jul 2024"
+     "deal_date_raw": "Jul 2024",
+     "size_sqm": 104
     }
    ],
    "primary_row_index": 0,
@@ -3667,7 +3756,8 @@
      "price_nis_raw": "1903000",
      "price_nis": 1903000,
      "csv_price_per_sqm": 36596,
-     "deal_date_raw": "2025-11-25"
+     "deal_date_raw": "2025-11-25",
+     "size_sqm": 52
     }
    ],
    "primary_row_index": 0,
@@ -3707,7 +3797,8 @@
      "price_nis_raw": "1046000",
      "price_nis": 1046000,
      "csv_price_per_sqm": 37357,
-     "deal_date_raw": "2024-01-06"
+     "deal_date_raw": "2024-01-06",
+     "size_sqm": 28
     }
    ],
    "primary_row_index": 0,
@@ -3747,7 +3838,8 @@
      "price_nis_raw": "8,623,000",
      "price_nis": 8623000,
      "csv_price_per_sqm": 57106,
-     "deal_date_raw": "01.03.2026"
+     "deal_date_raw": "01.03.2026",
+     "size_sqm": 151
     }
    ],
    "primary_row_index": 0,
@@ -3787,7 +3879,8 @@
      "price_nis_raw": "4262000",
      "price_nis": 4262000,
      "csv_price_per_sqm": 40981,
-     "deal_date_raw": "2022-02-06"
+     "deal_date_raw": "2022-02-06",
+     "size_sqm": 104
     }
    ],
    "primary_row_index": 0,
@@ -3827,7 +3920,8 @@
      "price_nis_raw": "3,996,000",
      "price_nis": 3996000,
      "csv_price_per_sqm": 42968,
-     "deal_date_raw": "2022-05-14"
+     "deal_date_raw": "2022-05-14",
+     "size_sqm": 93
     }
    ],
    "primary_row_index": 0,
@@ -3867,7 +3961,8 @@
      "price_nis_raw": "10820000",
      "price_nis": 10820000,
      "csv_price_per_sqm": 56354,
-     "deal_date_raw": "2023-07-11"
+     "deal_date_raw": "2023-07-11",
+     "size_sqm": 192
     }
    ],
    "primary_row_index": 0,
@@ -3913,7 +4008,8 @@
      "price_nis_raw": "7430000",
      "price_nis": 7430000,
      "csv_price_per_sqm": 50544,
-     "deal_date_raw": "Mar 2023"
+     "deal_date_raw": "Mar 2023",
+     "size_sqm": 147
     }
    ],
    "primary_row_index": 0,
@@ -3953,7 +4049,8 @@
      "price_nis_raw": "5872000",
      "price_nis": 5872000,
      "csv_price_per_sqm": 55924,
-     "deal_date_raw": "2022-02-09"
+     "deal_date_raw": "2022-02-09",
+     "size_sqm": 105
     }
    ],
    "primary_row_index": 0,
@@ -3993,7 +4090,8 @@
      "price_nis_raw": "6130000",
      "price_nis": 6130000,
      "csv_price_per_sqm": 50246,
-     "deal_date_raw": "2024-08-04"
+     "deal_date_raw": "2024-08-04",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -4037,7 +4135,8 @@
      "price_nis_raw": "11728000",
      "price_nis": 11728000,
      "csv_price_per_sqm": 88180,
-     "deal_date_raw": "2026-04-19"
+     "deal_date_raw": "2026-04-19",
+     "size_sqm": 133
     }
    ],
    "primary_row_index": 0,
@@ -4077,7 +4176,8 @@
      "price_nis_raw": "3950000",
      "price_nis": 3950000,
      "csv_price_per_sqm": 22965,
-     "deal_date_raw": "2022-11-23"
+     "deal_date_raw": "2022-11-23",
+     "size_sqm": 172
     }
    ],
    "primary_row_index": 0,
@@ -4121,7 +4221,8 @@
      "price_nis_raw": "7005000",
      "price_nis": 7005000,
      "csv_price_per_sqm": 48310,
-     "deal_date_raw": "2022-08-20"
+     "deal_date_raw": "2022-08-20",
+     "size_sqm": 145
     }
    ],
    "primary_row_index": 0,
@@ -4167,7 +4268,8 @@
      "price_nis_raw": "11282000",
      "price_nis": 11282000,
      "csv_price_per_sqm": 60011,
-     "deal_date_raw": "2024-10-04"
+     "deal_date_raw": "2024-10-04",
+     "size_sqm": 188
     },
     {
      "row_index": 461,
@@ -4175,7 +4277,8 @@
      "price_nis_raw": "11282000",
      "price_nis": 11282000,
      "csv_price_per_sqm": 60011,
-     "deal_date_raw": "2024-10-04"
+     "deal_date_raw": "2024-10-04",
+     "size_sqm": 188
     }
    ],
    "primary_row_index": 0,
@@ -4221,7 +4324,8 @@
      "price_nis_raw": "2902000",
      "price_nis": 2902000,
      "csv_price_per_sqm": 22153,
-     "deal_date_raw": "2025-04-27"
+     "deal_date_raw": "2025-04-27",
+     "size_sqm": 131
     }
    ],
    "primary_row_index": 0,
@@ -4261,7 +4365,8 @@
      "price_nis_raw": "5795000",
      "price_nis": 5795000,
      "csv_price_per_sqm": 42299,
-     "deal_date_raw": "19/03/2023"
+     "deal_date_raw": "19/03/2023",
+     "size_sqm": 137
     }
    ],
    "primary_row_index": 0,
@@ -4301,7 +4406,8 @@
      "price_nis_raw": "2597000",
      "price_nis": 2597000,
      "csv_price_per_sqm": 26232,
-     "deal_date_raw": "2025-06-18"
+     "deal_date_raw": "2025-06-18",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -4345,7 +4451,8 @@
      "price_nis_raw": "5034000",
      "price_nis": 5034000,
      "csv_price_per_sqm": 70901,
-     "deal_date_raw": "2023-05-24"
+     "deal_date_raw": "2023-05-24",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -4385,7 +4492,8 @@
      "price_nis_raw": "12098000",
      "price_nis": 12098000,
      "csv_price_per_sqm": 64351,
-     "deal_date_raw": "05/05/2023"
+     "deal_date_raw": "05/05/2023",
+     "size_sqm": 188
     }
    ],
    "primary_row_index": 0,
@@ -4425,7 +4533,8 @@
      "price_nis_raw": "1285000",
      "price_nis": 1285000,
      "csv_price_per_sqm": 15298,
-     "deal_date_raw": "09.04.2025"
+     "deal_date_raw": "09.04.2025",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -4465,7 +4574,8 @@
      "price_nis_raw": "6198000",
      "price_nis": 6198000,
      "csv_price_per_sqm": 42452,
-     "deal_date_raw": "2022-10-14"
+     "deal_date_raw": "2022-10-14",
+     "size_sqm": 146
     }
    ],
    "primary_row_index": 0,
@@ -4505,7 +4615,8 @@
      "price_nis_raw": "3109000",
      "price_nis": 3109000,
      "csv_price_per_sqm": 30782,
-     "deal_date_raw": "2023-09-07"
+     "deal_date_raw": "2023-09-07",
+     "size_sqm": 101
     }
    ],
    "primary_row_index": 0,
@@ -4551,7 +4662,8 @@
      "price_nis_raw": "4108000",
      "price_nis": 4108000,
      "csv_price_per_sqm": 39500,
-     "deal_date_raw": "2025-12-09"
+     "deal_date_raw": "2025-12-09",
+     "size_sqm": 104
     }
    ],
    "primary_row_index": 0,
@@ -4595,7 +4707,8 @@
      "price_nis_raw": "2800000",
      "price_nis": 2800000,
      "csv_price_per_sqm": 38943,
-     "deal_date_raw": "02/01/2025"
+     "deal_date_raw": "02/01/2025",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -4635,7 +4748,8 @@
      "price_nis_raw": "2435000",
      "price_nis": 2435000,
      "csv_price_per_sqm": 28314,
-     "deal_date_raw": "2026-07-10"
+     "deal_date_raw": "2026-07-10",
+     "size_sqm": 86
     }
    ],
    "primary_row_index": 0,
@@ -4675,7 +4789,8 @@
      "price_nis_raw": "2330000",
      "price_nis": 2330000,
      "csv_price_per_sqm": 28072,
-     "deal_date_raw": "2025-07-28"
+     "deal_date_raw": "2025-07-28",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -4715,7 +4830,8 @@
      "price_nis_raw": "4448000",
      "price_nis": 4448000,
      "csv_price_per_sqm": 24440,
-     "deal_date_raw": "2022-05-28"
+     "deal_date_raw": "2022-05-28",
+     "size_sqm": 182
     }
    ],
    "primary_row_index": 0,
@@ -4755,7 +4871,8 @@
      "price_nis_raw": "3881000",
      "price_nis": 3881000,
      "csv_price_per_sqm": 48512,
-     "deal_date_raw": "2025-05-27"
+     "deal_date_raw": "2025-05-27",
+     "size_sqm": 80
     }
    ],
    "primary_row_index": 0,
@@ -4799,7 +4916,8 @@
      "price_nis_raw": "4864000",
      "price_nis": 4864000,
      "csv_price_per_sqm": 48640,
-     "deal_date_raw": "2025-06-22"
+     "deal_date_raw": "2025-06-22",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -4839,7 +4957,8 @@
      "price_nis_raw": "5743000",
      "price_nis": 5743000,
      "csv_price_per_sqm": 41317,
-     "deal_date_raw": "2026-03-09"
+     "deal_date_raw": "2026-03-09",
+     "size_sqm": 139
     }
    ],
    "primary_row_index": 0,
@@ -4883,7 +5002,8 @@
      "price_nis_raw": "8,015,000",
      "price_nis": 8015000,
      "csv_price_per_sqm": 67924,
-     "deal_date_raw": "2023-03-01"
+     "deal_date_raw": "2023-03-01",
+     "size_sqm": 118
     }
    ],
    "primary_row_index": 0,
@@ -4927,7 +5047,8 @@
      "price_nis_raw": "8701000",
      "price_nis": 8701000,
      "csv_price_per_sqm": 58791,
-     "deal_date_raw": "2026-05-05"
+     "deal_date_raw": "2026-05-05",
+     "size_sqm": 148
     }
    ],
    "primary_row_index": 0,
@@ -4971,7 +5092,8 @@
      "price_nis_raw": "4212000",
      "price_nis": 4212000,
      "csv_price_per_sqm": 42120,
-     "deal_date_raw": "2026-07-12"
+     "deal_date_raw": "2026-07-12",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -5011,7 +5133,8 @@
      "price_nis_raw": "6646000",
      "price_nis": 6646000,
      "csv_price_per_sqm": 38640,
-     "deal_date_raw": "2025-12-19"
+     "deal_date_raw": "2025-12-19",
+     "size_sqm": 172
     }
    ],
    "primary_row_index": 0,
@@ -5051,7 +5174,8 @@
      "price_nis_raw": "10151000",
      "price_nis": 10151000,
      "csv_price_per_sqm": 53426,
-     "deal_date_raw": "2025-01-13"
+     "deal_date_raw": "2025-01-13",
+     "size_sqm": 190
     }
    ],
    "primary_row_index": 0,
@@ -5091,7 +5215,8 @@
      "price_nis_raw": "9149000",
      "price_nis": 9149000,
      "csv_price_per_sqm": 62664,
-     "deal_date_raw": "2024-02-11"
+     "deal_date_raw": "2024-02-11",
+     "size_sqm": 146
     }
    ],
    "primary_row_index": 0,
@@ -5135,7 +5260,8 @@
      "price_nis_raw": "7212000",
      "price_nis": 7212000,
      "csv_price_per_sqm": 45936,
-     "deal_date_raw": "2023-07-03"
+     "deal_date_raw": "2023-07-03",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -5175,7 +5301,8 @@
      "price_nis_raw": "1489000",
      "price_nis": 1489000,
      "csv_price_per_sqm": 24016,
-     "deal_date_raw": "2023-05-19"
+     "deal_date_raw": "2023-05-19",
+     "size_sqm": 62
     }
    ],
    "primary_row_index": 0,
@@ -5221,7 +5348,8 @@
      "price_nis_raw": "5429440",
      "price_nis": 5429440,
      "csv_price_per_sqm": 39226,
-     "deal_date_raw": "2025-10-05"
+     "deal_date_raw": "2025-10-05",
+     "size_sqm": 146
     },
     {
      "row_index": 373,
@@ -5229,7 +5357,8 @@
      "price_nis_raw": "5,727,000",
      "price_nis": 5727000,
      "csv_price_per_sqm": 39226,
-     "deal_date_raw": "2025-10-05"
+     "deal_date_raw": "2025-10-05",
+     "size_sqm": 146
     }
    ],
    "primary_row_index": 1,
@@ -5269,7 +5398,8 @@
      "price_nis_raw": "2793000",
      "price_nis": 2793000,
      "csv_price_per_sqm": 29400,
-     "deal_date_raw": "2024-01-26"
+     "deal_date_raw": "2024-01-26",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -5309,7 +5439,8 @@
      "price_nis_raw": "3073000",
      "price_nis": 3073000,
      "csv_price_per_sqm": 64021,
-     "deal_date_raw": "2026-03-23"
+     "deal_date_raw": "2026-03-23",
+     "size_sqm": 48
     }
    ],
    "primary_row_index": 0,
@@ -5353,7 +5484,8 @@
      "price_nis_raw": "12103000",
      "price_nis": 12103000,
      "csv_price_per_sqm": 77089,
-     "deal_date_raw": "28/09/2025"
+     "deal_date_raw": "28/09/2025",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -5397,7 +5529,8 @@
      "price_nis_raw": "3077000",
      "price_nis": 3077000,
      "csv_price_per_sqm": 35368,
-     "deal_date_raw": "2026-06-01"
+     "deal_date_raw": "2026-06-01",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -5437,7 +5570,8 @@
      "price_nis_raw": "4151000",
      "price_nis": 4151000,
      "csv_price_per_sqm": 56095,
-     "deal_date_raw": "2026-07-22"
+     "deal_date_raw": "2026-07-22",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -5481,7 +5615,8 @@
      "price_nis_raw": "4987000",
      "price_nis": 4987000,
      "csv_price_per_sqm": 52495,
-     "deal_date_raw": "2024-10-20"
+     "deal_date_raw": "2024-10-20",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -5521,7 +5656,8 @@
      "price_nis_raw": "2099000",
      "price_nis": 2099000,
      "csv_price_per_sqm": 24407,
-     "deal_date_raw": "2025-10-23"
+     "deal_date_raw": "2025-10-23",
+     "size_sqm": 86
     }
    ],
    "primary_row_index": 0,
@@ -5561,7 +5697,8 @@
      "price_nis_raw": "6443000",
      "price_nis": 6443000,
      "csv_price_per_sqm": 58573,
-     "deal_date_raw": "14.05.2025"
+     "deal_date_raw": "14.05.2025",
+     "size_sqm": 110
     }
    ],
    "primary_row_index": 0,
@@ -5601,7 +5738,8 @@
      "price_nis_raw": "960000",
      "price_nis": 960000,
      "csv_price_per_sqm": 32000,
-     "deal_date_raw": "2023-03-11"
+     "deal_date_raw": "2023-03-11",
+     "size_sqm": 30
     }
    ],
    "primary_row_index": 0,
@@ -5641,7 +5779,8 @@
      "price_nis_raw": "2350000",
      "price_nis": 2350000,
      "csv_price_per_sqm": 37903,
-     "deal_date_raw": "2025-06-10"
+     "deal_date_raw": "2025-06-10",
+     "size_sqm": 62
     }
    ],
    "primary_row_index": 0,
@@ -5681,7 +5820,8 @@
      "price_nis_raw": "12021000",
      "price_nis": 12021000,
      "csv_price_per_sqm": 76082,
-     "deal_date_raw": "2024-03-04"
+     "deal_date_raw": "2024-03-04",
+     "size_sqm": 158
     }
    ],
    "primary_row_index": 0,
@@ -5721,7 +5861,8 @@
      "price_nis_raw": "6175000",
      "price_nis": 6175000,
      "csv_price_per_sqm": 61139,
-     "deal_date_raw": "20.10.2024"
+     "deal_date_raw": "20.10.2024",
+     "size_sqm": 101
     }
    ],
    "primary_row_index": 0,
@@ -5761,7 +5902,8 @@
      "price_nis_raw": "2763000",
      "price_nis": 2763000,
      "csv_price_per_sqm": 21586,
-     "deal_date_raw": "03/11/2021"
+     "deal_date_raw": "03/11/2021",
+     "size_sqm": 128
     }
    ],
    "primary_row_index": 0,
@@ -5801,7 +5943,8 @@
      "price_nis_raw": "3621000",
      "price_nis": 3621000,
      "csv_price_per_sqm": 38116,
-     "deal_date_raw": "21/06/2026"
+     "deal_date_raw": "21/06/2026",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -5841,7 +5984,8 @@
      "price_nis_raw": "4321000",
      "price_nis": 4321000,
      "csv_price_per_sqm": 52060,
-     "deal_date_raw": "2026-04-26"
+     "deal_date_raw": "2026-04-26",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -5881,7 +6025,8 @@
      "price_nis_raw": "6873000",
      "price_nis": 6873000,
      "csv_price_per_sqm": 49446,
-     "deal_date_raw": "2025-11-13"
+     "deal_date_raw": "2025-11-13",
+     "size_sqm": 139
     }
    ],
    "primary_row_index": 0,
@@ -5921,7 +6066,8 @@
      "price_nis_raw": "5084000",
      "price_nis": 5084000,
      "csv_price_per_sqm": 32590,
-     "deal_date_raw": "2026-04-11"
+     "deal_date_raw": "2026-04-11",
+     "size_sqm": 156
     }
    ],
    "primary_row_index": 0,
@@ -5961,7 +6107,8 @@
      "price_nis_raw": "1050000",
      "price_nis": 1050000,
      "csv_price_per_sqm": 36207,
-     "deal_date_raw": "04/02/2025"
+     "deal_date_raw": "04/02/2025",
+     "size_sqm": 29
     }
    ],
    "primary_row_index": 0,
@@ -6001,7 +6148,8 @@
      "price_nis_raw": "1774000",
      "price_nis": 1774000,
      "csv_price_per_sqm": 15293,
-     "deal_date_raw": "2026-07-22"
+     "deal_date_raw": "2026-07-22",
+     "size_sqm": 116
     }
    ],
    "primary_row_index": 0,
@@ -6045,7 +6193,8 @@
      "price_nis_raw": "3206000",
      "price_nis": 3206000,
      "csv_price_per_sqm": 33052,
-     "deal_date_raw": "2024-10-23"
+     "deal_date_raw": "2024-10-23",
+     "size_sqm": 97
     }
    ],
    "primary_row_index": 0,
@@ -6089,7 +6238,8 @@
      "price_nis_raw": "5777000",
      "price_nis": 5777000,
      "csv_price_per_sqm": 48546,
-     "deal_date_raw": "11/11/2024"
+     "deal_date_raw": "11/11/2024",
+     "size_sqm": 119
     }
    ],
    "primary_row_index": 0,
@@ -6133,7 +6283,8 @@
      "price_nis_raw": "3428000",
      "price_nis": 3428000,
      "csv_price_per_sqm": 24841,
-     "deal_date_raw": "04/08/2023"
+     "deal_date_raw": "04/08/2023",
+     "size_sqm": 138
     }
    ],
    "primary_row_index": 0,
@@ -6173,7 +6324,8 @@
      "price_nis_raw": "4900000",
      "price_nis": 4900000,
      "csv_price_per_sqm": 32450,
-     "deal_date_raw": "2022-12-07"
+     "deal_date_raw": "2022-12-07",
+     "size_sqm": 151
     }
    ],
    "primary_row_index": 0,
@@ -6213,7 +6365,8 @@
      "price_nis_raw": "9019000",
      "price_nis": 9019000,
      "csv_price_per_sqm": 51537,
-     "deal_date_raw": "2024-02-26"
+     "deal_date_raw": "2024-02-26",
+     "size_sqm": 175
     }
    ],
    "primary_row_index": 0,
@@ -6253,7 +6406,8 @@
      "price_nis_raw": "2963000",
      "price_nis": 2963000,
      "csv_price_per_sqm": 34057,
-     "deal_date_raw": "2025-06-13"
+     "deal_date_raw": "2025-06-13",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -6297,7 +6451,8 @@
      "price_nis_raw": "₪2,476,000",
      "price_nis": 2476000,
      "csv_price_per_sqm": 16844,
-     "deal_date_raw": "2022-12-24"
+     "deal_date_raw": "2022-12-24",
+     "size_sqm": 147
     }
    ],
    "primary_row_index": 0,
@@ -6337,7 +6492,8 @@
      "price_nis_raw": "4683000",
      "price_nis": 4683000,
      "csv_price_per_sqm": 38385,
-     "deal_date_raw": "2021-12-20"
+     "deal_date_raw": "2021-12-20",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -6377,7 +6533,8 @@
      "price_nis_raw": "8431000",
      "price_nis": 8431000,
      "csv_price_per_sqm": 55834,
-     "deal_date_raw": "2023-12-21"
+     "deal_date_raw": "2023-12-21",
+     "size_sqm": 151
     }
    ],
    "primary_row_index": 0,
@@ -6417,7 +6574,8 @@
      "price_nis_raw": "6256000",
      "price_nis": 6256000,
      "csv_price_per_sqm": 50048,
-     "deal_date_raw": "2024-09-03"
+     "deal_date_raw": "2024-09-03",
+     "size_sqm": 125
     }
    ],
    "primary_row_index": 0,
@@ -6457,7 +6615,8 @@
      "price_nis_raw": "2848000",
      "price_nis": 2848000,
      "csv_price_per_sqm": 18025,
-     "deal_date_raw": "2026-02-22"
+     "deal_date_raw": "2026-02-22",
+     "size_sqm": 158
     }
    ],
    "primary_row_index": 0,
@@ -6497,7 +6656,8 @@
      "price_nis_raw": "7219000",
      "price_nis": 7219000,
      "csv_price_per_sqm": 52312,
-     "deal_date_raw": "18.09.2024"
+     "deal_date_raw": "18.09.2024",
+     "size_sqm": 138
     }
    ],
    "primary_row_index": 0,
@@ -6537,7 +6697,8 @@
      "price_nis_raw": "2267000",
      "price_nis": 2267000,
      "csv_price_per_sqm": 30635,
-     "deal_date_raw": "2021-08-08"
+     "deal_date_raw": "2021-08-08",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -6577,7 +6738,8 @@
      "price_nis_raw": "6,031,000",
      "price_nis": 6031000,
      "csv_price_per_sqm": 51547,
-     "deal_date_raw": "2023-04-17"
+     "deal_date_raw": "2023-04-17",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -6617,7 +6779,8 @@
      "price_nis_raw": "2083000",
      "price_nis": 2083000,
      "csv_price_per_sqm": 36544,
-     "deal_date_raw": "27.11.2024"
+     "deal_date_raw": "27.11.2024",
+     "size_sqm": 57
     }
    ],
    "primary_row_index": 0,
@@ -6657,7 +6820,8 @@
      "price_nis_raw": "4077000",
      "price_nis": 4077000,
      "csv_price_per_sqm": 42031,
-     "deal_date_raw": "2025-10-27"
+     "deal_date_raw": "2025-10-27",
+     "size_sqm": 97
     }
    ],
    "primary_row_index": 0,
@@ -6703,7 +6867,8 @@
      "price_nis_raw": "29900000",
      "price_nis": 29900000,
      "csv_price_per_sqm": 96451,
-     "deal_date_raw": "05.11.2021"
+     "deal_date_raw": "05.11.2021",
+     "size_sqm": 310
     }
    ],
    "primary_row_index": 0,
@@ -6747,7 +6912,8 @@
      "price_nis_raw": "772000",
      "price_nis": 772000,
      "csv_price_per_sqm": 36762,
-     "deal_date_raw": "2026-04-09"
+     "deal_date_raw": "2026-04-09",
+     "size_sqm": 21
     }
    ],
    "primary_row_index": 0,
@@ -6787,7 +6953,8 @@
      "price_nis_raw": "5091000",
      "price_nis": 5091000,
      "csv_price_per_sqm": 58517,
-     "deal_date_raw": "2024-09-16"
+     "deal_date_raw": "2024-09-16",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -6827,7 +6994,8 @@
      "price_nis_raw": "4970000",
      "price_nis": 4970000,
      "csv_price_per_sqm": 76462,
-     "deal_date_raw": "2025-08-20"
+     "deal_date_raw": "2025-08-20",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -6867,7 +7035,8 @@
      "price_nis_raw": "2790000",
      "price_nis": 2790000,
      "csv_price_per_sqm": 59362,
-     "deal_date_raw": "01.11.2023"
+     "deal_date_raw": "01.11.2023",
+     "size_sqm": 47
     }
    ],
    "primary_row_index": 0,
@@ -6911,7 +7080,8 @@
      "price_nis_raw": "6355000",
      "price_nis": 6355000,
      "csv_price_per_sqm": 111491,
-     "deal_date_raw": "2022-09-04"
+     "deal_date_raw": "2022-09-04",
+     "size_sqm": 57
     }
    ],
    "primary_row_index": 0,
@@ -6951,7 +7121,8 @@
      "price_nis_raw": "912000",
      "price_nis": 912000,
      "csv_price_per_sqm": 35077,
-     "deal_date_raw": "17.06.2024"
+     "deal_date_raw": "17.06.2024",
+     "size_sqm": 26
     }
    ],
    "primary_row_index": 0,
@@ -6991,7 +7162,8 @@
      "price_nis_raw": "3161000",
      "price_nis": 3161000,
      "csv_price_per_sqm": 33628,
-     "deal_date_raw": "12/10/2025"
+     "deal_date_raw": "12/10/2025",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -7035,7 +7207,8 @@
      "price_nis_raw": "₪5,037,000",
      "price_nis": 5037000,
      "csv_price_per_sqm": 49382,
-     "deal_date_raw": "Aug 2025"
+     "deal_date_raw": "Aug 2025",
+     "size_sqm": 102
     }
    ],
    "primary_row_index": 0,
@@ -7075,7 +7248,8 @@
      "price_nis_raw": "6059000",
      "price_nis": 6059000,
      "csv_price_per_sqm": 50074,
-     "deal_date_raw": "2024-04-14"
+     "deal_date_raw": "2024-04-14",
+     "size_sqm": 121
     }
    ],
    "primary_row_index": 0,
@@ -7119,7 +7293,8 @@
      "price_nis_raw": "2720000",
      "price_nis": 2720000,
      "csv_price_per_sqm": 51321,
-     "deal_date_raw": "2023-10-02"
+     "deal_date_raw": "2023-10-02",
+     "size_sqm": 53
     }
    ],
    "primary_row_index": 0,
@@ -7163,7 +7338,8 @@
      "price_nis_raw": "6343000",
      "price_nis": 6343000,
      "csv_price_per_sqm": 44986,
-     "deal_date_raw": "Aug 2025"
+     "deal_date_raw": "Aug 2025",
+     "size_sqm": 141
     }
    ],
    "primary_row_index": 0,
@@ -7207,7 +7383,8 @@
      "price_nis_raw": "5215000",
      "price_nis": 5215000,
      "csv_price_per_sqm": 43458,
-     "deal_date_raw": "24.02.2026"
+     "deal_date_raw": "24.02.2026",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -7247,7 +7424,8 @@
      "price_nis_raw": "2146000",
      "price_nis": 2146000,
      "csv_price_per_sqm": 34063,
-     "deal_date_raw": "15.05.2023"
+     "deal_date_raw": "15.05.2023",
+     "size_sqm": 63
     }
    ],
    "primary_row_index": 0,
@@ -7291,7 +7469,8 @@
      "price_nis_raw": "3886000",
      "price_nis": 3886000,
      "csv_price_per_sqm": 39253,
-     "deal_date_raw": "10.08.2025"
+     "deal_date_raw": "10.08.2025",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -7335,7 +7514,8 @@
      "price_nis_raw": "3728000",
      "price_nis": 3728000,
      "csv_price_per_sqm": 23897,
-     "deal_date_raw": "2022-12-21"
+     "deal_date_raw": "2022-12-21",
+     "size_sqm": 156
     }
    ],
    "primary_row_index": 0,
@@ -7379,7 +7559,8 @@
      "price_nis_raw": "2234000",
      "price_nis": 2234000,
      "csv_price_per_sqm": 34369,
-     "deal_date_raw": "2022-02-10"
+     "deal_date_raw": "2022-02-10",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -7419,7 +7600,8 @@
      "price_nis_raw": "3208000",
      "price_nis": 3208000,
      "csv_price_per_sqm": 23588,
-     "deal_date_raw": "2021-12-08"
+     "deal_date_raw": "2021-12-08",
+     "size_sqm": 136
     }
    ],
    "primary_row_index": 0,
@@ -7465,7 +7647,8 @@
      "price_nis_raw": "3586000",
      "price_nis": 3586000,
      "csv_price_per_sqm": 68592,
-     "deal_date_raw": "11/07/2022"
+     "deal_date_raw": "11/07/2022",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -7509,7 +7692,8 @@
      "price_nis_raw": "₪13,488,000",
      "price_nis": 13488000,
      "csv_price_per_sqm": 77074,
-     "deal_date_raw": "26.09.2022"
+     "deal_date_raw": "26.09.2022",
+     "size_sqm": 175
     }
    ],
    "primary_row_index": 0,
@@ -7549,7 +7733,8 @@
      "price_nis_raw": "6,108,000",
      "price_nis": 6108000,
      "csv_price_per_sqm": 41836,
-     "deal_date_raw": "2024-08-10"
+     "deal_date_raw": "2024-08-10",
+     "size_sqm": 146
     }
    ],
    "primary_row_index": 0,
@@ -7589,7 +7774,8 @@
      "price_nis_raw": "4109000",
      "price_nis": 4109000,
      "csv_price_per_sqm": 69644,
-     "deal_date_raw": "27/01/2025"
+     "deal_date_raw": "27/01/2025",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -7629,7 +7815,8 @@
      "price_nis_raw": "5851000",
      "price_nis": 5851000,
      "csv_price_per_sqm": 41793,
-     "deal_date_raw": "2025-07-27"
+     "deal_date_raw": "2025-07-27",
+     "size_sqm": 140
     }
    ],
    "primary_row_index": 0,
@@ -7669,7 +7856,8 @@
      "price_nis_raw": "2398000",
      "price_nis": 2398000,
      "csv_price_per_sqm": 35265,
-     "deal_date_raw": "2024-11-14"
+     "deal_date_raw": "2024-11-14",
+     "size_sqm": 68
     }
    ],
    "primary_row_index": 0,
@@ -7713,7 +7901,8 @@
      "price_nis_raw": "805000",
      "price_nis": 805000,
      "csv_price_per_sqm": 35000,
-     "deal_date_raw": "2023-08-15"
+     "deal_date_raw": "2023-08-15",
+     "size_sqm": 23
     }
    ],
    "primary_row_index": 0,
@@ -7757,7 +7946,8 @@
      "price_nis_raw": "5023000",
      "price_nis": 5023000,
      "csv_price_per_sqm": 45252,
-     "deal_date_raw": "2023-05-03"
+     "deal_date_raw": "2023-05-03",
+     "size_sqm": 111
     }
    ],
    "primary_row_index": 0,
@@ -7801,7 +7991,8 @@
      "price_nis_raw": "7875000",
      "price_nis": 7875000,
      "csv_price_per_sqm": 62008,
-     "deal_date_raw": "2025-07-02"
+     "deal_date_raw": "2025-07-02",
+     "size_sqm": 127
     }
    ],
    "primary_row_index": 0,
@@ -7841,7 +8032,8 @@
      "price_nis_raw": "1925000",
      "price_nis": 1925000,
      "csv_price_per_sqm": 24062,
-     "deal_date_raw": "2024-12-05"
+     "deal_date_raw": "2024-12-05",
+     "size_sqm": 80
     }
    ],
    "primary_row_index": 0,
@@ -7885,7 +8077,8 @@
      "price_nis_raw": "8502000",
      "price_nis": 8502000,
      "csv_price_per_sqm": 62978,
-     "deal_date_raw": "27/05/2026"
+     "deal_date_raw": "27/05/2026",
+     "size_sqm": 135
     }
    ],
    "primary_row_index": 0,
@@ -7925,7 +8118,8 @@
      "price_nis_raw": "6731000",
      "price_nis": 6731000,
      "csv_price_per_sqm": 38244,
-     "deal_date_raw": "2024-05-18"
+     "deal_date_raw": "2024-05-18",
+     "size_sqm": 176
     }
    ],
    "primary_row_index": 0,
@@ -7971,7 +8165,8 @@
      "price_nis_raw": "15469000",
      "price_nis": 15469000,
      "csv_price_per_sqm": 98529,
-     "deal_date_raw": "2026-06-13"
+     "deal_date_raw": "2026-06-13",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -8011,7 +8206,8 @@
      "price_nis_raw": "4033000",
      "price_nis": 4033000,
      "csv_price_per_sqm": 33057,
-     "deal_date_raw": "09.09.2023"
+     "deal_date_raw": "09.09.2023",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -8055,7 +8251,8 @@
      "price_nis_raw": "2607000",
      "price_nis": 2607000,
      "csv_price_per_sqm": 30314,
-     "deal_date_raw": "2022-11-05"
+     "deal_date_raw": "2022-11-05",
+     "size_sqm": 86
     }
    ],
    "primary_row_index": 0,
@@ -8099,7 +8296,8 @@
      "price_nis_raw": "44000000",
      "price_nis": 44000000,
      "csv_price_per_sqm": 141935,
-     "deal_date_raw": "01.03.2022"
+     "deal_date_raw": "01.03.2022",
+     "size_sqm": 310
     }
    ],
    "primary_row_index": 0,
@@ -8139,7 +8337,8 @@
      "price_nis_raw": "1735000",
      "price_nis": 1735000,
      "csv_price_per_sqm": 25515,
-     "deal_date_raw": "25.04.2025"
+     "deal_date_raw": "25.04.2025",
+     "size_sqm": 68
     }
    ],
    "primary_row_index": 0,
@@ -8179,7 +8378,8 @@
      "price_nis_raw": "6537000",
      "price_nis": 6537000,
      "csv_price_per_sqm": 61670,
-     "deal_date_raw": "2023-12-02"
+     "deal_date_raw": "2023-12-02",
+     "size_sqm": 106
     }
    ],
    "primary_row_index": 0,
@@ -8223,7 +8423,8 @@
      "price_nis_raw": "2739000",
      "price_nis": 2739000,
      "csv_price_per_sqm": 33000,
-     "deal_date_raw": "15/06/2023"
+     "deal_date_raw": "15/06/2023",
+     "size_sqm": 83
     },
     {
      "row_index": 275,
@@ -8231,7 +8432,8 @@
      "price_nis_raw": "2739000",
      "price_nis": 2739000,
      "csv_price_per_sqm": 33000,
-     "deal_date_raw": "15/06/2023"
+     "deal_date_raw": "15/06/2023",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -8271,7 +8473,8 @@
      "price_nis_raw": "6865000",
      "price_nis": 6865000,
      "csv_price_per_sqm": 51617,
-     "deal_date_raw": "2024-01-25"
+     "deal_date_raw": "2024-01-25",
+     "size_sqm": 133
     }
    ],
    "primary_row_index": 0,
@@ -8315,7 +8518,8 @@
      "price_nis_raw": "2944000",
      "price_nis": 2944000,
      "csv_price_per_sqm": 29440,
-     "deal_date_raw": "2025-08-08"
+     "deal_date_raw": "2025-08-08",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -8355,7 +8559,8 @@
      "price_nis_raw": "10730000",
      "price_nis": 10730000,
      "csv_price_per_sqm": 56178,
-     "deal_date_raw": "2026-01-04"
+     "deal_date_raw": "2026-01-04",
+     "size_sqm": 191
     }
    ],
    "primary_row_index": 0,
@@ -8395,7 +8600,8 @@
      "price_nis_raw": "3964000",
      "price_nis": 3964000,
      "csv_price_per_sqm": 55056,
-     "deal_date_raw": "2024-12-07"
+     "deal_date_raw": "2024-12-07",
+     "size_sqm": 72
     }
    ],
    "primary_row_index": 0,
@@ -8439,7 +8645,8 @@
      "price_nis_raw": "7526000",
      "price_nis": 7526000,
      "csv_price_per_sqm": 70336,
-     "deal_date_raw": "2021-11-26"
+     "deal_date_raw": "2021-11-26",
+     "size_sqm": 107
     }
    ],
    "primary_row_index": 0,
@@ -8479,7 +8686,8 @@
      "price_nis_raw": "2341000",
      "price_nis": 2341000,
      "csv_price_per_sqm": 25172,
-     "deal_date_raw": "2024-01-27"
+     "deal_date_raw": "2024-01-27",
+     "size_sqm": 93
     }
    ],
    "primary_row_index": 0,
@@ -8519,7 +8727,8 @@
      "price_nis_raw": "2096000",
      "price_nis": 2096000,
      "csv_price_per_sqm": 27947,
-     "deal_date_raw": "09/03/2021"
+     "deal_date_raw": "09/03/2021",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -8559,7 +8768,8 @@
      "price_nis_raw": "6101000",
      "price_nis": 6101000,
      "csv_price_per_sqm": 47295,
-     "deal_date_raw": "12/02/2023"
+     "deal_date_raw": "12/02/2023",
+     "size_sqm": 129
     }
    ],
    "primary_row_index": 0,
@@ -8599,7 +8809,8 @@
      "price_nis_raw": "3607000",
      "price_nis": 3607000,
      "csv_price_per_sqm": 45088,
-     "deal_date_raw": "2023-01-22"
+     "deal_date_raw": "2023-01-22",
+     "size_sqm": 80
     }
    ],
    "primary_row_index": 0,
@@ -8645,7 +8856,8 @@
      "price_nis_raw": "5909000",
      "price_nis": 5909000,
      "csv_price_per_sqm": 48540,
-     "deal_date_raw": "09.06.2023"
+     "deal_date_raw": "09.06.2023",
+     "size_sqm": 155
     }
    ],
    "primary_row_index": 0,
@@ -8685,7 +8897,8 @@
      "price_nis_raw": "2504000",
      "price_nis": 2504000,
      "csv_price_per_sqm": 39125,
-     "deal_date_raw": "2023-04-23"
+     "deal_date_raw": "2023-04-23",
+     "size_sqm": 64
     }
    ],
    "primary_row_index": 0,
@@ -8729,7 +8942,8 @@
      "price_nis_raw": "3,436,000",
      "price_nis": 3436000,
      "csv_price_per_sqm": 48394,
-     "deal_date_raw": "Feb 2024"
+     "deal_date_raw": "Feb 2024",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -8769,7 +8983,8 @@
      "price_nis_raw": "13582000",
      "price_nis": 13582000,
      "csv_price_per_sqm": 82817,
-     "deal_date_raw": "2022-12-19"
+     "deal_date_raw": "2022-12-19",
+     "size_sqm": 164
     }
    ],
    "primary_row_index": 0,
@@ -8809,7 +9024,8 @@
      "price_nis_raw": "6881000",
      "price_nis": 6881000,
      "csv_price_per_sqm": 57342,
-     "deal_date_raw": "2025-10-25"
+     "deal_date_raw": "2025-10-25",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -8849,7 +9065,8 @@
      "price_nis_raw": "3254000",
      "price_nis": 3254000,
      "csv_price_per_sqm": 29582,
-     "deal_date_raw": "02/09/2023"
+     "deal_date_raw": "02/09/2023",
+     "size_sqm": 110
     }
    ],
    "primary_row_index": 0,
@@ -8893,7 +9110,8 @@
      "price_nis_raw": "3260000",
      "price_nis": 3260000,
      "csv_price_per_sqm": 42895,
-     "deal_date_raw": "2022-02-21"
+     "deal_date_raw": "2022-02-21",
+     "size_sqm": 76
     }
    ],
    "primary_row_index": 0,
@@ -8933,7 +9151,8 @@
      "price_nis_raw": "2112000",
      "price_nis": 2112000,
      "csv_price_per_sqm": 35797,
-     "deal_date_raw": "2024-07-18"
+     "deal_date_raw": "2024-07-18",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -8977,7 +9196,8 @@
      "price_nis_raw": "4845000",
      "price_nis": 4845000,
      "csv_price_per_sqm": 35109,
-     "deal_date_raw": "2024-09-16"
+     "deal_date_raw": "2024-09-16",
+     "size_sqm": 138
     }
    ],
    "primary_row_index": 0,
@@ -9021,7 +9241,8 @@
      "price_nis_raw": "933000",
      "price_nis": 933000,
      "csv_price_per_sqm": 35885,
-     "deal_date_raw": "2025-05-28"
+     "deal_date_raw": "2025-05-28",
+     "size_sqm": 26
     },
     {
      "row_index": 510,
@@ -9029,7 +9250,8 @@
      "price_nis_raw": "933000",
      "price_nis": 933000,
      "csv_price_per_sqm": 35885,
-     "deal_date_raw": "2025-05-28"
+     "deal_date_raw": "2025-05-28",
+     "size_sqm": 26
     }
    ],
    "primary_row_index": 0,
@@ -9073,7 +9295,8 @@
      "price_nis_raw": "6543000",
      "price_nis": 6543000,
      "csv_price_per_sqm": 51929,
-     "deal_date_raw": "2025-06-02"
+     "deal_date_raw": "2025-06-02",
+     "size_sqm": 126
     }
    ],
    "primary_row_index": 0,
@@ -9113,7 +9336,8 @@
      "price_nis_raw": "3476000",
      "price_nis": 3476000,
      "csv_price_per_sqm": 37376,
-     "deal_date_raw": "2025-11-28"
+     "deal_date_raw": "2025-11-28",
+     "size_sqm": 93
     }
    ],
    "primary_row_index": 0,
@@ -9153,7 +9377,8 @@
      "price_nis_raw": "2452000",
      "price_nis": 2452000,
      "csv_price_per_sqm": 27244,
-     "deal_date_raw": "2023-04-02"
+     "deal_date_raw": "2023-04-02",
+     "size_sqm": 90
     }
    ],
    "primary_row_index": 0,
@@ -9193,7 +9418,8 @@
      "price_nis_raw": "3246000",
      "price_nis": 3246000,
      "csv_price_per_sqm": 34532,
-     "deal_date_raw": "2025-12-22"
+     "deal_date_raw": "2025-12-22",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -9233,7 +9459,8 @@
      "price_nis_raw": "3989000",
      "price_nis": 3989000,
      "csv_price_per_sqm": 28291,
-     "deal_date_raw": "19/02/2021"
+     "deal_date_raw": "19/02/2021",
+     "size_sqm": 141
     }
    ],
    "primary_row_index": 0,
@@ -9273,7 +9500,8 @@
      "price_nis_raw": "7,093,000",
      "price_nis": 7093000,
      "csv_price_per_sqm": 58620,
-     "deal_date_raw": "11.06.2024"
+     "deal_date_raw": "11.06.2024",
+     "size_sqm": 121
     }
    ],
    "primary_row_index": 0,
@@ -9313,7 +9541,8 @@
      "price_nis_raw": "2552000",
      "price_nis": 2552000,
      "csv_price_per_sqm": 32718,
-     "deal_date_raw": "24/01/2021"
+     "deal_date_raw": "24/01/2021",
+     "size_sqm": 78
     }
    ],
    "primary_row_index": 0,
@@ -9357,7 +9586,8 @@
      "price_nis_raw": "9114000",
      "price_nis": 9114000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2026-05-02"
+     "deal_date_raw": "2026-05-02",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -9403,7 +9633,8 @@
      "price_nis_raw": "2822000",
      "price_nis": 2822000,
      "csv_price_per_sqm": 31356,
-     "deal_date_raw": "2023-04-25"
+     "deal_date_raw": "2023-04-25",
+     "size_sqm": 90
     }
    ],
    "primary_row_index": 0,
@@ -9443,7 +9674,8 @@
      "price_nis_raw": "7783000",
      "price_nis": 7783000,
      "csv_price_per_sqm": 58962,
-     "deal_date_raw": "2026-04-23"
+     "deal_date_raw": "2026-04-23",
+     "size_sqm": 132
     }
    ],
    "primary_row_index": 0,
@@ -9487,7 +9719,8 @@
      "price_nis_raw": "3254000",
      "price_nis": 3254000,
      "csv_price_per_sqm": 43387,
-     "deal_date_raw": "2024-11-22"
+     "deal_date_raw": "2024-11-22",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -9527,7 +9760,8 @@
      "price_nis_raw": "6243000",
      "price_nis": 6243000,
      "csv_price_per_sqm": 46940,
-     "deal_date_raw": "2022-04-24"
+     "deal_date_raw": "2022-04-24",
+     "size_sqm": 133
     }
    ],
    "primary_row_index": 0,
@@ -9571,7 +9805,8 @@
      "price_nis_raw": "6372000",
      "price_nis": 6372000,
      "csv_price_per_sqm": 75857,
-     "deal_date_raw": "2025-11-12"
+     "deal_date_raw": "2025-11-12",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -9615,7 +9850,8 @@
      "price_nis_raw": "2979000",
      "price_nis": 2979000,
      "csv_price_per_sqm": 41958,
-     "deal_date_raw": "2025-12-28"
+     "deal_date_raw": "2025-12-28",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -9655,7 +9891,8 @@
      "price_nis_raw": "492000",
      "price_nis": 492000,
      "csv_price_per_sqm": 21391,
-     "deal_date_raw": "2022-05-08"
+     "deal_date_raw": "2022-05-08",
+     "size_sqm": 23
     }
    ],
    "primary_row_index": 0,
@@ -9699,7 +9936,8 @@
      "price_nis_raw": "6030000",
      "price_nis": 6030000,
      "csv_price_per_sqm": 38903,
-     "deal_date_raw": "2025-11-03"
+     "deal_date_raw": "2025-11-03",
+     "size_sqm": 155
     }
    ],
    "primary_row_index": 0,
@@ -9743,7 +9981,8 @@
      "price_nis_raw": "4884000",
      "price_nis": 4884000,
      "csv_price_per_sqm": 56138,
-     "deal_date_raw": "2023-05-17"
+     "deal_date_raw": "2023-05-17",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -9783,7 +10022,8 @@
      "price_nis_raw": "7391000",
      "price_nis": 7391000,
      "csv_price_per_sqm": 71757,
-     "deal_date_raw": "2022-03-28"
+     "deal_date_raw": "2022-03-28",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -9827,7 +10067,8 @@
      "price_nis_raw": "4181000",
      "price_nis": 4181000,
      "csv_price_per_sqm": 37330,
-     "deal_date_raw": "2024-10-05"
+     "deal_date_raw": "2024-10-05",
+     "size_sqm": 112
     }
    ],
    "primary_row_index": 0,
@@ -9867,7 +10108,8 @@
      "price_nis_raw": "3246000",
      "price_nis": 3246000,
      "csv_price_per_sqm": 29243,
-     "deal_date_raw": "23/09/2022"
+     "deal_date_raw": "23/09/2022",
+     "size_sqm": 111
     }
    ],
    "primary_row_index": 0,
@@ -9911,7 +10153,8 @@
      "price_nis_raw": "4325000",
      "price_nis": 4325000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2025-10-24"
+     "deal_date_raw": "2025-10-24",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -9955,7 +10198,8 @@
      "price_nis_raw": "4108000",
      "price_nis": 4108000,
      "csv_price_per_sqm": 26503,
-     "deal_date_raw": "20/06/2022"
+     "deal_date_raw": "20/06/2022",
+     "size_sqm": 155
     }
    ],
    "primary_row_index": 0,
@@ -9995,7 +10239,8 @@
      "price_nis_raw": "1,635,000",
      "price_nis": 1635000,
      "csv_price_per_sqm": 19464,
-     "deal_date_raw": "2025-10-03"
+     "deal_date_raw": "2025-10-03",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -10035,7 +10280,8 @@
      "price_nis_raw": "3839000",
      "price_nis": 3839000,
      "csv_price_per_sqm": 38778,
-     "deal_date_raw": "2024-08-08"
+     "deal_date_raw": "2024-08-08",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -10075,7 +10321,8 @@
      "price_nis_raw": "5102000",
      "price_nis": 5102000,
      "csv_price_per_sqm": 52061,
-     "deal_date_raw": "01/10/2024"
+     "deal_date_raw": "01/10/2024",
+     "size_sqm": 98
     }
    ],
    "primary_row_index": 0,
@@ -10115,7 +10362,8 @@
      "price_nis_raw": "4,436,000",
      "price_nis": 4436000,
      "csv_price_per_sqm": 39964,
-     "deal_date_raw": "26/11/2025"
+     "deal_date_raw": "26/11/2025",
+     "size_sqm": 111
     }
    ],
    "primary_row_index": 0,
@@ -10155,7 +10403,8 @@
      "price_nis_raw": "6595000",
      "price_nis": 6595000,
      "csv_price_per_sqm": 48493,
-     "deal_date_raw": "2024-02-04"
+     "deal_date_raw": "2024-02-04",
+     "size_sqm": 136
     }
    ],
    "primary_row_index": 0,
@@ -10199,7 +10448,8 @@
      "price_nis_raw": "4485000",
      "price_nis": 4485000,
      "csv_price_per_sqm": 63169,
-     "deal_date_raw": "2025-07-02"
+     "deal_date_raw": "2025-07-02",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -10245,7 +10495,8 @@
      "price_nis_raw": "4485000",
      "price_nis": 4485000,
      "csv_price_per_sqm": 47713,
-     "deal_date_raw": "Sep 2022"
+     "deal_date_raw": "Sep 2022",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -10289,7 +10540,8 @@
      "price_nis_raw": "2989000",
      "price_nis": 2989000,
      "csv_price_per_sqm": 36901,
-     "deal_date_raw": "Sep 2024"
+     "deal_date_raw": "Sep 2024",
+     "size_sqm": 81
     }
    ],
    "primary_row_index": 0,
@@ -10329,7 +10581,8 @@
      "price_nis_raw": "6271000",
      "price_nis": 6271000,
      "csv_price_per_sqm": 59160,
-     "deal_date_raw": "16/07/2026"
+     "deal_date_raw": "16/07/2026",
+     "size_sqm": 106
     }
    ],
    "primary_row_index": 0,
@@ -10369,7 +10622,8 @@
      "price_nis_raw": "4662000",
      "price_nis": 4662000,
      "csv_price_per_sqm": 32601,
-     "deal_date_raw": "2025-10-09"
+     "deal_date_raw": "2025-10-09",
+     "size_sqm": 143
     }
    ],
    "primary_row_index": 0,
@@ -10409,7 +10663,8 @@
      "price_nis_raw": "4341000",
      "price_nis": 4341000,
      "csv_price_per_sqm": 42146,
-     "deal_date_raw": "2025-02-25"
+     "deal_date_raw": "2025-02-25",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -10449,7 +10704,8 @@
      "price_nis_raw": "5022000",
      "price_nis": 5022000,
      "csv_price_per_sqm": 59786,
-     "deal_date_raw": "2024-05-23"
+     "deal_date_raw": "2024-05-23",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -10489,7 +10745,8 @@
      "price_nis_raw": "3986000",
      "price_nis": 3986000,
      "csv_price_per_sqm": 34362,
-     "deal_date_raw": "2021-01-05"
+     "deal_date_raw": "2021-01-05",
+     "size_sqm": 116
     }
    ],
    "primary_row_index": 0,
@@ -10533,7 +10790,8 @@
      "price_nis_raw": "0",
      "price_nis": 0,
      "csv_price_per_sqm": 0,
-     "deal_date_raw": "2024-07-09"
+     "deal_date_raw": "2024-07-09",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -10577,7 +10835,8 @@
      "price_nis_raw": "8353000",
      "price_nis": 8353000,
      "csv_price_per_sqm": 40353,
-     "deal_date_raw": "2023-01-10"
+     "deal_date_raw": "2023-01-10",
+     "size_sqm": 207
     }
    ],
    "primary_row_index": 0,
@@ -10617,7 +10876,8 @@
      "price_nis_raw": "2537000",
      "price_nis": 2537000,
      "csv_price_per_sqm": 36243,
-     "deal_date_raw": "25/11/2024"
+     "deal_date_raw": "25/11/2024",
+     "size_sqm": 70
     }
    ],
    "primary_row_index": 0,
@@ -10661,7 +10921,8 @@
      "price_nis_raw": "1525000",
      "price_nis": 1525000,
      "csv_price_per_sqm": 13377,
-     "deal_date_raw": "2023-02-21"
+     "deal_date_raw": "2023-02-21",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -10701,7 +10962,8 @@
      "price_nis_raw": "4338000",
      "price_nis": 4338000,
      "csv_price_per_sqm": 30336,
-     "deal_date_raw": "2024-11-28"
+     "deal_date_raw": "2024-11-28",
+     "size_sqm": 143
     }
    ],
    "primary_row_index": 0,
@@ -10741,7 +11003,8 @@
      "price_nis_raw": "5173000",
      "price_nis": 5173000,
      "csv_price_per_sqm": 45377,
-     "deal_date_raw": "2024-02-08"
+     "deal_date_raw": "2024-02-08",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -10785,7 +11048,8 @@
      "price_nis_raw": "7815000",
      "price_nis": 7815000,
      "csv_price_per_sqm": 47652,
-     "deal_date_raw": "2026-02-12"
+     "deal_date_raw": "2026-02-12",
+     "size_sqm": 164
     }
    ],
    "primary_row_index": 0,
@@ -10825,7 +11089,8 @@
      "price_nis_raw": "9575000",
      "price_nis": 9575000,
      "csv_price_per_sqm": 60601,
-     "deal_date_raw": "2026-02-15"
+     "deal_date_raw": "2026-02-15",
+     "size_sqm": 158
     }
    ],
    "primary_row_index": 0,
@@ -10869,7 +11134,8 @@
      "price_nis_raw": "4542000",
      "price_nis": 4542000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2025-11-05"
+     "deal_date_raw": "2025-11-05",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -10909,7 +11175,8 @@
      "price_nis_raw": "6627000",
      "price_nis": 6627000,
      "csv_price_per_sqm": 34879,
-     "deal_date_raw": "2021-06-06"
+     "deal_date_raw": "2021-06-06",
+     "size_sqm": 190
     }
    ],
    "primary_row_index": 0,
@@ -10949,7 +11216,8 @@
      "price_nis_raw": "4021000",
      "price_nis": 4021000,
      "csv_price_per_sqm": 36890,
-     "deal_date_raw": "2022-04-07"
+     "deal_date_raw": "2022-04-07",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -10993,7 +11261,8 @@
      "price_nis_raw": "4735000",
      "price_nis": 4735000,
      "csv_price_per_sqm": 41903,
-     "deal_date_raw": "2026-04-22"
+     "deal_date_raw": "2026-04-22",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -11033,7 +11302,8 @@
      "price_nis_raw": "3534000",
      "price_nis": 3534000,
      "csv_price_per_sqm": 41576,
-     "deal_date_raw": "2026-05-02"
+     "deal_date_raw": "2026-05-02",
+     "size_sqm": 85
     }
    ],
    "primary_row_index": 0,
@@ -11073,7 +11343,8 @@
      "price_nis_raw": "5763000",
      "price_nis": 5763000,
      "csv_price_per_sqm": 48839,
-     "deal_date_raw": "2025-08-25"
+     "deal_date_raw": "2025-08-25",
+     "size_sqm": 118
     }
    ],
    "primary_row_index": 0,
@@ -11117,7 +11388,8 @@
      "price_nis_raw": "5783000",
      "price_nis": 5783000,
      "csv_price_per_sqm": 64978,
-     "deal_date_raw": "2023-04-28"
+     "deal_date_raw": "2023-04-28",
+     "size_sqm": 89
     }
    ],
    "primary_row_index": 0,
@@ -11161,7 +11433,8 @@
      "price_nis_raw": "5677000",
      "price_nis": 5677000,
      "csv_price_per_sqm": 47706,
-     "deal_date_raw": "2021-08-27"
+     "deal_date_raw": "2021-08-27",
+     "size_sqm": 119
     }
    ],
    "primary_row_index": 0,
@@ -11201,7 +11474,8 @@
      "price_nis_raw": "3371000",
      "price_nis": 3371000,
      "csv_price_per_sqm": 52672,
-     "deal_date_raw": "21/05/2025"
+     "deal_date_raw": "21/05/2025",
+     "size_sqm": 64
     }
    ],
    "primary_row_index": 0,
@@ -11241,7 +11515,8 @@
      "price_nis_raw": "4636000",
      "price_nis": 4636000,
      "csv_price_per_sqm": 64389,
-     "deal_date_raw": "2025-02-02"
+     "deal_date_raw": "2025-02-02",
+     "size_sqm": 72
     }
    ],
    "primary_row_index": 0,
@@ -11281,7 +11556,8 @@
      "price_nis_raw": "4649000",
      "price_nis": 4649000,
      "csv_price_per_sqm": 45578,
-     "deal_date_raw": "14/07/2022"
+     "deal_date_raw": "14/07/2022",
+     "size_sqm": 102
     }
    ],
    "primary_row_index": 0,
@@ -11321,7 +11597,8 @@
      "price_nis_raw": "1949000",
      "price_nis": 1949000,
      "csv_price_per_sqm": 25645,
-     "deal_date_raw": "2026-07-26"
+     "deal_date_raw": "2026-07-26",
+     "size_sqm": 76
     }
    ],
    "primary_row_index": 0,
@@ -11361,7 +11638,8 @@
      "price_nis_raw": "3421000",
      "price_nis": 3421000,
      "csv_price_per_sqm": 26315,
-     "deal_date_raw": "2022-01-07"
+     "deal_date_raw": "2022-01-07",
+     "size_sqm": 130
     }
    ],
    "primary_row_index": 0,
@@ -11405,7 +11683,8 @@
      "price_nis_raw": "3878000",
      "price_nis": 3878000,
      "csv_price_per_sqm": 46723,
-     "deal_date_raw": "2026-05-08"
+     "deal_date_raw": "2026-05-08",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -11445,7 +11724,8 @@
      "price_nis_raw": "3027000",
      "price_nis": 3027000,
      "csv_price_per_sqm": 34398,
-     "deal_date_raw": "2024-06-18"
+     "deal_date_raw": "2024-06-18",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -11485,7 +11765,8 @@
      "price_nis_raw": "9,228,000",
      "price_nis": 9228000,
      "csv_price_per_sqm": 49085,
-     "deal_date_raw": "2026-07-22"
+     "deal_date_raw": "2026-07-22",
+     "size_sqm": 188
     }
    ],
    "primary_row_index": 0,
@@ -11525,7 +11806,8 @@
      "price_nis_raw": "2152000",
      "price_nis": 2152000,
      "csv_price_per_sqm": 34159,
-     "deal_date_raw": "2022-09-02"
+     "deal_date_raw": "2022-09-02",
+     "size_sqm": 63
     }
    ],
    "primary_row_index": 0,
@@ -11565,7 +11847,8 @@
      "price_nis_raw": "4840000",
      "price_nis": 4840000,
      "csv_price_per_sqm": 35072,
-     "deal_date_raw": "2024-03-21"
+     "deal_date_raw": "2024-03-21",
+     "size_sqm": 138
     }
    ],
    "primary_row_index": 0,
@@ -11609,7 +11892,8 @@
      "price_nis_raw": "5,363,000",
      "price_nis": 5363000,
      "csv_price_per_sqm": 77725,
-     "deal_date_raw": "2023-07-12"
+     "deal_date_raw": "2023-07-12",
+     "size_sqm": 69
     }
    ],
    "primary_row_index": 0,
@@ -11649,7 +11933,8 @@
      "price_nis_raw": "8086000",
      "price_nis": 8086000,
      "csv_price_per_sqm": 51833,
-     "deal_date_raw": "21.01.2026"
+     "deal_date_raw": "21.01.2026",
+     "size_sqm": 156
     }
    ],
    "primary_row_index": 0,
@@ -11689,7 +11974,8 @@
      "price_nis_raw": "4,636,000",
      "price_nis": 4636000,
      "csv_price_per_sqm": 46828,
-     "deal_date_raw": "2023-12-24"
+     "deal_date_raw": "2023-12-24",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -11729,7 +12015,8 @@
      "price_nis_raw": "5,214,000",
      "price_nis": 5214000,
      "csv_price_per_sqm": 40108,
-     "deal_date_raw": "04/11/2021"
+     "deal_date_raw": "04/11/2021",
+     "size_sqm": 130
     }
    ],
    "primary_row_index": 0,
@@ -11769,7 +12056,8 @@
      "price_nis_raw": "2068000",
      "price_nis": 2068000,
      "csv_price_per_sqm": 29543,
-     "deal_date_raw": "27/07/2022"
+     "deal_date_raw": "27/07/2022",
+     "size_sqm": 70
     }
    ],
    "primary_row_index": 0,
@@ -11813,7 +12101,8 @@
      "price_nis_raw": "3415000",
      "price_nis": 3415000,
      "csv_price_per_sqm": 45533,
-     "deal_date_raw": "15.04.2022"
+     "deal_date_raw": "15.04.2022",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -11857,7 +12146,8 @@
      "price_nis_raw": "2589000",
      "price_nis": 2589000,
      "csv_price_per_sqm": 40981,
-     "deal_date_raw": "16.12.2022"
+     "deal_date_raw": "16.12.2022",
+     "size_sqm": 69
     }
    ],
    "primary_row_index": 0,
@@ -11901,7 +12191,8 @@
      "price_nis_raw": "5157000",
      "price_nis": 5157000,
      "csv_price_per_sqm": 45637,
-     "deal_date_raw": "Jul 2025"
+     "deal_date_raw": "Jul 2025",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -11941,7 +12232,8 @@
      "price_nis_raw": "4097000",
      "price_nis": 4097000,
      "csv_price_per_sqm": 57704,
-     "deal_date_raw": "2024-01-04"
+     "deal_date_raw": "2024-01-04",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -11981,7 +12273,8 @@
      "price_nis_raw": "3729000",
      "price_nis": 3729000,
      "csv_price_per_sqm": 54838,
-     "deal_date_raw": "06/05/2026"
+     "deal_date_raw": "06/05/2026",
+     "size_sqm": 68
     }
    ],
    "primary_row_index": 0,
@@ -12021,7 +12314,8 @@
      "price_nis_raw": "3465000",
      "price_nis": 3465000,
      "csv_price_per_sqm": 46824,
-     "deal_date_raw": "2024-09-13"
+     "deal_date_raw": "2024-09-13",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -12061,7 +12355,8 @@
      "price_nis_raw": "6,567,000",
      "price_nis": 6567000,
      "csv_price_per_sqm": 40789,
-     "deal_date_raw": "2026-07-08"
+     "deal_date_raw": "2026-07-08",
+     "size_sqm": 161
     }
    ],
    "primary_row_index": 0,
@@ -12101,7 +12396,8 @@
      "price_nis_raw": "8,307,000",
      "price_nis": 8307000,
      "csv_price_per_sqm": 59336,
-     "deal_date_raw": "04.12.2021"
+     "deal_date_raw": "04.12.2021",
+     "size_sqm": 140
     }
    ],
    "primary_row_index": 0,
@@ -12145,7 +12441,8 @@
      "price_nis_raw": "9158000",
      "price_nis": 9158000,
      "csv_price_per_sqm": 87219,
-     "deal_date_raw": "2024-01-22"
+     "deal_date_raw": "2024-01-22",
+     "size_sqm": 105
     }
    ],
    "primary_row_index": 0,
@@ -12185,7 +12482,8 @@
      "price_nis_raw": "4005000",
      "price_nis": 4005000,
      "csv_price_per_sqm": 25510,
-     "deal_date_raw": "2022-01-25"
+     "deal_date_raw": "2022-01-25",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -12225,7 +12523,8 @@
      "price_nis_raw": "3015000",
      "price_nis": 3015000,
      "csv_price_per_sqm": 40743,
-     "deal_date_raw": "2024-12-03"
+     "deal_date_raw": "2024-12-03",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -12265,7 +12564,8 @@
      "price_nis_raw": "2136000",
      "price_nis": 2136000,
      "csv_price_per_sqm": 28480,
-     "deal_date_raw": "2025-12-08"
+     "deal_date_raw": "2025-12-08",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -12305,7 +12605,8 @@
      "price_nis_raw": "8,247,000",
      "price_nis": 8247000,
      "csv_price_per_sqm": 44578,
-     "deal_date_raw": "26/10/2025"
+     "deal_date_raw": "26/10/2025",
+     "size_sqm": 185
     }
    ],
    "primary_row_index": 0,
@@ -12345,7 +12646,8 @@
      "price_nis_raw": "1354000",
      "price_nis": 1354000,
      "csv_price_per_sqm": 28208,
-     "deal_date_raw": "2023-11-14"
+     "deal_date_raw": "2023-11-14",
+     "size_sqm": 48
     }
    ],
    "primary_row_index": 0,
@@ -12385,7 +12687,8 @@
      "price_nis_raw": "4644000",
      "price_nis": 4644000,
      "csv_price_per_sqm": 41097,
-     "deal_date_raw": "2021-12-03"
+     "deal_date_raw": "2021-12-03",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -12425,7 +12728,8 @@
      "price_nis_raw": "2532000",
      "price_nis": 2532000,
      "csv_price_per_sqm": 42915,
-     "deal_date_raw": "2026-05-19"
+     "deal_date_raw": "2026-05-19",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -12465,7 +12769,8 @@
      "price_nis_raw": "3611000",
      "price_nis": 3611000,
      "csv_price_per_sqm": 44037,
-     "deal_date_raw": "2026-06-08"
+     "deal_date_raw": "2026-06-08",
+     "size_sqm": 82
     }
    ],
    "primary_row_index": 0,
@@ -12505,7 +12810,8 @@
      "price_nis_raw": "9051000",
      "price_nis": 9051000,
      "csv_price_per_sqm": 66066,
-     "deal_date_raw": "2026-06-06"
+     "deal_date_raw": "2026-06-06",
+     "size_sqm": 137
     }
    ],
    "primary_row_index": 0,
@@ -12549,7 +12855,8 @@
      "price_nis_raw": "9063000",
      "price_nis": 9063000,
      "csv_price_per_sqm": 80075,
-     "deal_date_raw": "2024-12-12"
+     "deal_date_raw": "2024-12-12",
+     "size_sqm": 132
     }
    ],
    "primary_row_index": 0,
@@ -12593,7 +12900,8 @@
      "price_nis_raw": "4370000",
      "price_nis": 4370000,
      "csv_price_per_sqm": 38673,
-     "deal_date_raw": "17.07.2026"
+     "deal_date_raw": "17.07.2026",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -12633,7 +12941,8 @@
      "price_nis_raw": "4379000",
      "price_nis": 4379000,
      "csv_price_per_sqm": 59986,
-     "deal_date_raw": "05.02.2023"
+     "deal_date_raw": "05.02.2023",
+     "size_sqm": 73
     }
    ],
    "primary_row_index": 0,
@@ -12679,7 +12988,8 @@
      "price_nis_raw": "6064000",
      "price_nis": 6064000,
      "csv_price_per_sqm": 45254,
-     "deal_date_raw": "26.02.2024"
+     "deal_date_raw": "26.02.2024",
+     "size_sqm": 134
     },
     {
      "row_index": 477,
@@ -12687,7 +12997,8 @@
      "price_nis_raw": "6195332",
      "price_nis": 6195332,
      "csv_price_per_sqm": 45254,
-     "deal_date_raw": "26.02.2024"
+     "deal_date_raw": "26.02.2024",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -12731,7 +13042,8 @@
      "price_nis_raw": "7102000",
      "price_nis": 7102000,
      "csv_price_per_sqm": 73216,
-     "deal_date_raw": "28.03.2025"
+     "deal_date_raw": "28.03.2025",
+     "size_sqm": 97
     }
    ],
    "primary_row_index": 0,
@@ -12771,7 +13083,8 @@
      "price_nis_raw": "6535000",
      "price_nis": 6535000,
      "csv_price_per_sqm": 39367,
-     "deal_date_raw": "2023-07-14"
+     "deal_date_raw": "2023-07-14",
+     "size_sqm": 166
     }
    ],
    "primary_row_index": 0,
@@ -12815,7 +13128,8 @@
      "price_nis_raw": "1725000",
      "price_nis": 1725000,
      "csv_price_per_sqm": 31364,
-     "deal_date_raw": "2022-11-18"
+     "deal_date_raw": "2022-11-18",
+     "size_sqm": 55
     }
    ],
    "primary_row_index": 0,
@@ -12855,7 +13169,8 @@
      "price_nis_raw": "3771000",
      "price_nis": 3771000,
      "csv_price_per_sqm": 42852,
-     "deal_date_raw": "2023-04-05"
+     "deal_date_raw": "2023-04-05",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -12899,7 +13214,8 @@
      "price_nis_raw": "8198000",
      "price_nis": 8198000,
      "csv_price_per_sqm": 58557,
-     "deal_date_raw": "2023-08-12"
+     "deal_date_raw": "2023-08-12",
+     "size_sqm": 140
     }
    ],
    "primary_row_index": 0,
@@ -12939,7 +13255,8 @@
      "price_nis_raw": "3534000",
      "price_nis": 3534000,
      "csv_price_per_sqm": 53545,
-     "deal_date_raw": "04/05/2026"
+     "deal_date_raw": "04/05/2026",
+     "size_sqm": 66
     }
    ],
    "primary_row_index": 0,
@@ -12979,7 +13296,8 @@
      "price_nis_raw": "4255000",
      "price_nis": 4255000,
      "csv_price_per_sqm": 39398,
-     "deal_date_raw": "03/02/2024"
+     "deal_date_raw": "03/02/2024",
+     "size_sqm": 108
     }
    ],
    "primary_row_index": 0,
@@ -13023,7 +13341,8 @@
      "price_nis_raw": "7228000",
      "price_nis": 7228000,
      "csv_price_per_sqm": 61778,
-     "deal_date_raw": "2025-11-26"
+     "deal_date_raw": "2025-11-26",
+     "size_sqm": 117
     },
     {
      "row_index": 383,
@@ -13031,7 +13350,8 @@
      "price_nis_raw": "7228000",
      "price_nis": 7228000,
      "csv_price_per_sqm": 61778,
-     "deal_date_raw": "2025-11-26"
+     "deal_date_raw": "2025-11-26",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -13075,7 +13395,8 @@
      "price_nis_raw": "7185000",
      "price_nis": 7185000,
      "csv_price_per_sqm": 72576,
-     "deal_date_raw": "2026-01-26"
+     "deal_date_raw": "2026-01-26",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -13119,7 +13440,8 @@
      "price_nis_raw": "10401000",
      "price_nis": 10401000,
      "csv_price_per_sqm": 58234,
-     "deal_date_raw": "2025-06-02"
+     "deal_date_raw": "2025-06-02",
+     "size_sqm": 129
     }
    ],
    "primary_row_index": 0,
@@ -13159,7 +13481,8 @@
      "price_nis_raw": "3814000",
      "price_nis": 3814000,
      "csv_price_per_sqm": 34054,
-     "deal_date_raw": "2024-01-08"
+     "deal_date_raw": "2024-01-08",
+     "size_sqm": 112
     }
    ],
    "primary_row_index": 0,
@@ -13199,7 +13522,8 @@
      "price_nis_raw": "3431000",
      "price_nis": 3431000,
      "csv_price_per_sqm": 42888,
-     "deal_date_raw": "2025-05-25"
+     "deal_date_raw": "2025-05-25",
+     "size_sqm": 80
     }
    ],
    "primary_row_index": 0,
@@ -13239,7 +13563,8 @@
      "price_nis_raw": "2944000",
      "price_nis": 2944000,
      "csv_price_per_sqm": 30989,
-     "deal_date_raw": "2022-02-14"
+     "deal_date_raw": "2022-02-14",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -13285,7 +13610,8 @@
      "price_nis_raw": "18000",
      "price_nis": 18000,
      "csv_price_per_sqm": 0,
-     "deal_date_raw": "2025-07-28"
+     "deal_date_raw": "2025-07-28",
+     "size_sqm": 132
     }
    ],
    "primary_row_index": 0,
@@ -13329,7 +13655,8 @@
      "price_nis_raw": "5600000",
      "price_nis": 5600000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2024-07-13"
+     "deal_date_raw": "2024-07-13",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -13373,7 +13700,8 @@
      "price_nis_raw": "4108000",
      "price_nis": 4108000,
      "csv_price_per_sqm": 39883,
-     "deal_date_raw": "21.06.2024"
+     "deal_date_raw": "21.06.2024",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -13413,7 +13741,8 @@
      "price_nis_raw": "2884000",
      "price_nis": 2884000,
      "csv_price_per_sqm": 16022,
-     "deal_date_raw": "2025-09-18"
+     "deal_date_raw": "2025-09-18",
+     "size_sqm": 180
     }
    ],
    "primary_row_index": 0,
@@ -13453,7 +13782,8 @@
      "price_nis_raw": "2536000",
      "price_nis": 2536000,
      "csv_price_per_sqm": 30554,
-     "deal_date_raw": "2023-12-05"
+     "deal_date_raw": "2023-12-05",
+     "size_sqm": 83
     }
    ],
    "primary_row_index": 0,
@@ -13497,7 +13827,8 @@
      "price_nis_raw": "2840000",
      "price_nis": 2840000,
      "csv_price_per_sqm": 83529,
-     "deal_date_raw": "22.08.2022"
+     "deal_date_raw": "22.08.2022",
+     "size_sqm": 34
     }
    ],
    "primary_row_index": 0,
@@ -13537,7 +13868,8 @@
      "price_nis_raw": "5576000",
      "price_nis": 5576000,
      "csv_price_per_sqm": 31682,
-     "deal_date_raw": "2025-07-20"
+     "deal_date_raw": "2025-07-20",
+     "size_sqm": 176
     }
    ],
    "primary_row_index": 0,
@@ -13581,7 +13913,8 @@
      "price_nis_raw": "9488000",
      "price_nis": 9488000,
      "csv_price_per_sqm": 82504,
-     "deal_date_raw": "Apr 2025"
+     "deal_date_raw": "Apr 2025",
+     "size_sqm": 115
     }
    ],
    "primary_row_index": 0,
@@ -13621,7 +13954,8 @@
      "price_nis_raw": "6245000",
      "price_nis": 6245000,
      "csv_price_per_sqm": 83267,
-     "deal_date_raw": "22/04/2026"
+     "deal_date_raw": "22/04/2026",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -13661,7 +13995,8 @@
      "price_nis_raw": "6235000",
      "price_nis": 6235000,
      "csv_price_per_sqm": 47235,
-     "deal_date_raw": "2025-10-03"
+     "deal_date_raw": "2025-10-03",
+     "size_sqm": 132
     }
    ],
    "primary_row_index": 0,
@@ -13701,7 +14036,8 @@
      "price_nis_raw": "8995000",
      "price_nis": 8995000,
      "csv_price_per_sqm": 50251,
-     "deal_date_raw": "11/04/2026"
+     "deal_date_raw": "11/04/2026",
+     "size_sqm": 179
     }
    ],
    "primary_row_index": 0,
@@ -13747,7 +14083,8 @@
      "price_nis_raw": "13549000",
      "price_nis": 13549000,
      "csv_price_per_sqm": 40950,
-     "deal_date_raw": "Dec 2024"
+     "deal_date_raw": "Dec 2024",
+     "size_sqm": 246
     }
    ],
    "primary_row_index": 0,
@@ -13791,7 +14128,8 @@
      "price_nis_raw": "₪2,532,000",
      "price_nis": 2532000,
      "csv_price_per_sqm": 19937,
-     "deal_date_raw": "2024-08-12"
+     "deal_date_raw": "2024-08-12",
+     "size_sqm": 127
     }
    ],
    "primary_row_index": 0,
@@ -13835,7 +14173,8 @@
      "price_nis_raw": "5558000",
      "price_nis": 5558000,
      "csv_price_per_sqm": 59763,
-     "deal_date_raw": "2022-12-07"
+     "deal_date_raw": "2022-12-07",
+     "size_sqm": 93
     }
    ],
    "primary_row_index": 0,
@@ -13879,7 +14218,8 @@
      "price_nis_raw": "4195000",
      "price_nis": 4195000,
      "csv_price_per_sqm": 21163,
-     "deal_date_raw": "2023-10-06"
+     "deal_date_raw": "2023-10-06",
+     "size_sqm": 161
     }
    ],
    "primary_row_index": 0,
@@ -13923,7 +14263,8 @@
      "price_nis_raw": "3297000",
      "price_nis": 3297000,
      "csv_price_per_sqm": 43382,
-     "deal_date_raw": "2022-06-03"
+     "deal_date_raw": "2022-06-03",
+     "size_sqm": 76
     }
    ],
    "primary_row_index": 0,
@@ -13963,7 +14304,8 @@
      "price_nis_raw": "4990000",
      "price_nis": 4990000,
      "csv_price_per_sqm": 50404,
-     "deal_date_raw": "2024-01-03"
+     "deal_date_raw": "2024-01-03",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -14003,7 +14345,8 @@
      "price_nis_raw": "4619000",
      "price_nis": 4619000,
      "csv_price_per_sqm": 33230,
-     "deal_date_raw": "2022-05-28"
+     "deal_date_raw": "2022-05-28",
+     "size_sqm": 139
     }
    ],
    "primary_row_index": 0,
@@ -14043,7 +14386,8 @@
      "price_nis_raw": "2618000",
      "price_nis": 2618000,
      "csv_price_per_sqm": 27851,
-     "deal_date_raw": "2024-11-27"
+     "deal_date_raw": "2024-11-27",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -14087,7 +14431,8 @@
      "price_nis_raw": "5181000",
      "price_nis": 5181000,
      "csv_price_per_sqm": 44664,
-     "deal_date_raw": "2026-07-04"
+     "deal_date_raw": "2026-07-04",
+     "size_sqm": 116
     }
    ],
    "primary_row_index": 0,
@@ -14127,7 +14472,8 @@
      "price_nis_raw": "4504000",
      "price_nis": 4504000,
      "csv_price_per_sqm": 44594,
-     "deal_date_raw": "22.01.2022"
+     "deal_date_raw": "22.01.2022",
+     "size_sqm": 101
     }
    ],
    "primary_row_index": 0,
@@ -14167,7 +14513,8 @@
      "price_nis_raw": "2005000",
      "price_nis": 2005000,
      "csv_price_per_sqm": 16040,
-     "deal_date_raw": "03/06/2026"
+     "deal_date_raw": "03/06/2026",
+     "size_sqm": 125
     }
    ],
    "primary_row_index": 0,
@@ -14207,7 +14554,8 @@
      "price_nis_raw": "3692000",
      "price_nis": 3692000,
      "csv_price_per_sqm": 42437,
-     "deal_date_raw": "2026-06-27"
+     "deal_date_raw": "2026-06-27",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -14251,7 +14599,8 @@
      "price_nis_raw": "2685000",
      "price_nis": 2685000,
      "csv_price_per_sqm": 23147,
-     "deal_date_raw": "2021-11-19"
+     "deal_date_raw": "2021-11-19",
+     "size_sqm": 116
     }
    ],
    "primary_row_index": 0,
@@ -14295,7 +14644,8 @@
      "price_nis_raw": "4914000",
      "price_nis": 4914000,
      "csv_price_per_sqm": 46800,
-     "deal_date_raw": "2024-08-01"
+     "deal_date_raw": "2024-08-01",
+     "size_sqm": 105
     }
    ],
    "primary_row_index": 0,
@@ -14339,7 +14689,8 @@
      "price_nis_raw": "5761000",
      "price_nis": 5761000,
      "csv_price_per_sqm": 46088,
-     "deal_date_raw": "2024-06-02"
+     "deal_date_raw": "2024-06-02",
+     "size_sqm": 125
     }
    ],
    "primary_row_index": 0,
@@ -14379,7 +14730,8 @@
      "price_nis_raw": "3515000",
      "price_nis": 3515000,
      "csv_price_per_sqm": 41845,
-     "deal_date_raw": "2025-06-14"
+     "deal_date_raw": "2025-06-14",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -14419,7 +14771,8 @@
      "price_nis_raw": "2844000",
      "price_nis": 2844000,
      "csv_price_per_sqm": 43754,
-     "deal_date_raw": "2025-03-08"
+     "deal_date_raw": "2025-03-08",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -14459,7 +14812,8 @@
      "price_nis_raw": "2926000",
      "price_nis": 2926000,
      "csv_price_per_sqm": 50448,
-     "deal_date_raw": "2026-06-14"
+     "deal_date_raw": "2026-06-14",
+     "size_sqm": 58
     }
    ],
    "primary_row_index": 0,
@@ -14503,7 +14857,8 @@
      "price_nis_raw": "3079000",
      "price_nis": 3079000,
      "csv_price_per_sqm": 37549,
-     "deal_date_raw": "2023-11-09"
+     "deal_date_raw": "2023-11-09",
+     "size_sqm": 82
     }
    ],
    "primary_row_index": 0,
@@ -14543,7 +14898,8 @@
      "price_nis_raw": "4463000",
      "price_nis": 4463000,
      "csv_price_per_sqm": 40945,
-     "deal_date_raw": "2026-03-15"
+     "deal_date_raw": "2026-03-15",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -14583,7 +14939,8 @@
      "price_nis_raw": "3212000",
      "price_nis": 3212000,
      "csv_price_per_sqm": 34170,
-     "deal_date_raw": "2025-07-20"
+     "deal_date_raw": "2025-07-20",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -14623,7 +14980,8 @@
      "price_nis_raw": "6960000",
      "price_nis": 6960000,
      "csv_price_per_sqm": 38883,
-     "deal_date_raw": "2024-01-21"
+     "deal_date_raw": "2024-01-21",
+     "size_sqm": 179
     }
    ],
    "primary_row_index": 0,
@@ -14663,7 +15021,8 @@
      "price_nis_raw": "3054000",
      "price_nis": 3054000,
      "csv_price_per_sqm": 27764,
-     "deal_date_raw": "2025-09-07"
+     "deal_date_raw": "2025-09-07",
+     "size_sqm": 110
     }
    ],
    "primary_row_index": 0,
@@ -14707,7 +15066,8 @@
      "price_nis_raw": "1816000",
      "price_nis": 1816000,
      "csv_price_per_sqm": 44293,
-     "deal_date_raw": "2025-11-20"
+     "deal_date_raw": "2025-11-20",
+     "size_sqm": 41
     }
    ],
    "primary_row_index": 0,
@@ -14747,7 +15107,8 @@
      "price_nis_raw": "3857000",
      "price_nis": 3857000,
      "csv_price_per_sqm": 49449,
-     "deal_date_raw": "2025-06-28"
+     "deal_date_raw": "2025-06-28",
+     "size_sqm": 78
     }
    ],
    "primary_row_index": 0,
@@ -14787,7 +15148,8 @@
      "price_nis_raw": "11055000",
      "price_nis": 11055000,
      "csv_price_per_sqm": 84389,
-     "deal_date_raw": "2024-03-12"
+     "deal_date_raw": "2024-03-12",
+     "size_sqm": 131
     }
    ],
    "primary_row_index": 0,
@@ -14831,7 +15193,8 @@
      "price_nis_raw": "2644000",
      "price_nis": 2644000,
      "csv_price_per_sqm": 24481,
-     "deal_date_raw": "Jun 2026"
+     "deal_date_raw": "Jun 2026",
+     "size_sqm": 108
     }
    ],
    "primary_row_index": 0,
@@ -14871,7 +15234,8 @@
      "price_nis_raw": "3065000",
      "price_nis": 3065000,
      "csv_price_per_sqm": 19522,
-     "deal_date_raw": "2023-07-16"
+     "deal_date_raw": "2023-07-16",
+     "size_sqm": 157
     }
    ],
    "primary_row_index": 0,
@@ -14915,7 +15279,8 @@
      "price_nis_raw": "₪2,056,000",
      "price_nis": 2056000,
      "csv_price_per_sqm": 27413,
-     "deal_date_raw": "2021-06-12"
+     "deal_date_raw": "2021-06-12",
+     "size_sqm": 75
     }
    ],
    "primary_row_index": 0,
@@ -14955,7 +15320,8 @@
      "price_nis_raw": "3519000",
      "price_nis": 3519000,
      "csv_price_per_sqm": 59644,
-     "deal_date_raw": "2022-03-03"
+     "deal_date_raw": "2022-03-03",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -14995,7 +15361,8 @@
      "price_nis_raw": "1449000",
      "price_nis": 1449000,
      "csv_price_per_sqm": 18342,
-     "deal_date_raw": "19/05/2024"
+     "deal_date_raw": "19/05/2024",
+     "size_sqm": 79
     }
    ],
    "primary_row_index": 0,
@@ -15035,7 +15402,8 @@
      "price_nis_raw": "3968000",
      "price_nis": 3968000,
      "csv_price_per_sqm": 59224,
-     "deal_date_raw": "2025-04-09"
+     "deal_date_raw": "2025-04-09",
+     "size_sqm": 67
     }
    ],
    "primary_row_index": 0,
@@ -15075,7 +15443,8 @@
      "price_nis_raw": "13265000",
      "price_nis": 13265000,
      "csv_price_per_sqm": 78029,
-     "deal_date_raw": "2023-05-01"
+     "deal_date_raw": "2023-05-01",
+     "size_sqm": 170
     }
    ],
    "primary_row_index": 0,
@@ -15115,7 +15484,8 @@
      "price_nis_raw": "4897000",
      "price_nis": 4897000,
      "csv_price_per_sqm": 44117,
-     "deal_date_raw": "2026-07-22"
+     "deal_date_raw": "2026-07-22",
+     "size_sqm": 111
     }
    ],
    "primary_row_index": 0,
@@ -15159,7 +15529,8 @@
      "price_nis_raw": "3056000",
      "price_nis": 3056000,
      "csv_price_per_sqm": 27912,
-     "deal_date_raw": "2024-08-11"
+     "deal_date_raw": "2024-08-11",
+     "size_sqm": 121
     }
    ],
    "primary_row_index": 0,
@@ -15205,7 +15576,8 @@
      "price_nis_raw": "6932000",
      "price_nis": 6932000,
      "csv_price_per_sqm": 90026,
-     "deal_date_raw": "11.10.2023"
+     "deal_date_raw": "11.10.2023",
+     "size_sqm": 77
     }
    ],
    "primary_row_index": 0,
@@ -15249,7 +15621,8 @@
      "price_nis_raw": "6034000",
      "price_nis": 6034000,
      "csv_price_per_sqm": 54360,
-     "deal_date_raw": "Feb 2022"
+     "deal_date_raw": "Feb 2022",
+     "size_sqm": 111
     }
    ],
    "primary_row_index": 0,
@@ -15293,7 +15666,8 @@
      "price_nis_raw": "5350000",
      "price_nis": 5350000,
      "csv_price_per_sqm": 62209,
-     "deal_date_raw": "22.07.2026"
+     "deal_date_raw": "22.07.2026",
+     "size_sqm": 86
     }
    ],
    "primary_row_index": 0,
@@ -15333,7 +15707,8 @@
      "price_nis_raw": "3881000",
      "price_nis": 3881000,
      "csv_price_per_sqm": 42185,
-     "deal_date_raw": "2025-03-23"
+     "deal_date_raw": "2025-03-23",
+     "size_sqm": 92
     }
    ],
    "primary_row_index": 0,
@@ -15377,7 +15752,8 @@
      "price_nis_raw": "1556000",
      "price_nis": 1556000,
      "csv_price_per_sqm": 30510,
-     "deal_date_raw": "2025-11-19"
+     "deal_date_raw": "2025-11-19",
+     "size_sqm": 51
     }
    ],
    "primary_row_index": 0,
@@ -15417,7 +15793,8 @@
      "price_nis_raw": "2144000",
      "price_nis": 2144000,
      "csv_price_per_sqm": 14105,
-     "deal_date_raw": "14.09.2023"
+     "deal_date_raw": "14.09.2023",
+     "size_sqm": 152
     }
    ],
    "primary_row_index": 0,
@@ -15457,7 +15834,8 @@
      "price_nis_raw": "8159000",
      "price_nis": 8159000,
      "csv_price_per_sqm": 46358,
-     "deal_date_raw": "21.01.2026"
+     "deal_date_raw": "21.01.2026",
+     "size_sqm": 176
     }
    ],
    "primary_row_index": 0,
@@ -15501,7 +15879,8 @@
      "price_nis_raw": "725000",
      "price_nis": 725000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "14.01.2025"
+     "deal_date_raw": "14.01.2025",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -15541,7 +15920,8 @@
      "price_nis_raw": "5691000",
      "price_nis": 5691000,
      "csv_price_per_sqm": 50812,
-     "deal_date_raw": "2022-12-26"
+     "deal_date_raw": "2022-12-26",
+     "size_sqm": 112
     }
    ],
    "primary_row_index": 0,
@@ -15585,7 +15965,8 @@
      "price_nis_raw": "3816000",
      "price_nis": 3816000,
      "csv_price_per_sqm": 38545,
-     "deal_date_raw": "2025-04-10"
+     "deal_date_raw": "2025-04-10",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -15625,7 +16006,8 @@
      "price_nis_raw": "4,463,000",
      "price_nis": 4463000,
      "csv_price_per_sqm": 50716,
-     "deal_date_raw": "2022-01-14"
+     "deal_date_raw": "2022-01-14",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -15665,7 +16047,8 @@
      "price_nis_raw": "3496000",
      "price_nis": 3496000,
      "csv_price_per_sqm": 32981,
-     "deal_date_raw": "2022-01-18"
+     "deal_date_raw": "2022-01-18",
+     "size_sqm": 106
     }
    ],
    "primary_row_index": 0,
@@ -15709,7 +16092,8 @@
      "price_nis_raw": "1309000",
      "price_nis": 1309000,
      "csv_price_per_sqm": 14544,
-     "deal_date_raw": "2026-02-09"
+     "deal_date_raw": "2026-02-09",
+     "size_sqm": 90
     }
    ],
    "primary_row_index": 0,
@@ -15749,7 +16133,8 @@
      "price_nis_raw": "4327000",
      "price_nis": 4327000,
      "csv_price_per_sqm": 33805,
-     "deal_date_raw": "2025-08-06"
+     "deal_date_raw": "2025-08-06",
+     "size_sqm": 128
     }
    ],
    "primary_row_index": 0,
@@ -15793,7 +16178,8 @@
      "price_nis_raw": "₪16,197,000",
      "price_nis": 16197000,
      "csv_price_per_sqm": 89486,
-     "deal_date_raw": "2022-10-26"
+     "deal_date_raw": "2022-10-26",
+     "size_sqm": 181
     }
    ],
    "primary_row_index": 0,
@@ -15837,7 +16223,8 @@
      "price_nis_raw": "2530000",
      "price_nis": 2530000,
      "csv_price_per_sqm": 25816,
-     "deal_date_raw": "2022-03-20"
+     "deal_date_raw": "2022-03-20",
+     "size_sqm": 98
     }
    ],
    "primary_row_index": 0,
@@ -15877,7 +16264,8 @@
      "price_nis_raw": "1950000",
      "price_nis": 1950000,
      "csv_price_per_sqm": 20526,
-     "deal_date_raw": "16/06/2024"
+     "deal_date_raw": "16/06/2024",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -15921,7 +16309,8 @@
      "price_nis_raw": "6741000",
      "price_nis": 6741000,
      "csv_price_per_sqm": 57127,
-     "deal_date_raw": "2023-01-04"
+     "deal_date_raw": "2023-01-04",
+     "size_sqm": 118
     }
    ],
    "primary_row_index": 0,
@@ -15961,7 +16350,8 @@
      "price_nis_raw": "₪4,711,000",
      "price_nis": 4711000,
      "csv_price_per_sqm": 36238,
-     "deal_date_raw": "25/05/2022"
+     "deal_date_raw": "25/05/2022",
+     "size_sqm": 130
     }
    ],
    "primary_row_index": 0,
@@ -16001,7 +16391,8 @@
      "price_nis_raw": "3539000",
      "price_nis": 3539000,
      "csv_price_per_sqm": 29008,
-     "deal_date_raw": "05.01.2026"
+     "deal_date_raw": "05.01.2026",
+     "size_sqm": 122
     }
    ],
    "primary_row_index": 0,
@@ -16041,7 +16432,8 @@
      "price_nis_raw": "₪4,706,000",
      "price_nis": 4706000,
      "csv_price_per_sqm": 43981,
-     "deal_date_raw": "2024-09-15"
+     "deal_date_raw": "2024-09-15",
+     "size_sqm": 107
     }
    ],
    "primary_row_index": 0,
@@ -16081,7 +16473,8 @@
      "price_nis_raw": "3833000",
      "price_nis": 3833000,
      "csv_price_per_sqm": 31942,
-     "deal_date_raw": "2024-11-02"
+     "deal_date_raw": "2024-11-02",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -16125,7 +16518,8 @@
      "price_nis_raw": "2422000",
      "price_nis": 2422000,
      "csv_price_per_sqm": 43250,
-     "deal_date_raw": "2023-10-10"
+     "deal_date_raw": "2023-10-10",
+     "size_sqm": 56
     }
    ],
    "primary_row_index": 0,
@@ -16165,7 +16559,8 @@
      "price_nis_raw": "2668000",
      "price_nis": 2668000,
      "csv_price_per_sqm": 38667,
-     "deal_date_raw": "2024-08-28"
+     "deal_date_raw": "2024-08-28",
+     "size_sqm": 69
     }
    ],
    "primary_row_index": 0,
@@ -16205,7 +16600,8 @@
      "price_nis_raw": "3,953,000",
      "price_nis": 3953000,
      "csv_price_per_sqm": 47060,
-     "deal_date_raw": "2026-07-22"
+     "deal_date_raw": "2026-07-22",
+     "size_sqm": 84
     }
    ],
    "primary_row_index": 0,
@@ -16251,7 +16647,8 @@
      "price_nis_raw": "8176000",
      "price_nis": 8176000,
      "csv_price_per_sqm": 65408,
-     "deal_date_raw": "2023-11-12"
+     "deal_date_raw": "2023-11-12",
+     "size_sqm": 125
     }
    ],
    "primary_row_index": 0,
@@ -16291,7 +16688,8 @@
      "price_nis_raw": "2490000",
      "price_nis": 2490000,
      "csv_price_per_sqm": 42203,
-     "deal_date_raw": "2023-05-01"
+     "deal_date_raw": "2023-05-01",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -16335,7 +16733,8 @@
      "price_nis_raw": "5017000",
      "price_nis": 5017000,
      "csv_price_per_sqm": 46333,
-     "deal_date_raw": "08.06.2021"
+     "deal_date_raw": "08.06.2021",
+     "size_sqm": 121
     }
    ],
    "primary_row_index": 0,
@@ -16375,7 +16774,8 @@
      "price_nis_raw": "2686000",
      "price_nis": 2686000,
      "csv_price_per_sqm": 24642,
-     "deal_date_raw": "2023-07-04"
+     "deal_date_raw": "2023-07-04",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -16419,7 +16819,8 @@
      "price_nis_raw": "5487000",
      "price_nis": 5487000,
      "csv_price_per_sqm": 37582,
-     "deal_date_raw": "2025-07-05"
+     "deal_date_raw": "2025-07-05",
+     "size_sqm": 146
     }
    ],
    "primary_row_index": 0,
@@ -16463,7 +16864,8 @@
      "price_nis_raw": "5963000",
      "price_nis": 5963000,
      "csv_price_per_sqm": 57893,
-     "deal_date_raw": "2025-01-26"
+     "deal_date_raw": "2025-01-26",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -16503,7 +16905,8 @@
      "price_nis_raw": "4244000",
      "price_nis": 4244000,
      "csv_price_per_sqm": 33156,
-     "deal_date_raw": "2022-01-06"
+     "deal_date_raw": "2022-01-06",
+     "size_sqm": 128
     }
    ],
    "primary_row_index": 0,
@@ -16543,7 +16946,8 @@
      "price_nis_raw": "2282000",
      "price_nis": 2282000,
      "csv_price_per_sqm": 25077,
-     "deal_date_raw": "2024-01-21"
+     "deal_date_raw": "2024-01-21",
+     "size_sqm": 91
     }
    ],
    "primary_row_index": 0,
@@ -16587,7 +16991,8 @@
      "price_nis_raw": "4612000",
      "price_nis": 4612000,
      "csv_price_per_sqm": 35752,
-     "deal_date_raw": "2023-07-03"
+     "deal_date_raw": "2023-07-03",
+     "size_sqm": 129
     }
    ],
    "primary_row_index": 0,
@@ -16627,7 +17032,8 @@
      "price_nis_raw": "6517000",
      "price_nis": 6517000,
      "csv_price_per_sqm": 44034,
-     "deal_date_raw": "2026-02-24"
+     "deal_date_raw": "2026-02-24",
+     "size_sqm": 148
     }
    ],
    "primary_row_index": 0,
@@ -16667,7 +17073,8 @@
      "price_nis_raw": "1636000",
      "price_nis": 1636000,
      "csv_price_per_sqm": 15883,
-     "deal_date_raw": "03.04.2025"
+     "deal_date_raw": "03.04.2025",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -16707,7 +17114,8 @@
      "price_nis_raw": "1356000",
      "price_nis": 1356000,
      "csv_price_per_sqm": 23379,
-     "deal_date_raw": "2025-02-19"
+     "deal_date_raw": "2025-02-19",
+     "size_sqm": 58
     }
    ],
    "primary_row_index": 0,
@@ -16751,7 +17159,8 @@
      "price_nis_raw": "5422000",
      "price_nis": 5422000,
      "csv_price_per_sqm": 43376,
-     "deal_date_raw": "18/01/2023"
+     "deal_date_raw": "18/01/2023",
+     "size_sqm": 125
     }
    ],
    "primary_row_index": 0,
@@ -16791,7 +17200,8 @@
      "price_nis_raw": "6102000",
      "price_nis": 6102000,
      "csv_price_per_sqm": 50850,
-     "deal_date_raw": "2026-05-24"
+     "deal_date_raw": "2026-05-24",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -16835,7 +17245,8 @@
      "price_nis_raw": "1986000",
      "price_nis": 1986000,
      "csv_price_per_sqm": 24519,
-     "deal_date_raw": "23.07.2021"
+     "deal_date_raw": "23.07.2021",
+     "size_sqm": 81
     }
    ],
    "primary_row_index": 0,
@@ -16875,7 +17286,8 @@
      "price_nis_raw": "2415000",
      "price_nis": 2415000,
      "csv_price_per_sqm": 36591,
-     "deal_date_raw": "2021-08-06"
+     "deal_date_raw": "2021-08-06",
+     "size_sqm": 66
     }
    ],
    "primary_row_index": 0,
@@ -16919,7 +17331,8 @@
      "price_nis_raw": "2400000",
      "price_nis": 2400000,
      "csv_price_per_sqm": 38095,
-     "deal_date_raw": "17/09/2023"
+     "deal_date_raw": "17/09/2023",
+     "size_sqm": 63
     }
    ],
    "primary_row_index": 0,
@@ -16963,7 +17376,8 @@
      "price_nis_raw": "9948000",
      "price_nis": 9948000,
      "csv_price_per_sqm": 80226,
-     "deal_date_raw": "09/05/2025"
+     "deal_date_raw": "09/05/2025",
+     "size_sqm": 124
     }
    ],
    "primary_row_index": 0,
@@ -17003,7 +17417,8 @@
      "price_nis_raw": "5615000",
      "price_nis": 5615000,
      "csv_price_per_sqm": 25757,
-     "deal_date_raw": "11/01/2022"
+     "deal_date_raw": "11/01/2022",
+     "size_sqm": 218
     }
    ],
    "primary_row_index": 0,
@@ -17043,7 +17458,8 @@
      "price_nis_raw": "2631000",
      "price_nis": 2631000,
      "csv_price_per_sqm": 46982,
-     "deal_date_raw": "2025-05-11"
+     "deal_date_raw": "2025-05-11",
+     "size_sqm": 56
     }
    ],
    "primary_row_index": 0,
@@ -17083,7 +17499,8 @@
      "price_nis_raw": "6,124,000",
      "price_nis": 6124000,
      "csv_price_per_sqm": 69591,
-     "deal_date_raw": "2026-05-11"
+     "deal_date_raw": "2026-05-11",
+     "size_sqm": 88
     }
    ],
    "primary_row_index": 0,
@@ -17123,7 +17540,8 @@
      "price_nis_raw": "6859000",
      "price_nis": 6859000,
      "csv_price_per_sqm": 69283,
-     "deal_date_raw": "2026-01-22"
+     "deal_date_raw": "2026-01-22",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -17163,7 +17581,8 @@
      "price_nis_raw": "2931000",
      "price_nis": 2931000,
      "csv_price_per_sqm": 39608,
-     "deal_date_raw": "2026-03-20"
+     "deal_date_raw": "2026-03-20",
+     "size_sqm": 74
     }
    ],
    "primary_row_index": 0,
@@ -17203,7 +17622,8 @@
      "price_nis_raw": "7176000",
      "price_nis": 7176000,
      "csv_price_per_sqm": 65236,
-     "deal_date_raw": "21/10/2024"
+     "deal_date_raw": "21/10/2024",
+     "size_sqm": 110
     }
    ],
    "primary_row_index": 0,
@@ -17243,7 +17663,8 @@
      "price_nis_raw": "₪3,068,000",
      "price_nis": 3068000,
      "csv_price_per_sqm": 36094,
-     "deal_date_raw": "2025-07-12"
+     "deal_date_raw": "2025-07-12",
+     "size_sqm": 85
     }
    ],
    "primary_row_index": 0,
@@ -17287,7 +17708,8 @@
      "price_nis_raw": "5486000",
      "price_nis": 5486000,
      "csv_price_per_sqm": 40940,
-     "deal_date_raw": "2024-11-25"
+     "deal_date_raw": "2024-11-25",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -17331,7 +17753,8 @@
      "price_nis_raw": "5816000",
      "price_nis": 5816000,
      "csv_price_per_sqm": 40797,
-     "deal_date_raw": "2023-06-27"
+     "deal_date_raw": "2023-06-27",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -17375,7 +17798,8 @@
      "price_nis_raw": "8414000",
      "price_nis": 8414000,
      "csv_price_per_sqm": 54284,
-     "deal_date_raw": "2022-12-19"
+     "deal_date_raw": "2022-12-19",
+     "size_sqm": 155
     }
    ],
    "primary_row_index": 0,
@@ -17421,7 +17845,8 @@
      "price_nis_raw": "6899000",
      "price_nis": 6899000,
      "csv_price_per_sqm": 54323,
-     "deal_date_raw": "2023-08-15"
+     "deal_date_raw": "2023-08-15",
+     "size_sqm": 127
     },
     {
      "row_index": 507,
@@ -17429,7 +17854,8 @@
      "price_nis_raw": "6899000",
      "price_nis": 6899000,
      "csv_price_per_sqm": 54323,
-     "deal_date_raw": "2023-08-15"
+     "deal_date_raw": "2023-08-15",
+     "size_sqm": 127
     }
    ],
    "primary_row_index": 0,
@@ -17475,7 +17901,8 @@
      "price_nis_raw": "₪1,884,000",
      "price_nis": 1884000,
      "csv_price_per_sqm": 19528,
-     "deal_date_raw": "10/08/2024"
+     "deal_date_raw": "10/08/2024",
+     "size_sqm": 109
     }
    ],
    "primary_row_index": 0,
@@ -17515,7 +17942,8 @@
      "price_nis_raw": "2920000",
      "price_nis": 2920000,
      "csv_price_per_sqm": 32809,
-     "deal_date_raw": "26.12.2024"
+     "deal_date_raw": "26.12.2024",
+     "size_sqm": 89
     }
    ],
    "primary_row_index": 0,
@@ -17559,7 +17987,8 @@
      "price_nis_raw": "5744000",
      "price_nis": 5744000,
      "csv_price_per_sqm": 63121,
-     "deal_date_raw": "2021-09-20"
+     "deal_date_raw": "2021-09-20",
+     "size_sqm": 91
     }
    ],
    "primary_row_index": 0,
@@ -17599,7 +18028,8 @@
      "price_nis_raw": "2841000",
      "price_nis": 2841000,
      "csv_price_per_sqm": 38918,
-     "deal_date_raw": "2026-03-08"
+     "deal_date_raw": "2026-03-08",
+     "size_sqm": 73
     }
    ],
    "primary_row_index": 0,
@@ -17643,7 +18073,8 @@
      "price_nis_raw": "5224000",
      "price_nis": 5224000,
      "csv_price_per_sqm": 67844,
-     "deal_date_raw": "2024-04-11"
+     "deal_date_raw": "2024-04-11",
+     "size_sqm": 77
     }
    ],
    "primary_row_index": 0,
@@ -17687,7 +18118,8 @@
      "price_nis_raw": "6944000",
      "price_nis": 6944000,
      "csv_price_per_sqm": 36547,
-     "deal_date_raw": "2026-07-18"
+     "deal_date_raw": "2026-07-18",
+     "size_sqm": 190
     }
    ],
    "primary_row_index": 0,
@@ -17727,7 +18159,8 @@
      "price_nis_raw": "5,242,000",
      "price_nis": 5242000,
      "csv_price_per_sqm": 67205,
-     "deal_date_raw": "2025-07-21"
+     "deal_date_raw": "2025-07-21",
+     "size_sqm": 78
     }
    ],
    "primary_row_index": 0,
@@ -17767,7 +18200,8 @@
      "price_nis_raw": "6922000",
      "price_nis": 6922000,
      "csv_price_per_sqm": 65302,
-     "deal_date_raw": "2026-05-16"
+     "deal_date_raw": "2026-05-16",
+     "size_sqm": 106
     }
    ],
    "primary_row_index": 0,
@@ -17807,7 +18241,8 @@
      "price_nis_raw": "3076000",
      "price_nis": 3076000,
      "csv_price_per_sqm": 56963,
-     "deal_date_raw": "2023-03-26"
+     "deal_date_raw": "2023-03-26",
+     "size_sqm": 54
     }
    ],
    "primary_row_index": 0,
@@ -17851,7 +18286,8 @@
      "price_nis_raw": "2683000",
      "price_nis": 2683000,
      "csv_price_per_sqm": 25829,
-     "deal_date_raw": "2023-04-25"
+     "deal_date_raw": "2023-04-25",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -17895,7 +18331,8 @@
      "price_nis_raw": "6809000",
      "price_nis": 6809000,
      "csv_price_per_sqm": 69480,
-     "deal_date_raw": "Nov 2024"
+     "deal_date_raw": "Nov 2024",
+     "size_sqm": 98
     }
    ],
    "primary_row_index": 0,
@@ -17935,7 +18372,8 @@
      "price_nis_raw": "9860000",
      "price_nis": 9860000,
      "csv_price_per_sqm": 52447,
-     "deal_date_raw": "2023-08-07"
+     "deal_date_raw": "2023-08-07",
+     "size_sqm": 188
     }
    ],
    "primary_row_index": 0,
@@ -17975,7 +18413,8 @@
      "price_nis_raw": "11554000",
      "price_nis": 11554000,
      "csv_price_per_sqm": 67965,
-     "deal_date_raw": "2023-09-08"
+     "deal_date_raw": "2023-09-08",
+     "size_sqm": 170
     }
    ],
    "primary_row_index": 0,
@@ -18021,7 +18460,8 @@
      "price_nis_raw": "14285000",
      "price_nis": 14285000,
      "csv_price_per_sqm": 59829,
-     "deal_date_raw": "2025-07-11"
+     "deal_date_raw": "2025-07-11",
+     "size_sqm": 258
     }
    ],
    "primary_row_index": 0,
@@ -18065,7 +18505,8 @@
      "price_nis_raw": "4854000",
      "price_nis": 4854000,
      "csv_price_per_sqm": 41291,
-     "deal_date_raw": "2024-07-25"
+     "deal_date_raw": "2024-07-25",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -18109,7 +18550,8 @@
      "price_nis_raw": "5132000",
      "price_nis": 5132000,
      "csv_price_per_sqm": 50812,
-     "deal_date_raw": "13/04/2024"
+     "deal_date_raw": "13/04/2024",
+     "size_sqm": 101
     }
    ],
    "primary_row_index": 0,
@@ -18153,7 +18595,8 @@
      "price_nis_raw": "10310000",
      "price_nis": 10310000,
      "csv_price_per_sqm": 72606,
-     "deal_date_raw": "2025-12-16"
+     "deal_date_raw": "2025-12-16",
+     "size_sqm": 142
     }
    ],
    "primary_row_index": 0,
@@ -18197,7 +18640,8 @@
      "price_nis_raw": "8154000",
      "price_nis": 8154000,
      "csv_price_per_sqm": 34189,
-     "deal_date_raw": "2025-12-01"
+     "deal_date_raw": "2025-12-01",
+     "size_sqm": 202
     }
    ],
    "primary_row_index": 0,
@@ -18237,7 +18681,8 @@
      "price_nis_raw": "2820000",
      "price_nis": 2820000,
      "csv_price_per_sqm": 20584,
-     "deal_date_raw": "2025-01-10"
+     "deal_date_raw": "2025-01-10",
+     "size_sqm": 137
     }
    ],
    "primary_row_index": 0,
@@ -18277,7 +18722,8 @@
      "price_nis_raw": "2156000",
      "price_nis": 2156000,
      "csv_price_per_sqm": 35933,
-     "deal_date_raw": "2025-12-05"
+     "deal_date_raw": "2025-12-05",
+     "size_sqm": 60
     }
    ],
    "primary_row_index": 0,
@@ -18317,7 +18763,8 @@
      "price_nis_raw": "8006000",
      "price_nis": 8006000,
      "csv_price_per_sqm": 52671,
-     "deal_date_raw": "2023-09-19"
+     "deal_date_raw": "2023-09-19",
+     "size_sqm": 152
     }
    ],
    "primary_row_index": 0,
@@ -18357,7 +18804,8 @@
      "price_nis_raw": "2065000",
      "price_nis": 2065000,
      "csv_price_per_sqm": 31769,
-     "deal_date_raw": "2024-11-19"
+     "deal_date_raw": "2024-11-19",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -18397,7 +18845,8 @@
      "price_nis_raw": "5617000",
      "price_nis": 5617000,
      "csv_price_per_sqm": 45667,
-     "deal_date_raw": "20/06/2023"
+     "deal_date_raw": "20/06/2023",
+     "size_sqm": 123
     }
    ],
    "primary_row_index": 0,
@@ -18437,7 +18886,8 @@
      "price_nis_raw": "9486000",
      "price_nis": 9486000,
      "csv_price_per_sqm": 109034,
-     "deal_date_raw": "2025-03-26"
+     "deal_date_raw": "2025-03-26",
+     "size_sqm": 87
     }
    ],
    "primary_row_index": 0,
@@ -18477,7 +18927,8 @@
      "price_nis_raw": "4333000",
      "price_nis": 4333000,
      "csv_price_per_sqm": 46096,
-     "deal_date_raw": "2025-08-23"
+     "deal_date_raw": "2025-08-23",
+     "size_sqm": 94
     }
    ],
    "primary_row_index": 0,
@@ -18517,7 +18968,8 @@
      "price_nis_raw": "3378000",
      "price_nis": 3378000,
      "csv_price_per_sqm": 51182,
-     "deal_date_raw": "2022-04-02"
+     "deal_date_raw": "2022-04-02",
+     "size_sqm": 66
     }
    ],
    "primary_row_index": 0,
@@ -18561,7 +19013,8 @@
      "price_nis_raw": "12,985,000",
      "price_nis": 12985000,
      "csv_price_per_sqm": 99885,
-     "deal_date_raw": "2023-10-17"
+     "deal_date_raw": "2023-10-17",
+     "size_sqm": 130
     }
    ],
    "primary_row_index": 0,
@@ -18605,7 +19058,8 @@
      "price_nis_raw": "5406000",
      "price_nis": 5406000,
      "csv_price_per_sqm": 35385,
-     "deal_date_raw": "2021-12-19"
+     "deal_date_raw": "2021-12-19",
+     "size_sqm": 120
     }
    ],
    "primary_row_index": 0,
@@ -18649,7 +19103,8 @@
      "price_nis_raw": "8141000",
      "price_nis": 8141000,
      "csv_price_per_sqm": 58150,
-     "deal_date_raw": "Oct 2025"
+     "deal_date_raw": "Oct 2025",
+     "size_sqm": 140
     }
    ],
    "primary_row_index": 0,
@@ -18693,7 +19148,8 @@
      "price_nis_raw": "4,407,000",
      "price_nis": 4407000,
      "csv_price_per_sqm": 41187,
-     "deal_date_raw": "11/01/2026"
+     "deal_date_raw": "11/01/2026",
+     "size_sqm": 107
     }
    ],
    "primary_row_index": 0,
@@ -18737,7 +19193,8 @@
      "price_nis_raw": "5053000",
      "price_nis": 5053000,
      "csv_price_per_sqm": 56775,
-     "deal_date_raw": "2025-03-22"
+     "deal_date_raw": "2025-03-22",
+     "size_sqm": 89
     }
    ],
    "primary_row_index": 0,
@@ -18781,7 +19238,8 @@
      "price_nis_raw": "6482000",
      "price_nis": 6482000,
      "csv_price_per_sqm": 65475,
-     "deal_date_raw": "2024-09-01"
+     "deal_date_raw": "2024-09-01",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -18827,7 +19285,8 @@
      "price_nis_raw": "2805000",
      "price_nis": 2805000,
      "csv_price_per_sqm": 21313,
-     "deal_date_raw": "Oct 2021"
+     "deal_date_raw": "Oct 2021",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -18867,7 +19326,8 @@
      "price_nis_raw": "1358000",
      "price_nis": 1358000,
      "csv_price_per_sqm": 13184,
-     "deal_date_raw": "2025-07-20"
+     "deal_date_raw": "2025-07-20",
+     "size_sqm": 103
     }
    ],
    "primary_row_index": 0,
@@ -18907,7 +19367,8 @@
      "price_nis_raw": "3101000",
      "price_nis": 3101000,
      "csv_price_per_sqm": 31010,
-     "deal_date_raw": "2025-07-14"
+     "deal_date_raw": "2025-07-14",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -18947,7 +19408,8 @@
      "price_nis_raw": "4375000",
      "price_nis": 4375000,
      "csv_price_per_sqm": 45573,
-     "deal_date_raw": "28.12.2024"
+     "deal_date_raw": "28.12.2024",
+     "size_sqm": 96
     }
    ],
    "primary_row_index": 0,
@@ -18987,7 +19449,8 @@
      "price_nis_raw": "4220000",
      "price_nis": 4220000,
      "csv_price_per_sqm": 42200,
-     "deal_date_raw": "01/02/2025"
+     "deal_date_raw": "01/02/2025",
+     "size_sqm": 100
     }
    ],
    "primary_row_index": 0,
@@ -19027,7 +19490,8 @@
      "price_nis_raw": "3009000",
      "price_nis": 3009000,
      "csv_price_per_sqm": 32707,
-     "deal_date_raw": "2026-06-21"
+     "deal_date_raw": "2026-06-21",
+     "size_sqm": 92
     }
    ],
    "primary_row_index": 0,
@@ -19067,7 +19531,8 @@
      "price_nis_raw": "4600000",
      "price_nis": 4600000,
      "csv_price_per_sqm": 46465,
-     "deal_date_raw": "2025-10-09"
+     "deal_date_raw": "2025-10-09",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -19107,7 +19572,8 @@
      "price_nis_raw": "5568000",
      "price_nis": 5568000,
      "csv_price_per_sqm": 41552,
-     "deal_date_raw": "2023-10-01"
+     "deal_date_raw": "2023-10-01",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -19147,7 +19613,8 @@
      "price_nis_raw": "4440000",
      "price_nis": 4440000,
      "csv_price_per_sqm": 45773,
-     "deal_date_raw": "2022-10-25"
+     "deal_date_raw": "2022-10-25",
+     "size_sqm": 97
     }
    ],
    "primary_row_index": 0,
@@ -19187,7 +19654,8 @@
      "price_nis_raw": "4140000",
      "price_nis": 4140000,
      "csv_price_per_sqm": 30219,
-     "deal_date_raw": "2025-08-06"
+     "deal_date_raw": "2025-08-06",
+     "size_sqm": 137
     }
    ],
    "primary_row_index": 0,
@@ -19227,7 +19695,8 @@
      "price_nis_raw": "3,194,000",
      "price_nis": 3194000,
      "csv_price_per_sqm": 32263,
-     "deal_date_raw": "07.10.2021"
+     "deal_date_raw": "07.10.2021",
+     "size_sqm": 99
     }
    ],
    "primary_row_index": 0,
@@ -19267,7 +19736,8 @@
      "price_nis_raw": "4023000",
      "price_nis": 4023000,
      "csv_price_per_sqm": 55110,
-     "deal_date_raw": "2025-09-10"
+     "deal_date_raw": "2025-09-10",
+     "size_sqm": 73
     }
    ],
    "primary_row_index": 0,
@@ -19311,7 +19781,8 @@
      "price_nis_raw": "2425000",
      "price_nis": 2425000,
      "csv_price_per_sqm": 28529,
-     "deal_date_raw": "20/05/2022"
+     "deal_date_raw": "20/05/2022",
+     "size_sqm": 85
     }
    ],
    "primary_row_index": 0,
@@ -19351,7 +19822,8 @@
      "price_nis_raw": "827000",
      "price_nis": 827000,
      "csv_price_per_sqm": 27567,
-     "deal_date_raw": "2024-07-25"
+     "deal_date_raw": "2024-07-25",
+     "size_sqm": 30
     }
    ],
    "primary_row_index": 0,
@@ -19395,7 +19867,8 @@
      "price_nis_raw": "14551000",
      "price_nis": 14551000,
      "csv_price_per_sqm": 66748,
-     "deal_date_raw": "Dec 2025"
+     "deal_date_raw": "Dec 2025",
+     "size_sqm": 218
     }
    ],
    "primary_row_index": 0,
@@ -19435,7 +19908,8 @@
      "price_nis_raw": "2516000",
      "price_nis": 2516000,
      "csv_price_per_sqm": 50320,
-     "deal_date_raw": "2024-10-07"
+     "deal_date_raw": "2024-10-07",
+     "size_sqm": 50
     }
    ],
    "primary_row_index": 0,
@@ -19479,7 +19953,8 @@
      "price_nis_raw": "9696000",
      "price_nis": 9696000,
      "csv_price_per_sqm": 61367,
-     "deal_date_raw": "2025-12-09"
+     "deal_date_raw": "2025-12-09",
+     "size_sqm": 158
     }
    ],
    "primary_row_index": 0,
@@ -19519,7 +19994,8 @@
      "price_nis_raw": "7277000",
      "price_nis": 7277000,
      "csv_price_per_sqm": 61151,
-     "deal_date_raw": "06/09/2025"
+     "deal_date_raw": "06/09/2025",
+     "size_sqm": 119
     }
    ],
    "primary_row_index": 0,
@@ -19559,7 +20035,8 @@
      "price_nis_raw": "2,267,000",
      "price_nis": 2267000,
      "csv_price_per_sqm": 75567,
-     "deal_date_raw": "2024-01-20"
+     "deal_date_raw": "2024-01-20",
+     "size_sqm": 30
     }
    ],
    "primary_row_index": 0,
@@ -19599,7 +20076,8 @@
      "price_nis_raw": "₪12,144,000",
      "price_nis": 12144000,
      "csv_price_per_sqm": 70197,
-     "deal_date_raw": "2023-02-11"
+     "deal_date_raw": "2023-02-11",
+     "size_sqm": 173
     }
    ],
    "primary_row_index": 0,
@@ -19643,7 +20121,8 @@
      "price_nis_raw": "3794000",
      "price_nis": 3794000,
      "csv_price_per_sqm": 60222,
-     "deal_date_raw": "May 2026"
+     "deal_date_raw": "May 2026",
+     "size_sqm": 63
     }
    ],
    "primary_row_index": 0,
@@ -19683,7 +20162,8 @@
      "price_nis_raw": "11209000",
      "price_nis": 11209000,
      "csv_price_per_sqm": 53889,
-     "deal_date_raw": "03.07.2026"
+     "deal_date_raw": "03.07.2026",
+     "size_sqm": 208
     }
    ],
    "primary_row_index": 0,
@@ -19723,7 +20203,8 @@
      "price_nis_raw": "1977000",
      "price_nis": 1977000,
      "csv_price_per_sqm": 27458,
-     "deal_date_raw": "14.03.2024"
+     "deal_date_raw": "14.03.2024",
+     "size_sqm": 72
     }
    ],
    "primary_row_index": 0,
@@ -19763,7 +20244,8 @@
      "price_nis_raw": "3482000",
      "price_nis": 3482000,
      "csv_price_per_sqm": 53569,
-     "deal_date_raw": "2023-10-24"
+     "deal_date_raw": "2023-10-24",
+     "size_sqm": 65
     }
    ],
    "primary_row_index": 0,
@@ -19803,7 +20285,8 @@
      "price_nis_raw": "3266000",
      "price_nis": 3266000,
      "csv_price_per_sqm": 42416,
-     "deal_date_raw": "2024-10-07"
+     "deal_date_raw": "2024-10-07",
+     "size_sqm": 77
     }
    ],
    "primary_row_index": 0,
@@ -19843,7 +20326,8 @@
      "price_nis_raw": "3868000",
      "price_nis": 3868000,
      "csv_price_per_sqm": 63410,
-     "deal_date_raw": "06/04/2025"
+     "deal_date_raw": "06/04/2025",
+     "size_sqm": 61
     }
    ],
    "primary_row_index": 0,
@@ -19887,7 +20371,8 @@
      "price_nis_raw": "9577000",
      "price_nis": 9577000,
      "csv_price_per_sqm": null,
-     "deal_date_raw": "2026-02-09"
+     "deal_date_raw": "2026-02-09",
+     "size_sqm": null
     }
    ],
    "primary_row_index": 0,
@@ -19927,7 +20412,8 @@
      "price_nis_raw": "4594000",
      "price_nis": 4594000,
      "csv_price_per_sqm": 42537,
-     "deal_date_raw": "2023-09-07"
+     "deal_date_raw": "2023-09-07",
+     "size_sqm": 108
     }
    ],
    "primary_row_index": 0,
@@ -19971,7 +20457,8 @@
      "price_nis_raw": "4,331,000",
      "price_nis": 4331000,
      "csv_price_per_sqm": 27763,
-     "deal_date_raw": "2024-04-09"
+     "deal_date_raw": "2024-04-09",
+     "size_sqm": 156
     }
    ],
    "primary_row_index": 0,
@@ -20011,7 +20498,8 @@
      "price_nis_raw": "4165000",
      "price_nis": 4165000,
      "csv_price_per_sqm": 36217,
-     "deal_date_raw": "2025-11-14"
+     "deal_date_raw": "2025-11-14",
+     "size_sqm": 115
     }
    ],
    "primary_row_index": 0,
@@ -20051,7 +20539,8 @@
      "price_nis_raw": "2101000",
      "price_nis": 2101000,
      "csv_price_per_sqm": 30897,
-     "deal_date_raw": "2024-10-15"
+     "deal_date_raw": "2024-10-15",
+     "size_sqm": 68
     }
    ],
    "primary_row_index": 0,
@@ -20097,7 +20586,8 @@
      "price_nis_raw": "2024000",
      "price_nis": 2024000,
      "csv_price_per_sqm": 9334,
-     "deal_date_raw": "28/02/2021"
+     "deal_date_raw": "28/02/2021",
+     "size_sqm": 207
     }
    ],
    "primary_row_index": 0,
@@ -20141,7 +20631,8 @@
      "price_nis_raw": "2262000",
      "price_nis": 2262000,
      "csv_price_per_sqm": 23811,
-     "deal_date_raw": "2021-02-19"
+     "deal_date_raw": "2021-02-19",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -20181,7 +20672,8 @@
      "price_nis_raw": "12787000",
      "price_nis": 12787000,
      "csv_price_per_sqm": 79919,
-     "deal_date_raw": "2026-07-01"
+     "deal_date_raw": "2026-07-01",
+     "size_sqm": 160
     }
    ],
    "primary_row_index": 0,
@@ -20221,7 +20713,8 @@
      "price_nis_raw": "2897000",
      "price_nis": 2897000,
      "csv_price_per_sqm": 30177,
-     "deal_date_raw": "04/05/2023"
+     "deal_date_raw": "04/05/2023",
+     "size_sqm": 96
     }
    ],
    "primary_row_index": 0,
@@ -20261,7 +20754,8 @@
      "price_nis_raw": "₪2,217,000",
      "price_nis": 2217000,
      "csv_price_per_sqm": 32130,
-     "deal_date_raw": "2024-07-20"
+     "deal_date_raw": "2024-07-20",
+     "size_sqm": 69
     }
    ],
    "primary_row_index": 0,
@@ -20301,7 +20795,8 @@
      "price_nis_raw": "10882000",
      "price_nis": 10882000,
      "csv_price_per_sqm": 83069,
-     "deal_date_raw": "2022-12-08"
+     "deal_date_raw": "2022-12-08",
+     "size_sqm": 131
     }
    ],
    "primary_row_index": 0,
@@ -20341,7 +20836,8 @@
      "price_nis_raw": "5871000",
      "price_nis": 5871000,
      "csv_price_per_sqm": 49754,
-     "deal_date_raw": "26/06/2025"
+     "deal_date_raw": "26/06/2025",
+     "size_sqm": 118
     }
    ],
    "primary_row_index": 0,
@@ -20385,7 +20881,8 @@
      "price_nis_raw": "6305000",
      "price_nis": 6305000,
      "csv_price_per_sqm": 53889,
-     "deal_date_raw": "Jan 2023"
+     "deal_date_raw": "Jan 2023",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -20429,7 +20926,8 @@
      "price_nis_raw": "5,378,000",
      "price_nis": 5378000,
      "csv_price_per_sqm": 47593,
-     "deal_date_raw": "2024-11-10"
+     "deal_date_raw": "2024-11-10",
+     "size_sqm": 113
     }
    ],
    "primary_row_index": 0,
@@ -20469,7 +20967,8 @@
      "price_nis_raw": "8865000",
      "price_nis": 8865000,
      "csv_price_per_sqm": 47661,
-     "deal_date_raw": "19/07/2021"
+     "deal_date_raw": "19/07/2021",
+     "size_sqm": 186
     }
    ],
    "primary_row_index": 0,
@@ -20513,7 +21012,8 @@
      "price_nis_raw": "3922000",
      "price_nis": 3922000,
      "csv_price_per_sqm": 48420,
-     "deal_date_raw": "18.01.2026"
+     "deal_date_raw": "18.01.2026",
+     "size_sqm": 81
     }
    ],
    "primary_row_index": 0,
@@ -20553,7 +21053,8 @@
      "price_nis_raw": "2,992,000",
      "price_nis": 2992000,
      "csv_price_per_sqm": 26714,
-     "deal_date_raw": "23.08.2022"
+     "deal_date_raw": "23.08.2022",
+     "size_sqm": 112
     }
    ],
    "primary_row_index": 0,
@@ -20593,7 +21094,8 @@
      "price_nis_raw": "1,084,000",
      "price_nis": 1084000,
      "csv_price_per_sqm": 25810,
-     "deal_date_raw": "2024-02-22"
+     "deal_date_raw": "2024-02-22",
+     "size_sqm": 42
     }
    ],
    "primary_row_index": 0,
@@ -20633,7 +21135,8 @@
      "price_nis_raw": "2185000",
      "price_nis": 2185000,
      "csv_price_per_sqm": 27658,
-     "deal_date_raw": "25.08.2023"
+     "deal_date_raw": "25.08.2023",
+     "size_sqm": 79
     }
    ],
    "primary_row_index": 0,
@@ -20673,7 +21176,8 @@
      "price_nis_raw": "2286000",
      "price_nis": 2286000,
      "csv_price_per_sqm": 39414,
-     "deal_date_raw": "2025-12-02"
+     "deal_date_raw": "2025-12-02",
+     "size_sqm": 58
     }
    ],
    "primary_row_index": 0,
@@ -20717,7 +21221,8 @@
      "price_nis_raw": "9570000",
      "price_nis": 9570000,
      "csv_price_per_sqm": 83947,
-     "deal_date_raw": "23/02/2026"
+     "deal_date_raw": "23/02/2026",
+     "size_sqm": 114
     }
    ],
    "primary_row_index": 0,
@@ -20761,7 +21266,8 @@
      "price_nis_raw": "2249000",
      "price_nis": 2249000,
      "csv_price_per_sqm": 14894,
-     "deal_date_raw": "2024-07-13"
+     "deal_date_raw": "2024-07-13",
+     "size_sqm": 151
     }
    ],
    "primary_row_index": 0,
@@ -20801,7 +21307,8 @@
      "price_nis_raw": "3953000",
      "price_nis": 3953000,
      "csv_price_per_sqm": 41611,
-     "deal_date_raw": "2026-03-04"
+     "deal_date_raw": "2026-03-04",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -20841,7 +21348,8 @@
      "price_nis_raw": "4359000",
      "price_nis": 4359000,
      "csv_price_per_sqm": 48433,
-     "deal_date_raw": "25/04/2025"
+     "deal_date_raw": "25/04/2025",
+     "size_sqm": 90
     }
    ],
    "primary_row_index": 0,
@@ -20885,7 +21393,8 @@
      "price_nis_raw": "4117000",
      "price_nis": 4117000,
      "csv_price_per_sqm": 35491,
-     "deal_date_raw": "17/05/2026"
+     "deal_date_raw": "17/05/2026",
+     "size_sqm": 116
     }
    ],
    "primary_row_index": 0,
@@ -20925,7 +21434,8 @@
      "price_nis_raw": "2536000",
      "price_nis": 2536000,
      "csv_price_per_sqm": 40903,
-     "deal_date_raw": "2025-01-19"
+     "deal_date_raw": "2025-01-19",
+     "size_sqm": 62
     }
    ],
    "primary_row_index": 0,
@@ -20965,7 +21475,8 @@
      "price_nis_raw": "1,313,000",
      "price_nis": 1313000,
      "csv_price_per_sqm": 17276,
-     "deal_date_raw": "2026-03-24"
+     "deal_date_raw": "2026-03-24",
+     "size_sqm": 76
     }
    ],
    "primary_row_index": 0,
@@ -21005,7 +21516,8 @@
      "price_nis_raw": "7313000",
      "price_nis": 7313000,
      "csv_price_per_sqm": 47181,
-     "deal_date_raw": "19.04.2022"
+     "deal_date_raw": "19.04.2022",
+     "size_sqm": 155
     }
    ],
    "primary_row_index": 0,
@@ -21049,7 +21561,8 @@
      "price_nis_raw": "2749000",
      "price_nis": 2749000,
      "csv_price_per_sqm": 30209,
-     "deal_date_raw": "01.08.2022"
+     "deal_date_raw": "01.08.2022",
+     "size_sqm": 91
     }
    ],
    "primary_row_index": 0,
@@ -21089,7 +21602,8 @@
      "price_nis_raw": "3952000",
      "price_nis": 3952000,
      "csv_price_per_sqm": 48195,
-     "deal_date_raw": "11.01.2021"
+     "deal_date_raw": "11.01.2021",
+     "size_sqm": 82
     }
    ],
    "primary_row_index": 0,
@@ -21133,7 +21647,8 @@
      "price_nis_raw": "10315000",
      "price_nis": 10315000,
      "csv_price_per_sqm": 57626,
-     "deal_date_raw": "Aug 2024"
+     "deal_date_raw": "Aug 2024",
+     "size_sqm": 179
     }
    ],
    "primary_row_index": 0,
@@ -21177,7 +21692,8 @@
      "price_nis_raw": "2288000",
      "price_nis": 2288000,
      "csv_price_per_sqm": 38780,
-     "deal_date_raw": "Mar 2026"
+     "deal_date_raw": "Mar 2026",
+     "size_sqm": 59
     }
    ],
    "primary_row_index": 0,
@@ -21217,7 +21733,8 @@
      "price_nis_raw": "4101000",
      "price_nis": 4101000,
      "csv_price_per_sqm": 39433,
-     "deal_date_raw": "2026-01-21"
+     "deal_date_raw": "2026-01-21",
+     "size_sqm": 104
     }
    ],
    "primary_row_index": 0,
@@ -21257,7 +21774,8 @@
      "price_nis_raw": "2781000",
      "price_nis": 2781000,
      "csv_price_per_sqm": 20152,
-     "deal_date_raw": "2023-09-28"
+     "deal_date_raw": "2023-09-28",
+     "size_sqm": 138
     }
    ],
    "primary_row_index": 0,
@@ -21301,7 +21819,8 @@
      "price_nis_raw": "5718000",
      "price_nis": 5718000,
      "csv_price_per_sqm": 48872,
-     "deal_date_raw": "24/01/2026"
+     "deal_date_raw": "24/01/2026",
+     "size_sqm": 117
     }
    ],
    "primary_row_index": 0,
@@ -21345,7 +21864,8 @@
      "price_nis_raw": "5,747,000",
      "price_nis": 5747000,
      "csv_price_per_sqm": 41929,
-     "deal_date_raw": "23/04/2024"
+     "deal_date_raw": "23/04/2024",
+     "size_sqm": 129
     }
    ],
    "primary_row_index": 0,
@@ -21389,7 +21909,8 @@
      "price_nis_raw": "11317000",
      "price_nis": 11317000,
      "csv_price_per_sqm": 79697,
-     "deal_date_raw": "2025-10-10"
+     "deal_date_raw": "2025-10-10",
+     "size_sqm": 142
     }
    ],
    "primary_row_index": 0,
@@ -21429,7 +21950,8 @@
      "price_nis_raw": "7004000",
      "price_nis": 7004000,
      "csv_price_per_sqm": 43775,
-     "deal_date_raw": "2025-11-03"
+     "deal_date_raw": "2025-11-03",
+     "size_sqm": 160
     }
    ],
    "primary_row_index": 0,
@@ -21473,7 +21995,8 @@
      "price_nis_raw": "3148000",
      "price_nis": 3148000,
      "csv_price_per_sqm": 17405,
-     "deal_date_raw": "2026-07-11"
+     "deal_date_raw": "2026-07-11",
+     "size_sqm": 181
     }
    ],
    "primary_row_index": 0,
@@ -21517,7 +22040,8 @@
      "price_nis_raw": "1325000",
      "price_nis": 1325000,
      "csv_price_per_sqm": 17434,
-     "deal_date_raw": "2026-02-16"
+     "deal_date_raw": "2026-02-16",
+     "size_sqm": 76
     }
    ],
    "primary_row_index": 0,
@@ -21557,7 +22081,8 @@
      "price_nis_raw": "3695000",
      "price_nis": 3695000,
      "csv_price_per_sqm": 38895,
-     "deal_date_raw": "2025-12-28"
+     "deal_date_raw": "2025-12-28",
+     "size_sqm": 95
     }
    ],
    "primary_row_index": 0,
@@ -21597,7 +22122,8 @@
      "price_nis_raw": "6960000",
      "price_nis": 6960000,
      "csv_price_per_sqm": 51940,
-     "deal_date_raw": "2024-08-01"
+     "deal_date_raw": "2024-08-01",
+     "size_sqm": 134
     }
    ],
    "primary_row_index": 0,
@@ -21637,7 +22163,8 @@
      "price_nis_raw": "7302000",
      "price_nis": 7302000,
      "csv_price_per_sqm": 34771,
-     "deal_date_raw": "2024-03-26"
+     "deal_date_raw": "2024-03-26",
+     "size_sqm": 210
     }
    ],
    "primary_row_index": 0,
@@ -21677,7 +22204,8 @@
      "price_nis_raw": "2242000",
      "price_nis": 2242000,
      "csv_price_per_sqm": 31577,
-     "deal_date_raw": "2021-11-25"
+     "deal_date_raw": "2021-11-25",
+     "size_sqm": 71
     }
    ],
    "primary_row_index": 0,
@@ -21717,7 +22245,8 @@
      "price_nis_raw": "4780000",
      "price_nis": 4780000,
      "csv_price_per_sqm": 33194,
-     "deal_date_raw": "2023-06-27"
+     "deal_date_raw": "2023-06-27",
+     "size_sqm": 144
     }
    ],
    "primary_row_index": 0,
@@ -21757,7 +22286,8 @@
      "price_nis_raw": "3087000",
      "price_nis": 3087000,
      "csv_price_per_sqm": 33554,
-     "deal_date_raw": "2021-06-25"
+     "deal_date_raw": "2021-06-25",
+     "size_sqm": 92
     }
    ],
    "primary_row_index": 0,

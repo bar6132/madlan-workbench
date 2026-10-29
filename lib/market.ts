@@ -45,13 +45,19 @@ function points(deals: ProcessedDeal[], raw: boolean): Point[] {
   );
 }
 
-export function marketContext(deal: ProcessedDeal, opts: { raw?: boolean } = {}): MarketContext {
+/** `source` lets callers ask "what would the market numbers be with this deal list" (used by correction previews). */
+export function marketContext(
+  deal: ProcessedDeal,
+  opts: { raw?: boolean } = {},
+  source?: { deals: ProcessedDeal[]; latest_deal_date: string },
+): MarketContext {
   const raw = opts.raw ?? false;
-  const to = loadDataset().summary.latest_deal_date.slice(0, 7);
+  const ds = source ?? { deals: loadDataset().deals, latest_deal_date: loadDataset().summary.latest_deal_date };
+  const to = ds.latest_deal_date.slice(0, 7);
   const from = shiftMonth(to, -(WINDOW_MONTHS - 1));
   const window = { from, to };
 
-  const base = loadDataset().deals.filter((d) => {
+  const base = ds.deals.filter((d) => {
     if (d.city !== deal.city || !d.deal_date) return false;
     const month = d.deal_date.slice(0, 7);
     if (month < from || month > to) return false;

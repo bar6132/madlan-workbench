@@ -108,7 +108,7 @@ export function ReplyBox({ r }: { r: AnalyzeResult }) {
   return (
     <Card title="תשובה ללקוח">
       <div className="mb-2 flex items-center gap-3">
-        <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ${reply.source === 'LLM' ? 'bg-indigo-50 text-indigo-800 ring-indigo-200' : 'bg-slate-100 text-slate-700 ring-slate-300'}`}>
+        <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ring-1 ${reply.source === 'LLM' ? 'bg-indigo-50 text-indigo-900 ring-indigo-200' : 'bg-slate-100 text-slate-700 ring-slate-300'}`}>
           {reply.source === 'LLM' ? 'טיוטה שנוצרה ב-AI' : 'תבנית מוכנה'}
         </span>
         <span className="text-xs text-slate-500">כל המספרים נבדקו מול הנתונים. קראו וערכו לפני שליחה.</span>

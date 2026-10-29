@@ -1,10 +1,13 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState, useSyncExternalStore } from 'react';
 import { Banner } from '@/components/bits';
 import { CandidatePicker, ComplaintForm, ManualForm } from '@/components/Forms';
 import { DebugPanel, type SimulateValue } from '@/components/DebugPanel';
+import { CorrectionProposal } from '@/components/CorrectionProposal';
+import { suggestFixes } from '@/lib/correction-core';
 import { ClaimCard, EscalationNote, MarketPanel, ReplyBox, VerdictEvidence } from '@/components/Results';
 import { toView, type ApiResponse } from '@/lib/view';
+import { debugEnabled } from '@/lib/debug';
 import type { AnalyzeResult } from '@/lib/analyze';
 
 const CLIENT_TIMEOUT_MS = 70_000;
@@ -18,16 +21,19 @@ export default function Home() {
   const [busy, setBusy] = useState(false);
   const [elapsed, setElapsed] = useState(0);
   const last = useRef<Record<string, unknown>>({});
-  const [debug, setDebug] = useState(false);
+  // The URL is the source of truth for ?debug=1 and ?deal=...; empty on the server, real value after hydration.
+  const search = useSyncExternalStore(() => () => {}, () => window.location.search, () => '');
+  const urlParams = new URLSearchParams(search);
+  const debug = debugEnabled() && urlParams.get('debug') === '1';
+  const presetDeal = (urlParams.get('deal') ?? '').slice(0, 12);
+  const [lastMessage, setLastMessage] = useState('');
   const [simulate, setSimulate] = useState<SimulateValue>('NONE');
   const [simulateReply, setSimulateReply] = useState<SimulateValue>('NONE');
 
-  useEffect(() => {
-    setDebug(new URLSearchParams(window.location.search).get('debug') === '1');
-  }, []);
 
   async function run(body: Record<string, unknown>) {
     last.current = body;
+    setLastMessage(String(body.message ?? ''));
     setBusy(true);
     setElapsed(0);
     const started = Date.now();
@@ -50,7 +56,7 @@ export default function Home() {
 
   const view = res ? toView(res) : null;
   const r = res && 'facts' in res ? (res as AnalyzeResult) : null;
-  const message = String(last.current.message ?? '');
+  const message = lastMessage;
 
   return (
     <main className="mx-auto w-full max-w-4xl space-y-4 px-4 py-6 sm:px-6">
@@ -59,7 +65,7 @@ export default function Home() {
         <p className="text-sm text-slate-600">שולחן בירור תלונות: מדביקים הודעת לקוח, מקבלים בדיקה מול הנתונים, הוכחות ותשובה מוכנה.</p>
       </header>
 
-      <ComplaintForm busy={busy} onSubmit={run} />
+      <ComplaintForm key={presetDeal} initialDealId={presetDeal} busy={busy} onSubmit={run} />
 
       {busy && (
         <div role="status" className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-700">
@@ -78,7 +84,10 @@ export default function Home() {
           <VerdictEvidence r={r} />
         </>
       )}
-      {!busy && r && view?.showReply && <ReplyBox key={r.trace_id} r={r} />}
+      {!busy && r && view?.showReply && <ReplyBox key={`reply-${r.trace_id}`} r={r} />}
+      {!busy && r?.deal && view?.showVerdict && (
+        <CorrectionProposal key={`correction-${r.trace_id}`} deal={r.deal} suggestions={suggestFixes(r.deal)} />
+      )}
       {!busy && r?.escalation_note && view?.showEscalation && <EscalationNote note={r.escalation_note} />}
       {!busy && r?.market && view?.showMarket && <MarketPanel clean={r.market} raw={r.market_raw} />}
 

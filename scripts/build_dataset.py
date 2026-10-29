@@ -206,7 +206,8 @@ def build_deal(group: list[tuple[int, dict]]) -> dict:
         "calculated_ppsm": calc,
         "source": p["source"],
         "flags": flags, "explanations_he": ex,
-        "raw_rows": [{k: v for k, v in r.items() if not k.startswith("_") and k != "_fields"} for r in rows],
+        "raw_rows": [{**{k: v for k, v in r.items() if not k.startswith("_") and k != "_fields"},
+                      "size_sqm": r["_size"]} for r in rows],
         "primary_row_index": p_idx,
         "primary_reason": reason,
     }

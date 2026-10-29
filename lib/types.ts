@@ -7,6 +7,7 @@ export const RawRowSchema = z.object({
   price_nis: z.number().nullable(),
   csv_price_per_sqm: z.number().nullable(),
   deal_date_raw: z.string(),
+  size_sqm: z.number().nullable(),
 });
 export type RawRow = z.infer<typeof RawRowSchema>;
 

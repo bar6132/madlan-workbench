@@ -1,0 +1,27 @@
+{
+ "_note": "Demo entries for the correction workflow. Each is a value DERIVED from the same CSV row; none is a guessed true price.",
+ "corrections": [
+  {
+   "deal_id": "D100313",
+   "row_index": 299,
+   "field": "price_per_sqm",
+   "old_value": 58234,
+   "new_value": 80628,
+   "reason": "המחיר למ\"ר שנרשם בקובץ אינו תואם למחיר חלקי שטח; עדכון לערך המחושב, בהנחה שהמחיר והשטח נכונים.",
+   "source_of_info": "חישוב: מחיר העסקה ÷ שטח, מתוך אותה שורה בקובץ",
+   "approved_by": "דוגמה להדגמת התהליך (לא אושר על ידי גורם בפועל)",
+   "approved_at": null
+  },
+  {
+   "deal_id": "D100044",
+   "row_index": 361,
+   "field": "price_per_sqm",
+   "old_value": 27033,
+   "new_value": 31937,
+   "reason": "המחיר למ\"ר שנרשם בקובץ אינו תואם למחיר חלקי שטח; עדכון לערך המחושב, בהנחה שהמחיר והשטח נכונים.",
+   "source_of_info": "חישוב: מחיר העסקה ÷ שטח, מתוך אותה שורה בקובץ",
+   "approved_by": "דוגמה להדגמת התהליך (לא אושר על ידי גורם בפועל)",
+   "approved_at": null
+  }
+ ]
+}
