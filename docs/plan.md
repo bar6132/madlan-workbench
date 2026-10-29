@@ -12,7 +12,7 @@
 
 ## Global Constraints
 
-- Project root is a new folder `madlan-workbench/` inside `c:\Users\Bar_PC\Desktop\Madlan R&D Operations Engineer\` (the parent folder name contains `&` and spaces, so do not scaffold in it). `git init` there. All paths below are relative to it.
+- Project root is a new folder `madlan-workbench/` inside `c:\Users\User_PC\Desktop\Madlan R&D Operations Engineer\` (the parent folder name contains `&` and spaces, so do not scaffold in it). `git init` there. All paths below are relative to it.
 - Whole product UI is Hebrew, `<html lang="he" dir="rtl">`, Heebo font. User reviews all Hebrew copy at the end.
 - No LLM math; the model never receives the customer's raw message in the reply step (§6.2). No `dangerouslySetInnerHTML`.
 - Thresholds: exclude price < 250,000 or missing/0; price/m² mismatch tolerance 1%; stated-value tolerance 1%; market window 24 months ending at the latest deal date in the file; N ≥ 5 for statistics; message ≤ 800 chars.
