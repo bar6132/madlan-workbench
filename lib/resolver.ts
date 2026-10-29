@@ -6,7 +6,7 @@ export type Resolution =
   | { kind: 'AMBIGUOUS'; candidates: ProcessedDeal[] }
   | { kind: 'NOT_FOUND' };
 
-const ID_RE = /D((?:\s*\d){6})/gi;
+const ID_RE = /D((?:\s*\d){6})(?!\s*\d)/gi;
 const MAX_CANDIDATES = 10;
 const STATED_TOLERANCE = 0.01;
 
@@ -53,8 +53,8 @@ export function resolve(q: {
   }
   if (!q.street && !q.neighborhood) return { kind: 'NOT_FOUND' };
 
+  // An unrecognised city spelling is ignored rather than treated as "no such deal".
   const city = q.city ? canonicalCity(q.city) : null;
-  if (q.city && !city) return { kind: 'NOT_FOUND' };
   const street = q.street ? norm(q.street) : null;
   const hood = q.neighborhood ? norm(q.neighborhood) : null;
   let cands = loadDataset().deals.filter((d) => {

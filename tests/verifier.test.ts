@@ -64,8 +64,9 @@ test('missing size, month-only date, and unsupported topics are CANNOT_DETERMINE
   expect(f.facts_he.join(' ')).toContain('אינו חלק מהנתונים');
 });
 
-test('present size and rooms are RAW_VALUE_OK', () => {
-  expect(verifyClaim(deal('D100313'), 'size').verdict).toBe('RAW_VALUE_OK');
+test('present size and rooms are RAW_VALUE_OK on a clean deal', () => {
+  const clean = loadDataset().deals.find((d) => d.status === 'VALID' && d.flags.length === 0)!;
+  expect(verifyClaim(clean, 'size').verdict).toBe('RAW_VALUE_OK');
   expect(verifyClaim(deal('D100313'), 'rooms').verdict).toBe('RAW_VALUE_OK');
 });
 

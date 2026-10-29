@@ -39,4 +39,5 @@ Multi-tab workspace, a UI telemetry ring buffer, Python at runtime, buyer-facing
 - The rate limiter (15 requests/min/IP) is in memory per serverless instance: best effort only, it resets on cold start.
 - Server logs are visible in the Vercel dashboard; retention depends on the plan.
 - Free-tier Gemini content may be used by Google to improve its products. The CSV is non-personal sample data.
+- The reply guard checks which numbers and deal ids appear, not what they are attached to; a draft could swap which figure belongs to which source and still pass. The CSM reads and edits the draft before sending.
 - Hebrew quality of the real model is checked by hand (see the AI log), not by automated tests; tests mock the model.

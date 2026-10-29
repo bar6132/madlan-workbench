@@ -1,4 +1,5 @@
 import { extractClaim, type Claim } from './claim';
+import { getDeal } from './data';
 import { draftReply } from './reply';
 import { guardClaim, guardReply } from './guards';
 import { marketContext, type MarketContext } from './market';
@@ -42,7 +43,7 @@ export interface AnalyzeResult {
   escalation_note: string | null;
   notices_he: string[];
   timings_ms: Record<string, number>;
-  debug: { extraction_failure?: string; reply_failure?: string; providers: { extract?: string; reply?: string } };
+  debug: { extraction_failure?: string; extraction_detail?: string; reply_failure?: string; reply_detail?: string; providers: { extract?: string; reply?: string } };
 }
 
 const N = {
@@ -68,7 +69,8 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
     timings_ms.total = Date.now() - t0;
     logEvent({
       trace_id, state, verdict: result.facts?.verdict ?? null, deal_id: result.deal?.deal_id ?? null,
-      extraction: result.extraction, extraction_failure: result.debug.extraction_failure ?? null, reply_failure: result.debug.reply_failure ?? null,
+      extraction: result.extraction, extraction_failure: result.debug.extraction_failure ?? null, extraction_detail: result.debug.extraction_detail ?? null,
+      reply_failure: result.debug.reply_failure ?? null, reply_detail: result.debug.reply_detail ?? null,
       reply_source: result.reply?.source ?? null, reply_guard_failures: result.reply?.guard_failures.length ?? 0,
       providers: result.debug.providers, timings_ms,
     });
@@ -97,6 +99,7 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
       }
     } else {
       result.debug.extraction_failure = e.reason;
+      result.debug.extraction_detail = e.detail;
     }
     if (!claim) {
       const hasTarget = hasManualTarget || extractDealIds(message).length > 0;
@@ -108,9 +111,12 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
   result.claim = claim;
 
   const field: Field = input.field ?? claim?.field ?? 'other';
+  // A model-supplied id counts only if its six digits really appear in the customer's message.
+  const compact = message.replace(/[\s,]/g, '');
+  const grounded = (claim?.mentioned_deal_ids ?? []).filter((id) => compact.includes(id.slice(1)));
   const ids = input.picked_deal_id
     ? [input.picked_deal_id]
-    : [...new Set([input.deal_id, ...(claim?.mentioned_deal_ids ?? []), ...extractDealIds(message)].filter((x): x is string => !!x))];
+    : [...new Set([input.deal_id, ...grounded, ...extractDealIds(message)].filter((x): x is string => !!x))];
   const city = input.city ?? claim?.city ?? null;
   const street = input.street ?? claim?.street ?? null;
   const neighborhood = input.neighborhood ?? claim?.neighborhood ?? null;
@@ -128,6 +134,10 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
     return finish('AMBIGUOUS');
   }
   const deal = res.kind === 'FOUND' ? res.deal : undefined;
+  const unknownIds = ids.filter((id) => !getDeal(id));
+  if (deal && unknownIds.length) {
+    result.notices_he.push(`מזהים שלא נמצאו בקובץ: ${unknownIds.join(', ')}. הבדיקה בוצעה על ${deal.deal_id}.`);
+  }
 
   // Step 3: deterministic verification.
   const t1 = Date.now();
@@ -149,6 +159,7 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
       timings_ms.reply = (timings_ms.reply ?? 0) + d.ms;
       if (!d.ok) {
         result.debug.reply_failure = d.reason;
+        result.debug.reply_detail = d.detail;
         break;
       }
       const g = guardReply(d.text, facts);

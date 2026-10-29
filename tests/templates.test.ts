@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { getDeal } from '@/lib/data';
+import { getDeal, loadDataset } from '@/lib/data';
 import { verifyClaim, type VerifiedFacts } from '@/lib/verifier';
 import { guardReply } from '@/lib/guards';
 import { templateReply, escalationNote } from '@/lib/templates';
@@ -7,7 +7,7 @@ import { templateReply, escalationNote } from '@/lib/templates';
 const cases: Record<string, VerifiedFacts> = {
   RAW_VALUE_WRONG: verifyClaim(getDeal('D100313'), 'price_per_sqm'),
   SOURCES_CONFLICT: verifyClaim(getDeal('D100124'), 'two_prices'),
-  RAW_VALUE_OK: verifyClaim(getDeal('D100313'), 'size'),
+  RAW_VALUE_OK: verifyClaim(loadDataset().deals.find((d) => d.status === 'VALID' && d.flags.length === 0), 'size'),
   CANNOT_DETERMINE: verifyClaim(getDeal('D100313'), 'other'),
   DEAL_NOT_FOUND: verifyClaim(undefined, 'price'),
 };

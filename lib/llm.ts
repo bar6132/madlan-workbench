@@ -5,7 +5,7 @@ export type Simulate = 'TIMEOUT' | 'PROVIDER_ERROR' | 'INVALID_JSON' | 'NONE';
 export type LlmFailure = 'TIMEOUT' | 'PROVIDER_ERROR' | 'INVALID_JSON' | 'NO_KEY';
 export type LlmResult<T> =
   | { ok: true; data: T; provider: string; ms: number }
-  | { ok: false; reason: LlmFailure; ms: number };
+  | { ok: false; reason: LlmFailure; ms: number; detail?: string };
 
 export interface ProviderRequest {
   system: string;
@@ -71,14 +71,18 @@ export async function generateJson<T>(o: {
   simulate?: Simulate;
 }): Promise<LlmResult<T>> {
   const start = Date.now();
-  const fail = (reason: LlmFailure): LlmResult<T> => ({ ok: false, reason, ms: Date.now() - start });
+  const fail = (reason: LlmFailure, detail?: string): LlmResult<T> => ({
+    ok: false, reason, ms: Date.now() - start, ...(detail ? { detail } : {}),
+  });
 
-  if (o.simulate && o.simulate !== 'NONE') return fail(o.simulate);
+  if (o.simulate && o.simulate !== 'NONE') return fail(o.simulate, 'simulated');
   const fn = override ?? (process.env.GEMINI_API_KEY ? geminiProvider : null);
   if (!fn) return fail('NO_KEY');
 
   const budget = o.timeoutMs ?? DEFAULT_TIMEOUT_MS;
-  const req = { system: o.system, prompt: o.prompt, jsonSchema: z.toJSONSchema(o.schema) };
+  const { $schema: _omit, ...jsonSchema } = z.toJSONSchema(o.schema) as Record<string, unknown>;
+  const req = { system: o.system, prompt: o.prompt, jsonSchema };
+  let lastDetail: string | undefined;
 
   for (let tries = 0; tries < 2; tries++) {
     const left = budget - (Date.now() - start);
@@ -86,8 +90,11 @@ export async function generateJson<T>(o: {
     let text: string | typeof TIMED_OUT;
     try {
       text = await attempt(fn, req, left);
-    } catch {
-      if (tries === 1) return fail('PROVIDER_ERROR');
+    } catch (err) {
+      // Class and HTTP status only; never the error message, which may echo request content.
+      const e = err as { name?: string; status?: number };
+      lastDetail = `${e?.name ?? 'Error'}${e?.status ? `:${e.status}` : ''}`;
+      if (tries === 1) return fail('PROVIDER_ERROR', lastDetail);
       continue; // one retry on provider errors only
     }
     if (text === TIMED_OUT) return fail('TIMEOUT');
@@ -99,5 +106,5 @@ export async function generateJson<T>(o: {
       return fail('INVALID_JSON');
     }
   }
-  return fail('PROVIDER_ERROR');
+  return fail('PROVIDER_ERROR', lastDetail);
 }

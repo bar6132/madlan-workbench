@@ -63,20 +63,31 @@ function finish(
   };
 }
 
-function conflictFacts(deal: ProcessedDeal, field: Field, stated?: number | null): VerifiedFacts {
+function statedPpsmFacts(deal: ProcessedDeal, stated?: number | null): string[] {
+  if (!stated) return [];
+  const values = [deal.calculated_ppsm, ...deal.raw_rows.map((r) => r.csv_price_per_sqm)];
+  return [values.some((v) => v !== null && near(v, stated)) ? he.statedMatchesFile : he.statedNotInData];
+}
+
+function conflictFacts(
+  deal: ProcessedDeal, field: Field, stated?: number | null, extra: string[] = [],
+): VerifiedFacts {
   const p = deal.raw_rows[deal.primary_row_index];
   const o = deal.raw_rows.find((_, i) => i !== deal.primary_row_index)!;
   const rules = ['SOURCE_CONFLICT'];
   const facts = [...explanation(deal, 'SOURCE_CONFLICT')];
   if (!deal.raw_rows.some((r) => r.source === 'רשות המסים')) facts.push(he.noTaxRow(p.source, o.source));
-  if (stated) {
+  if (stated && (field === 'price' || field === 'two_prices')) {
     const matchesOther = o.price_nis !== null && near(o.price_nis, stated);
     const matchesPrimary = p.price_nis !== null && near(p.price_nis, stated);
-    if (matchesOther && !matchesPrimary) rules.push('STATED_MATCHES_NONPRIMARY');
+    if (matchesOther && !matchesPrimary) {
+      rules.push('STATED_MATCHES_NONPRIMARY');
+      facts.push(he.statedMatchesOther(o.source, o.price_nis!));
+    }
     else if (matchesPrimary) facts.push(he.statedMatchesPrimary);
     else facts.push(he.statedNotInData);
   }
-  return finish(deal, field, 'SOURCES_CONFLICT', rules, facts, {
+  return finish(deal, field, 'SOURCES_CONFLICT', rules, [...facts, ...extra], {
     primary: { source: p.source, price: p.price_nis! },
     other: { source: o.source, price: o.price_nis! },
     reason_he: deal.primary_reason === 'PPSM_MATCH' ? he.conflictReasonPpsm : he.conflictReasonOrder,
@@ -98,6 +109,12 @@ export function verifyClaim(
     case 'two_prices': {
       if (deal.flags.includes('SOURCE_CONFLICT')) return conflictFacts(deal, field, stated);
       if (priceBad.length) return finish(deal, field, 'RAW_VALUE_WRONG', priceBad, badFacts);
+      if (field === 'price' && deal.flags.includes('PPSM_MISMATCH')) {
+        return finish(deal, field, 'CANNOT_DETERMINE', ['PPSM_MISMATCH'], [...explanation(deal, 'PPSM_MISMATCH'), he.priceSizeDisagree]);
+      }
+      if (field === 'price' && deal.size_sqm === null) {
+        return finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_SIZE'], [he.priceNoSize]);
+      }
       const facts: string[] = [];
       if (field === 'two_prices') facts.push(deal.flags.includes('EXACT_DUPLICATE') ? he.exactDup : he.singleReport);
       else facts.push(he.priceOk);
@@ -108,20 +125,23 @@ export function verifyClaim(
       return finish(deal, field, 'RAW_VALUE_OK', ['PRICE_CONSISTENT'], facts);
     }
     case 'price_per_sqm': {
-      if (deal.flags.includes('SOURCE_CONFLICT')) return conflictFacts(deal, field, stated);
-      if (priceBad.length) return finish(deal, field, 'RAW_VALUE_WRONG', priceBad, badFacts);
+      const statedFacts = statedPpsmFacts(deal, stated);
+      if (deal.flags.includes('SOURCE_CONFLICT')) return conflictFacts(deal, field, stated, statedFacts);
+      if (priceBad.length) return finish(deal, field, 'RAW_VALUE_WRONG', priceBad, [...badFacts, ...statedFacts]);
       if (deal.calculated_ppsm === null) {
         return finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_SIZE'], [he.ppsmNoSize]);
       }
       if (deal.flags.includes('PPSM_MISMATCH')) {
-        return finish(deal, field, 'RAW_VALUE_WRONG', ['PPSM_MISMATCH'], explanation(deal, 'PPSM_MISMATCH'));
+        return finish(deal, field, 'RAW_VALUE_WRONG', ['PPSM_MISMATCH'], [...explanation(deal, 'PPSM_MISMATCH'), ...statedFacts]);
       }
-      return finish(deal, field, 'RAW_VALUE_OK', ['PPSM_CONSISTENT'], [he.ppsmOk(deal.calculated_ppsm)]);
+      return finish(deal, field, 'RAW_VALUE_OK', ['PPSM_CONSISTENT'], [he.ppsmOk(deal.calculated_ppsm), ...statedFacts]);
     }
     case 'size':
-      return deal.size_sqm === null
-        ? finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_SIZE'], [he.sizeMissing])
-        : finish(deal, field, 'RAW_VALUE_OK', ['SIZE_PRESENT'], [he.sizeOk(deal.size_sqm)]);
+      if (deal.size_sqm === null) return finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_SIZE'], [he.sizeMissing]);
+      if (deal.flags.includes('PPSM_MISMATCH')) {
+        return finish(deal, field, 'CANNOT_DETERMINE', ['PPSM_MISMATCH'], [...explanation(deal, 'PPSM_MISMATCH'), he.priceSizeDisagree]);
+      }
+      return finish(deal, field, 'RAW_VALUE_OK', ['SIZE_PRESENT'], [he.sizeOk(deal.size_sqm)]);
     case 'date':
       if (!deal.deal_date) return finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_DATE'], [he.dateMissing]);
       if (deal.date_precision === 'month') {

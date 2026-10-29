@@ -5,7 +5,7 @@ import type { VerifiedFacts } from './verifier';
 
 export type ReplyResult =
   | { ok: true; text: string; provider: string; ms: number }
-  | { ok: false; reason: string; ms: number };
+  | { ok: false; reason: string; ms: number; detail?: string };
 
 const ReplySchema = z.object({ reply_he: z.string().min(10) });
 
@@ -28,5 +28,5 @@ export async function draftReply(facts: VerifiedFacts, tone: Claim['tone'], simu
     schema: ReplySchema,
     simulate,
   });
-  return r.ok ? { ok: true, text: r.data.reply_he, provider: r.provider, ms: r.ms } : { ok: false, reason: r.reason, ms: r.ms };
+  return r.ok ? { ok: true, text: r.data.reply_he, provider: r.provider, ms: r.ms } : { ok: false, reason: r.reason, ms: r.ms, detail: r.detail };
 }

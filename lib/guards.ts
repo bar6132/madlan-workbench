@@ -7,6 +7,8 @@ export const BANNED_PHRASES = [
   'שונה', 'זייף', 'זויף', 'הוחלף', 'מישהו שינה', 'נתקן עד', 'נעדכן מחר', 'הבטחה', 'אשמה',
 ];
 const MAGNITUDE_WORDS = /מיליון|מליון|מיליארד|אלפי|אלף/;
+// Counts above two spelled out as words; שני/שתי stay allowed (used in our own templates).
+const COUNT_WORDS = /(?:^|[^\u0590-\u05FF])[בלוהכמ]?(?:שלושה|שלוש|ארבעה|ארבע|חמישה|חמש|שישה|שש|שבעה|שבע|שמונה|תשעה|תשע|עשרה|עשר)(?![\u0590-\u05FF])/;
 const MAX_STATED_VALUE = 1e10;
 
 export type ClaimGuard =
@@ -40,7 +42,7 @@ export function guardReply(text: string, facts: VerifiedFacts): ReplyGuard {
     const n = Number(token.replace(/,/g, ''));
     if (!facts.allowed_numbers.includes(n)) reasons.push(`UNVERIFIED_NUMBER:${token}`);
   }
-  if (MAGNITUDE_WORDS.test(text)) reasons.push('NUMBER_WORDS_NOT_SUPPORTED');
+  if (MAGNITUDE_WORDS.test(text) || COUNT_WORDS.test(text)) reasons.push('NUMBER_WORDS_NOT_SUPPORTED');
   for (const p of BANNED_PHRASES) {
     if (text.includes(p)) reasons.push(`BANNED_PHRASE:${p}`);
   }
