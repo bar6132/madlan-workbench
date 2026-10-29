@@ -1,45 +1,25 @@
-# AI Work Log & Engineering Verification (`AI_WORK_LOG.md`)
+# AI work log
 
-Per the challenge instructions (*"Build it with AI assistance. We do. Keep a short log of how you worked, including at least one time it gave you a bad answer and you caught it"*), this log documents how AI tools were leveraged during the ~5-hour build, how architectural decisions were made, and **three specific instances where AI suggestions were wrong or dangerous and were caught and corrected.**
+How AI was used, and the times it gave a bad answer that was caught. Events are listed in the order they happened; nothing here is hypothetical.
 
----
+## How I worked
+- **Planning (earlier session, another AI model):** explored the CSV with Python scripts, proposed an architecture, drafted design docs and four sector roadmaps.
+- **Review and redesign (this session, Claude Code):** re-audited the CSV independently, checked the earlier docs against it, and changed the product from a market-explorer chatbot to a dispute workbench (see `docs/design.md`).
+- **Build (this session):** brainstorming, a written design, a task plan, then test-first implementation with the test run after every step. One reviewer pass at the end.
 
-## 1. Workflow Summary: How AI Was Used vs. Human Engineering Judgment
+## Bad AI answers I caught
+1. **Date parsing (earlier session).** The AI suggested `new Date(rawString)` / `pd.to_datetime` without day-first for the mixed date column. That reads `03/02/2026` as March 2 and fails on `26.02.2024`. I checked the raw values, wrote an explicit parser, and in this build confirmed day-first from the data itself: in 75 slash/dot dates the first number is above 12, the second never is.
+2. **Silent deletion (earlier session).** The AI suggested `drop_duplicates(keep='first')` and dropping prices under 250,000. That would make `D100124`/`D100251`/`D100317` return "not found" exactly when a CSM needs them. I chose a non-destructive record that keeps every raw row with flags.
+3. **Hosting split (earlier session).** The AI proposed a separate Python API on a free tier that sleeps. A 30 to 60 second first call would look broken to a reviewer, so everything runs in one Next.js deployment on Vercel.
+4. **The earlier design docs were wrong about the data (this session).** A script run showed 18 real cities, not 15 (the city map would have dropped כפר סבא, רעננה, גבעתיים, בת ים), property types that don't exist in the file (קוטג', סטודיו), and that two of the four conflicting duplicates (`D100032`, `D100303`) are owner vs broker with **no Tax Authority row**, so the planned "Tax Authority > broker > owner" rule would have picked the wrong row and a CSM template would have told customers something false. Fix: the row whose price ÷ size matches the file's price per m² is the original (true for all four).
+5. **My own audit undercounted (this session).** The first count of timeline contradictions was 4. The pipeline test failed with a fifth deal, `D100244`: my audit script had dropped month-only dates like `Sep 2022`. Corrected the test and the design doc.
+6. **Windows path (this session).** The plan scaffolded the app inside a folder whose name contains `&`; npm's Windows shims broke (`'D' is not recognized`). Moved the project to a path without `&`.
+7. **Package conflict (this session).** `vitest` refused to install because of a peer-dependency conflict on `@types/node`; bumped it to match Node 24 instead of forcing the install.
 
-| Phase | How AI Assisted | What I Owned & Verified Manually |
-| :--- | :--- | :--- |
-| **1. Exploratory Data Audit (CSV)** | Used Python scripting to rapidly scan all 530 rows and 19 columns of `madlan_deals_sample.csv` for schema anomalies, nulls, duplicates, and math discrepancies. | Designed the **Non-Destructive Quarantine Architecture** (`VALID`, `CONFLICT_RESOLVED`, `QUARANTINED`) so that dirty rows aren't silently deleted—allowing CSMs to look up disputed deals during customer escalations. |
-| **2. System & Sector Design** | Structured the codebase into 4 strict sectors (**Data & Integration, Backend, LLM & Guardrails, Frontend RTL**) with baseline guarantees for Security, Efficiency, and Accuracy. | Enforced the **Zero-LLM-Math Rule** and built the post-generation regex citation guardrail (`citation-guard.ts`) so the LLM can never hallucinate a `deal_id` or calculate averages on its own. |
-| **3. Implementation & Testing** | Accelerated boilerplate generation for Next.js App Router endpoints, Tailwind RTL components, and Vitest unit test cases. | Audited edge cases in date parsing, Israeli city name canonicalization, timeout handling (`AbortController`), and CSM workflow usability. |
+## Decisions I made against the AI's first proposal
+- No LLM "is this price fair" verdict: 74 of 124 city+neighborhood groups have fewer than 5 deals.
+- The reply step never sees the customer's message (prompt-injection defense by construction, tested with a canary string).
+- Outlier rule tuned on the data (k = 2.5): k = 3 missed `D100193`, k ≤ 2 flagged 10 to 14 deals.
 
----
-
-## 2. Catching Bad AI Answers: 3 Concrete Examples
-
-### Catch #1 (Data Corruption Bug): Naive Date Parsing Swapped Israeli Days and Months (`DD/MM/YYYY` vs. `MM/DD/YYYY`)
-* **What Happened:** When generating the initial date-normalization logic for the `deal_date` column, the AI suggested using standard JavaScript `new Date(rawDateString)` (and default `pd.to_datetime()` without `dayfirst=True` in Python) to normalize mixed date strings in the CSV.
-* **Why It Was Wrong:** The CSV contains 4 different date formats: ISO (`2025-09-07`), dot-separated (`26.02.2024`), month-name (`Aug 2025`), and slash-separated Israeli dates (`15/06/2025`, `03/02/2026`). Standard JavaScript `new Date("03/02/2026")` parses slash dates as US format (`MM/DD/YYYY` -> **March 2, 2026** instead of **February 3, 2026**), and throws `Invalid Date` on `26.02.2024` or `15/06/2025`!
-* **How I Caught & Fixed It:** I inspected the raw `deal_date` distribution in the CSV and wrote a deterministic custom parser (`parseIsraeliDate()`) that explicitly checks the delimiter (`/` or `.`) and enforces `DD/MM/YYYY` (Israeli standard) before constructing an ISO `YYYY-MM-DD` date, backed by a dedicated unit test in `pipeline.test.ts`.
-
-### Catch #2 (Product / CSM Escalation Failure): Silently Dropping Duplicate & Outlier Rows (`df.drop_duplicates()` & `price > 250000`)
-* **What Happened:** Initially, the AI suggested cleaning the dataset by running `.drop_duplicates(subset=['deal_id'], keep='first')` and filtering out rows where `price_nis < 250000` (`D100251` with `price=0` and `D100317` with `price=18,000`) so only clean rows remained in the JSON store.
-* **Why It Was Wrong:** If we delete those rows or blindly keep the first duplicate:
-  1. For conflicting duplicates like `D100124` (where row 1 is `רשות המסים` at 5,727,000 ₪ and row 2 is `מתווך` at 5,429,440 ₪) or `D100017`, `keep='first'` relies on arbitrary CSV row order rather than source authority (`רשות המסים` > `מתווך` > `בעל נכס`), and wipes out the evidence of the conflict!
-  2. During **"The Customer Moment"** (when a customer or CSM searches `D100251`, `D100317`, or `D100124` to ask why a number looks wrong), a deleted row would return `"Deal Not Found"`—leaving the CSM completely blind.
-* **How I Caught & Fixed It:** I rejected destructive filtering and implemented a **State-Tagged Audit Store**. Every `deal_id` is preserved: clean deals are used for market statistics, while conflicting duplicates and quarantined rows are retained with explicit `anomaly_flags[]` and `conflicting_records[]` metadata so the CSM can search any `deal_id` and immediately see the root cause.
-
-### Catch #3 (Infrastructure & Constraint #5 Trap): Splitting the App onto a Free-Tier Render/Railway Python Backend
-* **What Happened:** Early in planning, we considered hosting the Next.js frontend on Vercel and deploying a separate Python FastAPI service on Render's or Railway's free tier to handle data queries and LLM requests.
-* **Why It Was Wrong:** Render's free tier spins down containers after 15 minutes of inactivity, causing a **30-to-60-second cold start** on the next HTTP request. When Madlan evaluators open the public URL (Constraint #1), a 55-second hang on the initial API call would either time out the frontend or look like a broken app, directly violating **Constraint #5 ("It fails gracefully")**.
-* **How I Caught & Fixed It:** Consolidated the runtime backend into **Next.js App Router Serverless Route Handlers** deployed on Vercel alongside the frontend (0ms cold start, zero cross-origin latency, single atomic deployment), while keeping the Python diagnostic script (`scripts/audit_and_clean.py`) in the repository for offline data auditing and verification.
-
----
-
-## 3. Documented Assumptions About Data Gaps ("About the Data, and the Gaps")
-
-The prompt notes: *"Some of what you need isn't in the CSV at all. Decide and document your assumptions."* Here are the explicit assumptions built into our system and surfaced to the user:
-
-1. **Missing House Numbers (`street` contains street name only):** Two deals on the same street (e.g., `בן גוריון`) may be at completely different ends of the street (quiet interior vs. main road). The app explicitly informs users that comparisons are at the street/neighborhood level, not building-level.
-2. **Missing Balcony / Garden Area (`has_balcony` is boolean only):** In Israeli real estate, `size_sqm` often reflects interior Arnona/Tabu size, whereas penthouses (`פנטהאוז`) and garden apartments (`דירת גן`) command a massive price premium due to large exterior areas not quantified in `size_sqm`. Our AI prompt and UI explicitly warn users when comparing `פנטהאוז`/`דירת גן` price-per-sqm against standard apartments (`דירה`).
-3. **Missing TAMA 38 / Pinui-Binui Indicators:** Older buildings (`year_built < 1980`) with unusually high prices per sqm may be pricing in urban renewal (`תמ"א 38` / `פינוי בינוי`) potential, which is not recorded in the CSV. The app flags this possibility as a known data limitation rather than stating it as fact.
-4. **Source Authority Hierarchy:** When duplicate `deal_id` records conflict (`D100017`, `D100032`, `D100124`, `D100303`), we assume `רשות המסים` (Israel Tax Authority statutory reporting) is authoritative over `מתווך` (Broker) and `בעל נכס` (Property Owner), while surfacing both values transparently in the UI.
+## Still to do
+- Run the real Gemini model on the five demo complaints plus unscripted Hebrew and record any bad extraction or rejected reply here.
