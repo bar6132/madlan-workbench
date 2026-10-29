@@ -1,7 +1,8 @@
 'use client';
 import { useState, type ReactNode } from 'react';
 
-export const fmt = (n: number | null | undefined) => (n == null ? '—' : n.toLocaleString('en-US'));
+import { fmt } from '@/lib/format';
+export { fmt };
 
 export function Card({ title, children, id, tone }: { title?: string; children: ReactNode; id?: string; tone?: 'plain' | 'soft' }) {
   return (
@@ -53,7 +54,7 @@ export function DealChip({ id }: { id: string }) {
     <button
       type="button"
       onClick={() => document.getElementById('evidence')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
-      className="rounded-full bg-indigo-50 px-2.5 py-0.5 text-sm font-medium text-indigo-800 ring-1 ring-indigo-200 hover:bg-indigo-100"
+      className="rounded-full bg-indigo-50 px-2.5 py-0.5 text-sm font-medium text-indigo-900 ring-1 ring-indigo-200 hover:bg-indigo-100"
     >
       <bdi>{id}</bdi>
     </button>
@@ -63,4 +64,4 @@ export function DealChip({ id }: { id: string }) {
 export const inputCls =
   'w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200';
 export const primaryBtn =
-  'rounded-md bg-indigo-700 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-800 disabled:cursor-not-allowed disabled:opacity-50';
+  'rounded-md bg-indigo-700 px-4 py-2 text-sm font-semibold text-[#fff] hover:bg-indigo-800 disabled:cursor-not-allowed disabled:opacity-50';

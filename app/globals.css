@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f6f7fb;
   --foreground: #171717;
+  color-scheme: light;
 }
 
 @theme inline {
@@ -12,11 +13,51 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/*
+ * Dark theme: the components use Tailwind's slate/tinted palette, so dark mode re-maps those
+ * colour variables once here instead of adding dark: variants to every class.
+ * Set by <html data-theme="dark"> (system preference or the toggle, see ThemeToggle).
+ * bg-white is the card surface; button text that must stay white is written text-[#fff].
+ */
+:root[data-theme="dark"] {
+  --background: #0d1016;
+  --foreground: #e6eaf2;
+  color-scheme: dark;
+
+  --color-white: #161a22;
+  --color-slate-50: #1b2029;
+  --color-slate-100: #222834;
+  --color-slate-200: #2d3544;
+  --color-slate-300: #3b4557;
+  --color-slate-400: #7d8aa0;
+  --color-slate-500: #98a4b8;
+  --color-slate-600: #aab4c6;
+  --color-slate-700: #c3cbd9;
+  --color-slate-800: #dde2ec;
+  --color-slate-900: #eef1f6;
+
+  --color-indigo-50: #20264a;
+  --color-indigo-100: #2a3160;
+  --color-indigo-200: #3c4690;
+  --color-indigo-900: #c7d0ff;
+
+  --color-sky-50: #13293a;
+  --color-sky-200: #1f4a66;
+  --color-sky-900: #bde3fb;
+
+  --color-amber-50: #3a2f14;
+  --color-amber-200: #6b5420;
+  --color-amber-300: #8a6d1f;
+  --color-amber-900: #fde9b0;
+
+  --color-red-50: #3b1c1f;
+  --color-red-200: #7a2e33;
+  --color-red-300: #9b3b41;
+  --color-red-900: #fecaca;
+
+  --color-emerald-50: #12302a;
+  --color-emerald-200: #1f5a4c;
+  --color-emerald-900: #b7f0dc;
 }
 
 body {
