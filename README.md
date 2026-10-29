@@ -13,7 +13,7 @@ A Hebrew, right-to-left tool where an LLM reads and phrases, and deterministic c
 ![Tests](https://img.shields.io/badge/tests-178_+_21_+_21_live-2ea44f)
 ![RTL](https://img.shields.io/badge/Hebrew-RTL-0a7ea4)
 
-**Live demo:** _add the Vercel URL here after deploy_ ·
+**Live demo: [madlan-workbench.vercel.app](https://madlan-workbench.vercel.app)** ·
 [Deploy your own](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbar6132%2Fmadlan-workbench&env=GEMINI_API_KEY,GEMINI_V2_API_KEY&envDescription=Google%20AI%20Studio%20API%20keys%20(the%20second%20is%20optional)&project-name=madlan-workbench)
 
 </div>
