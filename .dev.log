@@ -1,0 +1,17 @@
+
+> madlan-workbench@0.1.0 dev
+> next dev
+
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://169.254.83.107:3000
+✓ Ready in 293ms
+✓ Running next.config.ts took 24ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+ GET / 200 in 184ms (next.js: 105ms, application-code: 79ms)
+{"ts":"2026-10-29T04:22:37.519Z","trace_id":"trc_83ad3f76","state":"RESOLVED","verdict":"SOURCES_CONFLICT","deal_id":"D100124","extraction":"MANUAL","extraction_failure":"NO_KEY","reply_failure":null,"reply_source":"TEMPLATE","reply_guard_failures":0,"providers":{},"timings_ms":{"extract":0,"verify":0,"total":18}}
+ POST /api/analyze 200 in 203ms (next.js: 149ms, application-code: 55ms)
+{"ts":"2026-10-29T04:22:37.572Z","trace_id":"trc_fc9aa021","state":"MANUAL_NEEDED","verdict":null,"deal_id":null,"extraction":"FAILED","extraction_failure":"NO_KEY","reply_failure":null,"reply_source":null,"reply_guard_failures":0,"providers":{},"timings_ms":{"extract":0,"total":0}}
+ POST /api/analyze 200 in 7ms (next.js: 1.3ms, application-code: 6ms)

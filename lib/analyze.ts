@@ -37,6 +37,7 @@ export interface AnalyzeResult {
   facts: VerifiedFacts | null;
   evidence_rows: RawRow[];
   market: MarketContext | null;
+  market_raw: MarketContext | null;
   reply: { text: string; source: 'LLM' | 'TEMPLATE'; guard_failures: string[] } | null;
   escalation_note: string | null;
   notices_he: string[];
@@ -59,7 +60,7 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
 
   const result: AnalyzeResult = {
     trace_id, state: 'INVALID_INPUT', claim: null, extraction: 'MANUAL', candidates: [], deal: null,
-    facts: null, evidence_rows: [], market: null, reply: null, escalation_note: null,
+    facts: null, evidence_rows: [], market: null, market_raw: null, reply: null, escalation_note: null,
     notices_he: [], timings_ms, debug: { providers: {} },
   };
   const finish = (state: AnalyzeState): AnalyzeResult => {
@@ -136,6 +137,7 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
   result.deal = deal ?? null;
   result.evidence_rows = deal?.raw_rows ?? [];
   result.market = deal ? marketContext(deal) : null;
+  result.market_raw = deal ? marketContext(deal, { raw: true }) : null;
 
   // Step 4: reply draft (LLM, guarded) with template fallback.
   const modelSuspect = result.extraction === 'MANUAL' && message.length > 0;
