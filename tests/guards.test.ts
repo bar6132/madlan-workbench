@@ -55,3 +55,20 @@ test('guardReply rejects empty or non-Hebrew text', () => {
   expect(guardReply('', facts).ok).toBe(false);
   expect(guardReply('We checked it for you.', facts).ok).toBe(false);
 });
+
+test('guardReply rejects Arabic letters mixed into a Hebrew reply (real model output)', () => {
+  const bad = 'שלום, בדקנו את D100124. הנתונים אינם יכולים ליישב את השؤالה.';
+  const r = guardReply(bad, facts);
+  expect(r.ok).toBe(false);
+  if (!r.ok) expect(r.reasons).toContain('FOREIGN_SCRIPT');
+});
+
+test('guardReply still accepts shekel sign, quotes and Latin ids', () => {
+  const ok = 'שלום, בדקנו את D100124 (מ"ר). המחיר ₪5,727,000 – תודה.';
+  expect(guardReply(ok, facts)).toEqual({ ok: true });
+});
+
+test('guardReply rejects first-person action claims', () => {
+  const r = guardReply('שלום, בדקנו את D100124. הפניתי את הנושא לבדיקה.', facts);
+  expect(r.ok).toBe(false);
+});

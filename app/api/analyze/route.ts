@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { analyze, MAX_MESSAGE_LENGTH } from '@/lib/analyze';
 import { FieldSchema } from '@/lib/claim';
+import { debugEnabled } from '@/lib/debug';
 import { rateLimit } from '@/lib/rate-limit';
 import { newTraceId, logEvent } from '@/lib/trace';
 
@@ -49,7 +50,7 @@ export async function POST(request: Request): Promise<Response> {
     return json({ state: 'ERROR', trace_id, notices_he: ['הבקשה אינה תקינה.'] }, 400);
   }
 
-  const debug = new URL(request.url).searchParams.get('debug') === '1';
+  const debug = debugEnabled() && new URL(request.url).searchParams.get('debug') === '1';
   const { simulate, simulate_reply, ...rest } = parsed.data;
   try {
     const result = await analyze({
@@ -57,7 +58,8 @@ export async function POST(request: Request): Promise<Response> {
       simulate: debug ? simulate : undefined,
       simulate_reply: debug ? simulate_reply : undefined,
     });
-    return json(result, 200);
+    // Model names, key labels and failure details are diagnostics: only returned when debug is enabled.
+    return json(debug ? result : { ...result, debug: { providers: {} } }, 200);
   } catch (err) {
     logEvent({ trace_id, route: '/api/analyze', state: 'ERROR', error_name: err instanceof Error ? err.name : 'unknown' });
     return json(

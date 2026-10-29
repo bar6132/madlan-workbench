@@ -2,12 +2,14 @@
   "name": "madlan-workbench",
   "version": "0.1.0",
   "private": true,
+  "engines": { "node": ">=20" },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "eval:live": "node scripts/eval-live.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.31.0",

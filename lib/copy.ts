@@ -25,6 +25,17 @@ export const he = {
   dateOk: (d: string) => `תאריך העסקה בקובץ: ${d}.`,
   roomsOk: (n: number) => `מספר החדרים בקובץ: ${n}.`,
   roomsMissing: 'מספר החדרים חסר בקובץ.',
+  detailsConflict: 'שני הנתונים אינם מתיישבים זה עם זה, והנתונים אינם מאפשרים לקבוע איזה מהם שגוי.',
+  detailsOk: 'לא נמצאה בקובץ סתירה בין פרטי הנכס. הנתונים אינם מאפשרים לבדוק אותם מול המציאות.',
+  detailsLine: (d: {
+    condition: string | null; year_built: number | null; floor: number | null; total_floors: number | null;
+    elevator: boolean | null; parking: boolean | null; balcony: boolean | null; safe_room: boolean | null; property_type: string;
+  }) => {
+    const v = (x: unknown) => (x === null || x === undefined ? 'לא ידוע' : String(x));
+    const yn = (x: boolean | null) => (x === null ? 'לא ידוע' : x ? 'כן' : 'לא');
+    const floor = d.floor === null ? 'לא ידוע' : d.total_floors === null ? String(d.floor) : `${d.floor} מתוך ${d.total_floors}`;
+    return `פרטי הנכס שנרשמו בקובץ: סוג נכס — ${d.property_type}; מצב — ${v(d.condition)}; שנת בנייה — ${v(d.year_built)}; קומה — ${floor}; מעלית — ${yn(d.elevator)}; חניה — ${yn(d.parking)}; מרפסת — ${yn(d.balcony)}; ממ"ד — ${yn(d.safe_room)}.`;
+  },
   other: 'הנושא שצוין אינו חלק מהנתונים שבקובץ (למשל מספר בית, שטח מרפסת או גינה, תמ"א 38).',
 } as const;
 
@@ -34,6 +45,7 @@ export const fieldLabel: Record<string, string> = {
   size: 'שטח',
   date: 'תאריך',
   rooms: 'מספר חדרים',
+  property_details: 'פרטי הנכס (מצב, שנת בנייה, קומה, מעלית…)',
   two_prices: 'שני מחירים שונים',
   other: 'נושא אחר',
 };
@@ -44,4 +56,33 @@ export const examples = [
   'ראיתי עסקה D100317 במחיר 18,000 ש"ח. זו בטח טעות.',
   'המחיר של הדירה ברחוב בן גוריון בחולון נראה לי לא הגיוני.',
   'כמה גדולה המרפסת בעסקה D100313?',
+  'יש לי בעיה עם 100365: כתוב חדש מקבלן אבל הדירה ממש ישנה, איך זה יתכן?',
 ];
+
+export const statusLabel: Record<string, string> = {
+  VALID: 'תקין',
+  CONFLICT: 'סתירה בין מקורות',
+  EXCLUDED: 'מוחרג מהסטטיסטיקה',
+};
+
+export const flagLabel: Record<string, string> = {
+  EXACT_DUPLICATE: 'רשומה כפולה',
+  SOURCE_CONFLICT: 'סתירה בין מקורות',
+  PPSM_MISMATCH: 'מחיר למ"ר לא תואם',
+  PRICE_INVALID: 'מחיר לא תקין',
+  PRICE_BELOW_THRESHOLD: 'מחיר נמוך מהסף',
+  TIMELINE_CONTRADICTION: 'סתירה בשנת הבנייה',
+  NEW_BUILD_OLD_YEAR: '"חדש מקבלן" עם שנת בנייה ישנה',
+  PPSM_OUTLIER: 'מחיר למ"ר חריג',
+  CITY_NORMALIZED: 'שם העיר אוחד',
+  MONTH_ONLY_DATE: 'תאריך ברמת חודש',
+  MISSING_SIZE: 'שטח חסר',
+};
+
+export const sortLabel: Record<string, string> = {
+  date_desc: 'חדש לישן',
+  price_asc: 'מחיר: מהנמוך לגבוה',
+  price_desc: 'מחיר: מהגבוה לנמוך',
+  ppsm_desc: 'מחיר למ"ר: מהגבוה לנמוך',
+  id_asc: 'מזהה עסקה',
+};

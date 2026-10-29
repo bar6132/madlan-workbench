@@ -24,6 +24,23 @@ export function extractDealIds(text: string): string[] {
   return [...new Set(ids)];
 }
 
+// A customer often types only the digits ("100317"). Accept a bare 6-digit number only if it is exactly
+// an existing deal id and does not look like an amount (next to ₪, ש"ח, שקל or NIS).
+const BARE_RE = /(?<![\d,.])(\d{6})(?![\d,.]*\d)/g;
+const MONEY_AFTER = /^\s*(?:₪|ש"ח|ש״ח|שח|שקל|nis)/i;
+const MONEY_BEFORE = /(?:₪|ש"ח|ש״ח|שח|nis)\s*$/i;
+
+export function extractBareDealIds(text: string): string[] {
+  const ids: string[] = [];
+  for (const m of text.matchAll(BARE_RE)) {
+    const at = m.index ?? 0;
+    if (MONEY_AFTER.test(text.slice(at + 6)) || MONEY_BEFORE.test(text.slice(0, at))) continue;
+    const id = `D${m[1]}`;
+    if (getDeal(id)) ids.push(id);
+  }
+  return [...new Set(ids)];
+}
+
 export function normalizeDealId(input: string): string | null {
   return extractDealIds(input)[0] ?? null;
 }

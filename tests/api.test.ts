@@ -61,9 +61,26 @@ test('an internal error returns a safe 500 with no stack or error text', async (
   expect(JSON.parse(text).trace_id).toMatch(/^trc_/);
 });
 
-test('simulate flags are ignored without ?debug=1 and honoured with it', async () => {
+test('simulate flags are ignored without ?debug=1 and honoured with it (when debug is enabled)', async () => {
+  vi.stubEnv('NEXT_PUBLIC_ENABLE_DEBUG', '1');
   await POST(req({ message: 'x', simulate: 'TIMEOUT', simulate_reply: 'INVALID_JSON' }));
   expect(mocked.mock.calls[0][0]).toMatchObject({ simulate: undefined, simulate_reply: undefined });
   await POST(req({ message: 'x', simulate: 'TIMEOUT', simulate_reply: 'INVALID_JSON' }, { debug: true }));
   expect(mocked.mock.calls[1][0]).toMatchObject({ simulate: 'TIMEOUT', simulate_reply: 'INVALID_JSON' });
+  vi.unstubAllEnvs();
+});
+
+test('on the public deploy (debug not enabled) ?debug=1 does nothing and diagnostics are stripped', async () => {
+  vi.stubEnv('NEXT_PUBLIC_ENABLE_DEBUG', '');
+  mocked.mockResolvedValue({
+    ...fakeResult,
+    debug: { providers: { extract: 'gemini:gemini-3.1-flash-lite#A' }, extraction_failure: 'PROVIDER_ERROR', extraction_detail: 'x#A:429' },
+  } as never);
+  const res = await POST(req({ message: 'x', simulate: 'TIMEOUT', simulate_reply: 'TIMEOUT' }, { debug: true }));
+  expect(mocked.mock.calls[0][0]).toMatchObject({ simulate: undefined, simulate_reply: undefined });
+  const body = await res.text();
+  expect(body).not.toContain('gemini');
+  expect(body).not.toContain('429');
+  expect(JSON.parse(body).debug).toEqual({ providers: {} });
+  vi.unstubAllEnvs();
 });

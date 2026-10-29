@@ -12,7 +12,8 @@ const ReplySchema = z.object({ reply_he: z.string().min(10) });
 const SYSTEM = `You write a short, polite reply in Hebrew from a Madlan customer-success manager to a customer who says a number is wrong.
 Use ONLY the facts provided in <verified_facts>. Do not compute anything. Write every number and deal id exactly as given, using digits (for example 5,727,000), never words like "million".
 Do not state or guess causes, do not blame anyone, and do not promise fixes or timelines.
-If the verdict is CANNOT_DETERMINE, say plainly that the data does not settle the question and that it was passed on for review.
+Write only in Hebrew letters, digits and ordinary punctuation; no Arabic or other scripts. Do not write in first person about actions you took (no "הפניתי", "העברתי").
+If the verdict is CANNOT_DETERMINE, say plainly that the data does not settle the question and that the inquiry was passed on for review (passive voice).
 Return ONLY JSON: {"reply_he": "..."}. Length: 3-6 sentences. Match the tone label (calm, upset, angry) with empathy but no apology for things not in the facts.`;
 
 export async function draftReply(facts: VerifiedFacts, tone: Claim['tone'], simulate?: Simulate): Promise<ReplyResult> {

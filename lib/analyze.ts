@@ -3,9 +3,10 @@ import { getDeal } from './data';
 import { draftReply } from './reply';
 import { guardClaim, guardReply } from './guards';
 import { marketContext, type MarketContext } from './market';
-import { extractDealIds, resolve } from './resolver';
+import { extractBareDealIds, extractDealIds, normalizeDealId, resolve } from './resolver';
 import { templateReply, escalationNote } from './templates';
 import { newTraceId, logEvent } from './trace';
+import { OUT_OF_SCOPE_REPLY, looksLikeManipulation } from './scope';
 import { verifyClaim, type Field, type VerifiedFacts } from './verifier';
 import type { Simulate } from './llm';
 import type { ProcessedDeal, RawRow } from './types';
@@ -26,7 +27,7 @@ export interface AnalyzeInput {
   simulate_reply?: Simulate;
 }
 
-export type AnalyzeState = 'RESOLVED' | 'AMBIGUOUS' | 'NOT_FOUND' | 'MANUAL_NEEDED' | 'INVALID_INPUT';
+export type AnalyzeState = 'RESOLVED' | 'AMBIGUOUS' | 'NOT_FOUND' | 'MANUAL_NEEDED' | 'INVALID_INPUT' | 'OUT_OF_SCOPE';
 
 export interface AnalyzeResult {
   trace_id: string;
@@ -50,6 +51,10 @@ const N = {
   extractionDown: 'הבנת התלונה אוטומטית אינה זמינה כרגע. מלאו את הפרטים ידנית והבדיקה תמשיך כרגיל.',
   nothingToLookUp: 'לא זוהתה עסקה בתלונה. הזינו מזהה עסקה או רחוב ועיר.',
   replyTemplate: 'טיוטת ה-AI אינה זמינה כרגע, ולכן מוצגת תבנית תשובה מוכנה.',
+  bareId: (ids: string) => `זוהה מספר עסקה לפי הספרות בלבד (${ids}). ודאו שזו העסקה שהלקוח התכוון אליה.`,
+  multiDeal: 'ההודעה מזכירה כמה עסקאות. בודקים עסקה אחת בכל פעם: בחרו עסקה, ואחר כך הריצו את הבדיקה שוב לעסקה הבאה.',
+  otherDeals: (ids: string) => `ההודעה מזכירה גם: ${ids}. הבדיקה כאן היא רק לעסקה שנבחרה; בדקו את האחרות בנפרד.`,
+  outOfScope: 'ההודעה אינה בקשה לבדיקת נתוני עסקה (או שהיא מנסה לשנות את הוראות המערכת), ולכן לא בוצעה בדיקה. מוצגת תשובה מוכנה.',
   invalid: `נא להזין את הודעת הלקוח (עד ${MAX_MESSAGE_LENGTH} תווים) או מזהה עסקה.`,
 };
 
@@ -83,6 +88,15 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
     return finish('INVALID_INPUT');
   }
 
+  // Not a data complaint (or an attempt to steer the tool): fixed reply, no verdict, no model reply.
+  const outOfScope = (why: string): AnalyzeResult => {
+    result.notices_he.push(N.outOfScope);
+    result.reply = { text: OUT_OF_SCOPE_REPLY, source: 'TEMPLATE', guard_failures: [] };
+    logEvent({ trace_id, out_of_scope: why });
+    return finish('OUT_OF_SCOPE');
+  };
+  if (looksLikeManipulation(message)) return outOfScope('pattern');
+
   // Step 1: claim extraction (LLM) or manual inputs.
   let claim: Claim | null = null;
   if (message) {
@@ -109,20 +123,26 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
     }
   }
   result.claim = claim;
+  if (claim?.intent === 'MANIPULATION') return outOfScope('model_manipulation');
 
-  const field: Field = input.field ?? claim?.field ?? 'other';
   // A model-supplied id counts only if its six digits really appear in the customer's message.
   const compact = message.replace(/[\s,]/g, '');
   const grounded = (claim?.mentioned_deal_ids ?? []).filter((id) => compact.includes(id.slice(1)));
-  const ids = input.picked_deal_id
-    ? [input.picked_deal_id]
-    : [...new Set([input.deal_id, ...grounded, ...extractDealIds(message)].filter((x): x is string => !!x))];
+  const typed = [...new Set([input.deal_id, ...grounded, ...extractDealIds(message)].filter((x): x is string => !!x))];
+  const bare = typed.length === 0 && !input.picked_deal_id ? extractBareDealIds(message) : [];
+  if (bare.length) result.notices_he.push(N.bareId(bare.join(', ')));
+  const mentioned = [...typed, ...bare];
+  const ids = input.picked_deal_id ? [input.picked_deal_id] : mentioned;
+  // With several deals in one message, each deal keeps the field the model matched to it.
+  const issue = input.picked_deal_id ? claim?.issues?.find((i) => normalizeDealId(i.deal_id) === input.picked_deal_id) : undefined;
+  const field: Field = input.field ?? issue?.field ?? claim?.field ?? 'other';
   const city = input.city ?? claim?.city ?? null;
   const street = input.street ?? claim?.street ?? null;
   const neighborhood = input.neighborhood ?? claim?.neighborhood ?? null;
-  const stated = input.stated_value ?? claim?.customer_stated_value ?? null;
+  const stated = input.stated_value ?? issue?.customer_stated_value ?? claim?.customer_stated_value ?? null;
 
   if (!ids.length && !street && !neighborhood) {
+    if (claim?.intent === 'OFF_TOPIC') return outOfScope('model_off_topic');
     result.notices_he.push(N.nothingToLookUp);
     return finish('MANUAL_NEEDED');
   }
@@ -130,10 +150,13 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
   // Step 2: resolve to a deal. Never auto-pick when several match.
   const res = resolve({ deal_ids: ids, city, street, neighborhood, stated_value: stated });
   if (res.kind === 'AMBIGUOUS') {
+    if (ids.length > 1) result.notices_he.push(N.multiDeal);
     result.candidates = res.candidates;
     return finish('AMBIGUOUS');
   }
   const deal = res.kind === 'FOUND' ? res.deal : undefined;
+  const others = input.picked_deal_id ? mentioned.filter((id) => id !== input.picked_deal_id) : [];
+  if (others.length) result.notices_he.push(N.otherDeals(others.join(', ')));
   const unknownIds = ids.filter((id) => !getDeal(id));
   if (deal && unknownIds.length) {
     result.notices_he.push(`מזהים שלא נמצאו בקובץ: ${unknownIds.join(', ')}. הבדיקה בוצעה על ${deal.deal_id}.`);
@@ -178,7 +201,9 @@ export async function analyze(input: AnalyzeInput): Promise<AnalyzeResult> {
   result.reply = reply;
 
   // Step 5: escalation note, deterministic.
-  if (facts.verdict === 'CANNOT_DETERMINE' || facts.verdict === 'SOURCES_CONFLICT') {
+  // A contradiction inside the property details (e.g. new-build label vs 1984) needs the data owner: no correction form covers it.
+  const detailsInconsistent = facts.verdict === 'RAW_VALUE_WRONG' && facts.field === 'property_details';
+  if (facts.verdict === 'CANNOT_DETERMINE' || facts.verdict === 'SOURCES_CONFLICT' || detailsInconsistent) {
     result.escalation_note = escalationNote(facts, trace_id);
   }
   return finish(res.kind === 'NOT_FOUND' ? 'NOT_FOUND' : 'RESOLVED');

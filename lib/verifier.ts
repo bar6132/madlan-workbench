@@ -1,7 +1,7 @@
 import type { ProcessedDeal, RawRow } from './types';
 import { he } from './copy';
 
-export type Field = 'price' | 'price_per_sqm' | 'size' | 'date' | 'rooms' | 'two_prices' | 'other';
+export type Field = 'price' | 'price_per_sqm' | 'size' | 'date' | 'rooms' | 'two_prices' | 'property_details' | 'other';
 export type Verdict =
   | 'RAW_VALUE_WRONG' | 'RAW_VALUE_OK' | 'SOURCES_CONFLICT' | 'CANNOT_DETERMINE' | 'DEAL_NOT_FOUND';
 
@@ -153,6 +153,19 @@ export function verifyClaim(
       return deal.rooms === null
         ? finish(deal, field, 'CANNOT_DETERMINE', ['MISSING_ROOMS'], [he.roomsMissing])
         : finish(deal, field, 'RAW_VALUE_OK', ['ROOMS_PRESENT'], [he.roomsOk(deal.rooms)]);
+    case 'property_details': {
+      // Condition label, building year, floor, elevator, parking...: what the file records, plus the pipeline's consistency flags.
+      const inconsistent = ['NEW_BUILD_OLD_YEAR', 'TIMELINE_CONTRADICTION'].filter((f) => deal.flags.includes(f));
+      const line = he.detailsLine({
+        condition: deal.condition, year_built: deal.year_built, floor: deal.floor, total_floors: deal.total_floors,
+        elevator: deal.has_elevator, parking: deal.has_parking, balcony: deal.has_balcony, safe_room: deal.has_safe_room,
+        property_type: deal.property_type,
+      });
+      if (inconsistent.length) {
+        return finish(deal, field, 'RAW_VALUE_WRONG', inconsistent, [...inconsistent.flatMap((f) => explanation(deal, f)), he.detailsConflict, line]);
+      }
+      return finish(deal, field, 'RAW_VALUE_OK', ['DETAILS_PRESENT'], [line, he.detailsOk]);
+    }
     default:
       return finish(deal, field, 'CANNOT_DETERMINE', ['FIELD_NOT_IN_DATA'], [he.other]);
   }

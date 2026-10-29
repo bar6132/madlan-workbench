@@ -31,12 +31,14 @@ export function toView(r: ApiResponse): ViewState {
       return { ...NONE, banner: { kind: 'error', text_he: `${notices} (מזהה מעקב: ${r.trace_id})` } };
     case 'INVALID_INPUT':
       return { ...NONE, banner: { kind: 'warn', text_he: notices } };
+    case 'OUT_OF_SCOPE':
+      return { ...NONE, showReply: true, replyLabel_he: 'תבנית מוכנה', banner: { kind: 'warn', text_he: notices } };
     case 'MANUAL_NEEDED':
       return { ...NONE, showManualForm: true, banner: { kind: 'warn', text_he: notices } };
     case 'AMBIGUOUS':
       return {
         ...NONE, showPicker: true,
-        banner: { kind: 'info', text_he: 'נמצאו כמה עסקאות שמתאימות לתיאור. בחרו את העסקה הנכונה כדי להמשיך.' },
+        banner: { kind: 'info', text_he: ['נמצאו כמה עסקאות שמתאימות לתיאור. בחרו את העסקה הנכונה כדי להמשיך.', notices].filter(Boolean).join(' ') },
       };
     case 'NOT_FOUND':
     case 'RESOLVED': {

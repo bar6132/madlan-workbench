@@ -5,7 +5,9 @@ import { extractDealIds } from './resolver';
 
 export const BANNED_PHRASES = [
   'שונה', 'זייף', 'זויף', 'הוחלף', 'מישהו שינה', 'נתקן עד', 'נעדכן מחר', 'הבטחה', 'אשמה',
+  'הפניתי', 'העברתי', 'טיפלתי',
 ];
+const FOREIGN_SCRIPT = /[^\u0000-ɏ֐-׿ -⁯₪€←-⇿]/u;
 const MAGNITUDE_WORDS = /מיליון|מליון|מיליארד|אלפי|אלף/;
 // Counts above two spelled out as words; שני/שתי stay allowed (used in our own templates).
 const COUNT_WORDS = /(?:^|[^\u0590-\u05FF])[בלוהכמ]?(?:שלושה|שלוש|ארבעה|ארבע|חמישה|חמש|שישה|שש|שבעה|שבע|שמונה|תשעה|תשע|עשרה|עשר)(?![\u0590-\u05FF])/;
@@ -33,6 +35,8 @@ export type ReplyGuard = { ok: true } | { ok: false; reasons: string[] };
 export function guardReply(text: string, facts: VerifiedFacts): ReplyGuard {
   const reasons: string[] = [];
   if (!/[֐-׿]/.test(text)) reasons.push('NOT_HEBREW');
+  // Real model output once mixed Arabic letters into a Hebrew word; only Hebrew, Latin, digits and punctuation are allowed.
+  if (FOREIGN_SCRIPT.test(text)) reasons.push('FOREIGN_SCRIPT');
 
   for (const id of extractDealIds(text)) {
     if (!facts.allowed_deal_ids.includes(id)) reasons.push(`UNKNOWN_DEAL_ID:${id}`);
